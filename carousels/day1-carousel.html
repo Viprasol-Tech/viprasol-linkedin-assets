@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #0a0a0a; }
+  .slide {
+    width: 1080px;
+    height: 1080px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    page-break-after: always;
+  }
+
+  /* Slide 1 - Cover */
+  .slide-1 {
+    background: linear-gradient(135deg, #0d9488 0%, #065f56 50%, #0a0a0a 100%);
+  }
+  .slide-1 h1 {
+    font-size: 72px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.1;
+    margin-bottom: 40px;
+  }
+  .slide-1 h1 span { color: #fbbf24; }
+  .slide-1 .subtitle {
+    font-size: 28px;
+    color: rgba(255,255,255,0.8);
+    line-height: 1.5;
+  }
+
+  /* Slide 2 - Stats */
+  .slide-2 {
+    background: linear-gradient(180deg, #0a0a0a 0%, #1a1a2e 100%);
+  }
+  .slide-2 h2 {
+    font-size: 48px;
+    color: #0d9488;
+    margin-bottom: 50px;
+    font-weight: 800;
+  }
+  .stat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .stat-box {
+    background: rgba(13, 148, 136, 0.1);
+    border: 2px solid #0d9488;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+  }
+  .stat-number {
+    font-size: 64px;
+    font-weight: 900;
+    color: #fbbf24;
+    display: block;
+  }
+  .stat-label {
+    font-size: 22px;
+    color: rgba(255,255,255,0.7);
+    margin-top: 10px;
+  }
+
+  /* Slide 3 - Problem */
+  .slide-3 {
+    background: linear-gradient(180deg, #1a0000 0%, #0a0a0a 100%);
+  }
+  .slide-3 h2 {
+    font-size: 52px;
+    color: #ef4444;
+    margin-bottom: 50px;
+    font-weight: 800;
+  }
+  .problem-list {
+    list-style: none;
+  }
+  .problem-list li {
+    font-size: 30px;
+    color: rgba(255,255,255,0.85);
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .problem-list li::before {
+    content: "X";
+    color: #ef4444;
+    font-weight: 900;
+    font-size: 28px;
+    min-width: 40px;
+  }
+
+  /* Slide 4 - Solution */
+  .slide-4 {
+    background: linear-gradient(180deg, #001a0d 0%, #0a0a0a 100%);
+  }
+  .slide-4 h2 {
+    font-size: 52px;
+    color: #22c55e;
+    margin-bottom: 50px;
+    font-weight: 800;
+  }
+  .solution-list {
+    list-style: none;
+  }
+  .solution-list li {
+    font-size: 30px;
+    color: rgba(255,255,255,0.85);
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .solution-list li::before {
+    content: "✓";
+    color: #22c55e;
+    font-weight: 900;
+    font-size: 32px;
+    min-width: 40px;
+  }
+
+  /* Slide 5 - Results */
+  .slide-5 {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #0d9488 150%);
+  }
+  .slide-5 h2 {
+    font-size: 48px;
+    color: #fbbf24;
+    margin-bottom: 40px;
+    font-weight: 800;
+  }
+  .result-card {
+    background: rgba(251, 191, 36, 0.1);
+    border: 2px solid #fbbf24;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 30px;
+  }
+  .result-card .big-num {
+    font-size: 80px;
+    font-weight: 900;
+    color: #fbbf24;
+  }
+  .result-card .desc {
+    font-size: 24px;
+    color: rgba(255,255,255,0.7);
+  }
+
+  /* Slide 6 - CTA */
+  .slide-6 {
+    background: linear-gradient(135deg, #0d9488 0%, #065f56 100%);
+    text-align: center;
+  }
+  .slide-6 h2 {
+    font-size: 56px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+  .slide-6 .cta-box {
+    background: #fbbf24;
+    color: #0a0a0a;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 25px 50px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 30px 0;
+  }
+  .slide-6 .website {
+    font-size: 28px;
+    color: rgba(255,255,255,0.8);
+    margin-top: 20px;
+  }
+
+  /* Branding */
+  .brand {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .brand-logo {
+    width: 50px;
+    height: 50px;
+    background: #0d9488;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+  }
+  .brand-name {
+    font-size: 20px;
+    color: rgba(255,255,255,0.5);
+    font-weight: 600;
+  }
+  .slide-num {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 20px;
+    color: rgba(255,255,255,0.3);
+  }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1: Cover -->
+<div class="slide slide-1">
+  <h1>I Lost <span>$3,000</span> in Forex.<br>Then I Learned<br>to <span>Code.</span></h1>
+  <div class="subtitle">How algorithmic trading changed everything.<br>Swipe to see the full story →</div>
+  <div class="brand"><div class="brand-logo">V</div><div class="brand-name">Viprasol Tech</div></div>
+</div>
+
+<!-- SLIDE 2: The Problem Stats -->
+<div class="slide slide-2">
+  <h2>The Brutal Truth About Manual Trading</h2>
+  <div class="stat-grid">
+    <div class="stat-box">
+      <span class="stat-number">90%</span>
+      <div class="stat-label">of retail traders<br>LOSE money</div>
+    </div>
+    <div class="stat-box">
+      <span class="stat-number">8hrs</span>
+      <div class="stat-label">average daily<br>screen time</div>
+    </div>
+    <div class="stat-box">
+      <span class="stat-number">73%</span>
+      <div class="stat-label">of losses caused by<br>EMOTIONAL decisions</div>
+    </div>
+    <div class="stat-box">
+      <span class="stat-number">$0</span>
+      <div class="stat-label">what most traders<br>make after 2 years</div>
+    </div>
+  </div>
+  <div class="brand"><div class="brand-logo">V</div><div class="brand-name">Viprasol Tech</div></div>
+  <div class="slide-num">2/6</div>
+</div>
+
+<!-- SLIDE 3: Problems -->
+<div class="slide slide-3">
+  <h2>Why Manual Traders Fail</h2>
+  <ul class="problem-list">
+    <li>Fear closes winning trades too early</li>
+    <li>Greed moves stop losses (then you lose more)</li>
+    <li>You miss trades while sleeping or working</li>
+    <li>Revenge trading after a loss destroys accounts</li>
+    <li>Inconsistent execution kills even good strategies</li>
+  </ul>
+  <div class="brand"><div class="brand-logo">V</div><div class="brand-name">Viprasol Tech</div></div>
+  <div class="slide-num">3/6</div>
+</div>
+
+<!-- SLIDE 4: Solution -->
+<div class="slide slide-4">
+  <h2>The Algo Trading Advantage</h2>
+  <ul class="solution-list">
+    <li>Trades 24/7 — never misses an entry</li>
+    <li>Zero emotions — executes perfectly every time</li>
+    <li>Backtested across 5+ years of data</li>
+    <li>Risk management hardcoded (can't be overridden)</li>
+    <li>Consistent execution = consistent results</li>
+  </ul>
+  <div class="brand"><div class="brand-logo">V</div><div class="brand-name">Viprasol Tech</div></div>
+  <div class="slide-num">4/6</div>
+</div>
+
+<!-- SLIDE 5: Our Results -->
+<div class="slide slide-5">
+  <h2>Our Verified Results</h2>
+  <div class="stat-grid">
+    <div class="result-card">
+      <div class="big-num">135%</div>
+      <div class="desc">Average Monthly Return<br>(MyFXBook Verified)</div>
+    </div>
+    <div class="result-card">
+      <div class="big-num">81%</div>
+      <div class="desc">Win Rate Across<br>Live Accounts</div>
+    </div>
+    <div class="result-card">
+      <div class="big-num">44K+</div>
+      <div class="desc">Pips Gained<br>And Counting</div>
+    </div>
+    <div class="result-card">
+      <div class="big-num">500+</div>
+      <div class="desc">Traders Trust<br>Our Systems</div>
+    </div>
+  </div>
+  <div class="brand"><div class="brand-logo">V</div><div class="brand-name">Viprasol Tech</div></div>
+  <div class="slide-num">5/6</div>
+</div>
+
+<!-- SLIDE 6: CTA -->
+<div class="slide slide-6">
+  <h2>Ready to Stop<br>Trading Manually?</h2>
+  <div class="cta-box">DM me "ALGO"</div>
+  <p class="subtitle" style="font-size: 28px; color: rgba(255,255,255,0.8);">Free Strategy Consultation<br>Custom EA Development<br>Verified Results</p>
+  <div class="website">viprasol.com</div>
+  <div class="brand"><div class="brand-logo">V</div><div class="brand-name">Viprasol Tech</div></div>
+  <div class="slide-num">6/6</div>
+</div>
+
+</body>
+</html>
