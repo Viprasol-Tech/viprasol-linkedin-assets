@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__b1df9cba-0d73-4ab4-aafd-a8b5954c8420__get_connectors",
+      "mcp__b1df9cba-0d73-4ab4-aafd-a8b5954c8420__get_connector_authorization_url",
+      "mcp__scheduled-tasks__list_scheduled_tasks",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npx -y serve ./carousels -l 3456 --no-clipboard)",
+      "Bash(npm list:*)",
+      "Bash(npm init:*)",
+      "Bash(where soffice:*)",
+      "Read(//c/Program Files/LibreOffice/program/**)",
+      "Bash(base64 -w0 \"C:/Users/viprasol/Downloads/Telegram Desktop/linkedin/images/day1-carousel.pptx\")",
+      "Read(//tmp/**)",
+      "Bash(npx -y serve . -l 3457 --no-clipboard)",
+      "WebFetch(domain:help.blotato.com)",
+      "Bash(curl -s -H \"blotato-api-key: blt_1I28tccGSRdeHKv8XbofE5DUnxLOpG0dYBfcGDq+QDE=\" \"https://backend.blotato.com/v2/accounts\")",
+      "Bash(curl -s -H \"blotato-api-key: blt_1I28tccGSRdeHKv8XbofE5DUnxLOpG0dYBfcGDq+QDE=\" \"https://backend.blotato.com/v2/posts\" -X GET)",
+      "Bash(curl -s --header 'blotato-api-key: blt_1I28tccGSRdeHKv8XbofE5DUnxLOpG0dYBfcGDq+QDE=' \"https://backend.blotato.com/v2/accounts\")",
+      "Bash(curl -s --header 'blotato-api-key: blt_1I28tccGSRdeHKv8XbofE5DUnxLOpG0dYBfcGDq+QDE=' \"https://backend.blotato.com/v2/users/me/accounts\")",
+      "Bash(curl -s -X POST https://backend.blotato.com/v2/posts --header 'blotato-api-key: blt_1I28tccGSRdeHKv8XbofE5DUnxLOpG0dYBfcGDq+QDE=' --header 'Content-Type: application/json' --data '{:*)",
+      "Bash(curl -s --header 'blotato-api-key: blt_1I28tccGSRdeHKv8XbofE5DUnxLOpG0dYBfcGDq+QDE=' \"https://backend.blotato.com/v2/posts/799c646e-ebd8-4834-b7bf-17e1e20da25f\")",
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)",
+      "Bash(curl -s --header 'blotato-api-key: blt_1I28tccGSRdeHKv8XbofE5DUnxLOpG0dYBfcGDq+QDE=' \"https://backend.blotato.com/v2/posts/1e61f8bb-4443-47b9-a5a6-d93a800ef700\")",
+      "Bash(curl -s -X POST https://backend.blotato.com/v2/posts -H 'blotato-api-key: blt_1I28tccGSRdeHKv8XbofE5DUnxLOpG0dYBfcGDq+QDE=' -H 'Content-Type: application/json' -d '{\"post\":{\"accountId\":\"14115\",\"content\":{\"platform\":\"twitter\",\"text\":\"I lost $3,000 in forex before I learned to code.\\\\n\\\\nThen I built algo trading systems.\\\\n\\\\nToday: 44,000+ pips for 500+ traders in 15 countries.\\\\n\\\\nAlgo trading isnt the future. Its the present.\\\\n\\\\nDM me ALGO for a free strategy consultation.\\\\n\\\\n#algotrading #forex\",\"mediaUrls\":[\"https://raw.githubusercontent.com/Viprasol-Tech/viprasol-linkedin-assets/main/images/day1-cover.png\"]},\"target\":{\"targetType\":\"twitter\"}}}')",
+      "Bash(curl -s -X POST https://backend.blotato.com/v2/posts -H 'blotato-api-key: blt_1I28tccGSRdeHKv8XbofE5DUnxLOpG0dYBfcGDq+QDE=' -H 'Content-Type: application/json' -d '{\"post\":{\"accountId\":\"5162\",\"content\":{\"platform\":\"threads\",\"text\":\"I lost $3,000 in forex before I learned to code.\\\\n\\\\nThat changed everything.\\\\n\\\\nI stopped trading with emotions. Started trading with algorithms.\\\\n\\\\nToday our systems have generated 44,000+ pips for 500+ traders in 15 countries.\\\\n\\\\nAlgo trading is the present. And you are already late.\\\\n\\\\nDM me ALGO if you want to see how automation can change your trading.\\\\n\\\\n#algotrading #forextrading #tradingbot\",\"mediaUrls\":[\"https://raw.githubusercontent.com/Viprasol-Tech/viprasol-linkedin-assets/main/images/day1-cover.png\"]},\"target\":{\"targetType\":\"threads\"}}}')",
+      "Bash(curl -s -H 'blotato-api-key: blt_1I28tccGSRdeHKv8XbofE5DUnxLOpG0dYBfcGDq+QDE=' \"https://backend.blotato.com/v2/users/me/accounts/22912/subaccounts\")",
+      "Bash(curl -s -H 'blotato-api-key: blt_1I28tccGSRdeHKv8XbofE5DUnxLOpG0dYBfcGDq+QDE=' \"https://backend.blotato.com/v2/posts/28facad0-c4e4-4a7e-940e-fd6c93a4327c\")",
+      "Bash(curl -s -H 'blotato-api-key: blt_1I28tccGSRdeHKv8XbofE5DUnxLOpG0dYBfcGDq+QDE=' \"https://backend.blotato.com/v2/posts/b53fa84a-9a5d-41c5-8e03-89467c247d8f\")",
+      "Bash(curl -s -H 'blotato-api-key: blt_1I28tccGSRdeHKv8XbofE5DUnxLOpG0dYBfcGDq+QDE=' \"https://backend.blotato.com/v2/posts/a0ff624e-20dc-4466-a0ad-d17a7149e0d1\")"
+    ]
+  }
+}

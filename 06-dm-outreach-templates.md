@@ -50,43 +50,51 @@ Just curious, no sales pitch. I work with algo trading systems and I'm always in
 ```
 Got it — a lot of our clients started the same way. The biggest game-changer for them was automating just ONE part of their strategy.
 
-We built an EA that averages 135% monthly returns on MyFXBook. Happy to share the verified stats if you're curious?
+We actually built Golden Viper EA — it's averaging 199% returns on a live verified MyFXBook account. Trades gold (XAUUSD) fully automated.
+
+You can try it free for 7 days, no credit card needed: goldenviperea.com
+
+Happy to answer any questions about it!
 ```
 
 **If they already use EAs:**
 ```
 Nice! What kind of EA are you running? Just curious — we've built 500+ EAs and I'm always interested in what's working for different traders.
 
-If you're ever looking for custom development or optimization, that's exactly what we do.
+We also have our own EA — Golden Viper — trading gold with 199% verified returns. If you ever want to compare results or try it out, there's a free 7-day trial: goldenviperea.com
 ```
 
 **If they don't respond:**
 ```
-No worries if you're busy! Just wanted to share this — we recently published our live trading results on MyFXBook. Some pretty interesting numbers.
+No worries if you're busy! Just wanted to share this — our Golden Viper EA just hit 199% total returns on MyFXBook (live account, fully verified).
 
-Let me know if you'd like to see them.
+Free 7-day trial if you want to test it yourself: goldenviperea.com
+
+No pressure at all!
 ```
 
 ### Day 7: Third DM — Soft CTA
 
 **If conversation is warm:**
 ```
-[Name], based on what you've shared about your trading, I think we could build something really effective for you.
+[Name], based on what you've shared about your trading, I think Golden Viper EA could be a great fit for you.
 
-Would you be open to a quick 10-minute call? I can show you exactly how our systems work and whether it's a fit for your style.
+It trades gold on the 4H timeframe — no martingale, built-in news filter, and you can run it conservative or aggressive.
 
-No pressure at all — worst case, you learn something new.
+199% verified returns so far. Try it free for 7 days: goldenviperea.com
 
-Want me to send a time?
+Or if you want something custom-built for YOUR specific strategy, we do that too at viprasol.com.
+
+What sounds more interesting to you?
 ```
 
 **If lukewarm:**
 ```
-Hey [Name], just a quick thought — if you ever want to explore automation for your trading, I'm here.
+Hey [Name], just a quick thought — if you ever want to try algo trading risk-free, we have a 7-day free trial for our Golden Viper EA.
 
-We offer a free strategy consultation where we review your approach and tell you honestly if automation makes sense.
+199% verified returns trading gold. No credit card needed to start: goldenviperea.com
 
-No strings attached. Just DM me "READY" whenever.
+No strings attached. Just thought you might find it interesting!
 ```
 
 ### Day 14: Final Follow-Up (If No Response)
