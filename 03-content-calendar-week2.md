@@ -508,7 +508,9 @@ We've already started building EAs for several of you, and the results are looki
 
 If you've been on the fence — this is your sign.
 
-DM me "READY" and let's have a no-pressure conversation about automating your trading.
+Try Golden Viper EA free for 7 days: goldenviperea.com
+
+Or DM me "READY" and let's have a no-pressure conversation about automating your trading.
 
 The worst that can happen? You learn something new.
 

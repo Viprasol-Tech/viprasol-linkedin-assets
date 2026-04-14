@@ -50,7 +50,9 @@ Client's words: "This is exactly what we needed."
 
 Every EA we build is custom. Every strategy is unique. Every result is earned.
 
-DM me "CUSTOM" if you want one built for you.
+Want to see proven results first? Try Golden Viper EA free for 7 days: goldenviperea.com
+
+DM me "CUSTOM" if you want one built for your strategy.
 
 #newEA #propfirm #goldtrading #ExpertAdvisor #algotrading
 ```
@@ -106,6 +108,8 @@ The question isn't "can I afford it?" — it's "can I afford NOT to?"
 
 DM me for a quote specific to your strategy.
 
+Not ready for custom? Start with Golden Viper EA — 199% verified returns. Free 7-day trial: goldenviperea.com
+
 #EApricing #tradingbot #investment #ROI #algotrading
 ```
 
@@ -136,7 +140,9 @@ Results after 3 months:
 
 The strategy was always profitable. The human wasn't.
 
-DM "TRANSFORM" if this sounds like your situation.
+Start your transformation — try Golden Viper EA free for 7 days: goldenviperea.com
+
+DM "TRANSFORM" if you want a custom-built EA for your strategy.
 
 #transformation #tradingresults #ExpertAdvisor #forex
 ```
@@ -155,7 +161,7 @@ Stop letting "I can't code" be your excuse.
 
 We code. You profit. Simple.
 
-DM me.
+Start your free trial: goldenviperea.com | viprasol.com
 
 #nocodeexcuse #algotrading #tradingbot #forex #simplicity
 ```
@@ -264,7 +270,7 @@ The question isn't IF it will have losses. It's:
 - How QUICKLY will it recover? (Determined by strategy edge)
 - Does it make MORE than it loses? (Profit factor > 1.5)
 
-Our Golden Viper EA:
+Golden Viper EA - 199% verified returns:
 - Worst month: -8%
 - Best month: +27%
 - Average month: +13.5%
@@ -275,6 +281,8 @@ It's not perfect every month. But over time? The numbers work.
 If someone promises you a trading bot with zero losses — run. They're lying.
 
 We promise transparency. And we deliver results.
+
+Try Golden Viper EA free for 7 days and see for yourself: goldenviperea.com
 
 #honestyintrading #riskmanagement #ExpertAdvisor #expectations
 ```
@@ -313,6 +321,8 @@ Your EA now runs 24/7, even when your computer is off.
 Save this guide.
 
 Need help setting up? DM me "VPS" and I'll walk you through it.
+
+Don't have an EA yet? Try Golden Viper EA free: goldenviperea.com
 
 #VPSsetup #algotrading #MT4 #howto #tradinginfrastructure
 ```
@@ -357,7 +367,7 @@ Book a free strategy consultation this weekend, and I'll include:
 
 No sales pressure. No BS. Just genuine trading expertise.
 
-DM "FRIDAY" to book.
+DM "FRIDAY" to book. Or skip the wait and try Golden Viper EA free: goldenviperea.com
 
 Available slots: 10 (this weekend only)
 
@@ -385,6 +395,8 @@ How to protect yourself:
 - Check independent reviews
 
 We believe in transparency. All our results are publicly verified.
+
+Golden Viper EA - 199% verified returns on MyFXBook. Free 7-day trial: goldenviperea.com
 
 #tradingscams #protection #algotrading #truth #ExpertAdvisor
 ```
@@ -435,6 +447,8 @@ An EA trades based on data, not feelings. That's its unfair advantage.
 
 Enjoy your weekend. Your EA is working.
 
+Don't have one yet? Try Golden Viper EA free: goldenviperea.com
+
 #saturdaythoughts #algotrading #tradingmindset
 ```
 
@@ -454,6 +468,8 @@ Building your first trading bot? Start here:
 Skip any step and you'll pay for it later.
 
 Which step are you currently on? Let me know and I'll help.
+
+Want to skip ahead? Try Golden Viper EA — 199% verified returns. Free trial: goldenviperea.com
 
 #gettingstarted #algotrading #stepbystep #beginnerguide
 ```
@@ -476,7 +492,9 @@ Every week you delay automation is a week of missed opportunities.
 
 Your strategy. Your rules. Our code. Your results.
 
-DM me "LETSDOIT" when you're ready.
+Start your free trial today: goldenviperea.com
+
+Or DM me "LETSDOIT" for a custom-built system.
 
 I'll be here.
 
