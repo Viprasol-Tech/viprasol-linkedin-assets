@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html><body>
+<script>
+async function loadAndSend() {
+  try {
+    const response = await fetch('http://localhost:3457/images/day1-carousel.pptx');
+    const blob = await response.blob();
+    const reader = new FileReader();
+    reader.onload = function() {
+      // Use wildcard target origin since LinkedIn may block specific origins
+      window.parent.postMessage({
+        type: 'FILE_DATA',
+        data: reader.result,
+        name: 'day1-carousel.pptx',
+        mimeType: 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
+      }, '*');
+      document.title = 'SENT';
+    };
+    reader.readAsDataURL(blob);
+  } catch(e) {
+    document.title = 'ERROR: ' + e.message;
+  }
+}
+loadAndSend();
+</script>
+</body></html>
