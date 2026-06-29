@@ -1,0 +1,24 @@
+{
+  "strategy": "055-cross-asset-tsm",
+  "image_file": "images/strategy-055-xtsm.png",
+  "image_overrides": {
+    "instagram": "images/strategy-055-xtsm-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM GLOBAL for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Curiosity Gap",
+    "twitter": "Curiosity Gap",
+    "threads": "Receipts",
+    "facebook": "Curiosity Gap",
+    "instagram": "Curiosity Gap",
+    "bluesky": "Receipts"
+  },
+  "captions": {
+    "linkedin": "Past bond returns predict future equity returns. Across 20 countries.\n\nThat's the result the JFE published in 2020, and it's the kind of thing almost nobody trades on retail platforms.\n\nThe paper: Pitkäjärvi, Suominen & Vaittinen, Journal of Financial Economics (2020). The mechanic:\n\n🔹 RANK 20 DEVELOPED COUNTRIES by trailing bond returns AND trailing equity returns (12-month lookback)\n🔹 LONG EQUITY in countries where bonds rallied (positive cross-signal)\n🔹 SHORT EQUITY in countries where bonds sold off\n🔹 SAME LOGIC INVERTED for bonds (equity returns negatively predict next-period bonds)\n🔹 COMBINE with standard own-asset time-series momentum\n🔹 MONTHLY REBALANCE\n\nThe hypothesized mechanism: slow-moving institutional capital rotating between bond and equity allocations doesn't move in one day, it moves over months. The cross-asset signal picks up that drift before price catches up.\n\nThe result documented: Sharpe ratio 45% higher than single-asset TSM. Works in 19 of 20 countries tested.\n\nRegime gate to monitor: positive stock-bond correlation can flip the sign of the signal.\n\nStrategy shared free. Performance depends on execution, sizing, and risk gates, that's the part we engineer.\n\nThis is 1 of 440 strategies in our research library.\n\n👉 DM \"GLOBAL\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business. 🚀\n\n#AlgorithmicTrading #QuantitativeFinance #SystematicTrading #FactorInvesting #Fintech",
+    "twitter": "Here's what nobody tells you about momentum.\n\nPast BOND returns predict future EQUITY returns. Across 20 countries.\n\nPitkäjärvi et al., JFE (2020):\n🔹 12mo lookback on bonds\n🔹 Long equity where bonds rallied\n🔹 Sharpe 45% > single-asset TSM\n\nDM \"GLOBAL\" 👇",
+    "threads": "JFE 2020 documented a 45% Sharpe uplift over standard time-series momentum.\n\nThe signal: past BOND returns predict future EQUITY returns across 20 countries.\n\nPitkäjärvi, Suominen & Vaittinen:\n🔹 12mo bond lookback → next-month equity direction\n🔹 Equity lookback → next-month bond direction (inverted)\n🔹 Combine with own-asset TSM\n🔹 Monthly rebalance\n\n1 of 440 in our library. DM \"GLOBAL\" for the algo.",
+    "facebook": "Here's what nobody tells you about momentum trading.\n\nPast bond returns predict future equity returns. Across 20 countries. Peer-reviewed in the Journal of Financial Economics in 2020.\n\nThe paper: Pitkäjärvi, Suominen & Vaittinen. The mechanic:\n\n🔹 Rank 20 developed countries by trailing 12-month bond returns AND equity returns.\n🔹 Go long equity in countries where bonds rallied. Short equity where bonds sold off.\n🔹 The reverse holds for bonds (equity returns predict bonds, with the sign flipped).\n🔹 Combine with your usual own-asset time-series momentum.\n🔹 Rebalance monthly.\n\nThe hypothesized driver: slow-moving institutional capital rotates between bonds and equities over months, not days. The cross-asset signal catches the drift before price does.\n\nThe documented result: Sharpe ratio 45% higher than standard TSM. Works in 19 of 20 countries tested.\n\nRegime gate to watch: when stock-bond correlation flips positive, the signal can invert.\n\nStrategy shared free. Performance depends on execution and risk gates, that's the part we engineer.\n\n1 of 440 strategies in our research library.\n\nDM \"GLOBAL\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "Past bond returns predict future equity returns. Across 20 countries 📊\n\nPitkäjärvi et al., JFE (2020):\n🔹 12-month bond lookback\n🔹 Long equity where bonds rallied\n🔹 Short equity where bonds dropped\n🔹 Combine with own-asset TSM\n🔹 Monthly rebalance\n\n1 of 440 in our library 🎯\n\nDM \"GLOBAL\" for the algo + research file 👇\n.\n.\n#AlgorithmicTrading #QuantTrading #SystematicTrading #FactorInvesting #Fintech",
+    "bluesky": "JFE 2020 documented a 45% Sharpe uplift over single-asset TSM.\n\nThe signal: past bond returns predict future equity returns. 20 countries, 19 worked.\n\nPitkäjärvi et al.:\n🔹 12mo bond lookback\n🔹 Long equity where bonds rallied\n🔹 Monthly rebalance\n\nDM \"GLOBAL\" for the algo."
+  }
+}

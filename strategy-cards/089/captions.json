@@ -1,0 +1,24 @@
+{
+  "strategy": "089-gross-profitability",
+  "image_file": "images/strategy-089.png",
+  "image_overrides": {
+    "instagram": "images/strategy-089-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft CTA: DM EFFICIENCY.",
+  "hook_categories": {
+    "linkedin": "Negative Frame",
+    "twitter": "Negative Frame",
+    "threads": "Contrarian",
+    "facebook": "Receipts",
+    "instagram": "Negative Frame",
+    "bluesky": "Contrarian"
+  },
+  "captions": {
+    "linkedin": "Stop screening on net earnings. You're sorting on noise. 📊\n\nNet income gets distorted by R&D timing, SG&A choices, write-downs, tax tricks, and one-time charges. By the time it hits the bottom line, the signal is buried.\n\nNovy-Marx (Journal of Financial Economics, 2013, Fama-DFA Prize winner) showed that gross profit to assets is the cleaner profitability signal. And it predicts cross-sectional stock returns as powerfully as book-to-market value.\n\nThe complete logic:\n\n🔹 SIGNAL. Gross profit divided by total assets. That's it. No earnings games, no accruals manipulation.\n🔹 RANK every US stock by the ratio. Decile sort.\n🔹 LONG the top decile, SHORT the bottom decile. Value-weighted.\n🔹 REBALANCE annually in June (the Fama-French timing convention).\n🔹 Combine with value: the two factors are negatively correlated, so the joint Sharpe is higher than value alone.\n\nWhy it works: profitable firms reinvest earnings into compounding businesses. Unprofitable firms burn capital. The market underweights this because it screens on noisier earnings metrics.\n\nNovy-Marx replicated the effect internationally. It's foundational to the Fama-French 5-factor model.\n\n1 of 440 strategies in our research library.\n\nDM \"EFFICIENCY\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\nViprasol Tech\n\n#AlgorithmicTrading #QuantitativeFinance #ValueInvesting #FactorInvesting #SystematicTrading",
+    "twitter": "Stop screening on net earnings. You're sorting on noise.\n\nGross Profitability (Novy-Marx, JFE 2013):\n\n🔹 Gross profit / total assets\n🔹 Long top decile, short bottom\n🔹 Value-weighted, annual June rebalance\n🔹 Combines with value\n\nDM \"EFFICIENCY\".",
+    "threads": "Most stock screens use net earnings. They're sorting on noise.\n\nGross Profitability (Novy-Marx, JFE 2013, Fama-DFA Prize winner):\n\n🔹 Signal: gross profit / total assets\n🔹 Rank deciles, long top, short bottom\n🔹 Value-weighted, annual June rebalance\n🔹 Foundational to Fama-French 5-factor\n🔹 Combines with value (negatively correlated)\n\n1 of 440 strategies.\n\nDM \"EFFICIENCY\" for the algo.",
+    "facebook": "A Fama-DFA Prize-winning paper found a profitability signal that beats most stock screens. And it's a one-line calculation. 📊\n\nGross Profitability (Novy-Marx, JFE 2013):\n\n🔹 SIGNAL: gross profit divided by total assets. No earnings games. No accrual noise.\n🔹 RANK every US stock by the ratio, decile sort.\n🔹 LONG top decile, SHORT bottom decile, value-weighted.\n🔹 Annual June rebalance (Fama-French timing convention).\n🔹 Combine with value: negatively correlated, joint Sharpe is higher.\n\nWhy net earnings fail: distortions from R&D timing, SG&A, write-downs, taxes. Gross profit sits higher on the income statement, where the noise hasn't compounded yet.\n\n1 of 440 strategies in our research library.\n\nDM \"EFFICIENCY\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\nViprasol Tech",
+    "instagram": "Stop screening stocks on net earnings. You're sorting on noise. 📊\n\nGross Profitability (Novy-Marx, JFE 2013):\n\n🔹 Signal: gross profit / total assets\n🔹 Long top decile, short bottom\n🔹 Value-weighted, June rebalance\n🔹 Combines with value\n🔹 Fama-DFA Prize winner\n\nDM \"EFFICIENCY\" for the algo.\n.\n.\n#AlgorithmicTrading #QuantTrading #FactorInvesting #ValueInvesting #Fintech",
+    "bluesky": "Net earnings is noise. Use gross profit.\n\nGross Profitability (Novy-Marx, JFE 2013):\n🔹 Gross profit / total assets\n🔹 Long top decile, short bottom\n🔹 Value-weighted, annual\n🔹 Combines with value\n\nDM \"EFFICIENCY\" for the algo."
+  }
+}

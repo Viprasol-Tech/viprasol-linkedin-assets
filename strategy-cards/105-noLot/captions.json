@@ -1,0 +1,24 @@
+{
+  "strategy": "105-lottery-stock-avoidance",
+  "image_file": "images/strategy-105-noLot.png",
+  "image_overrides": {
+    "instagram": "images/strategy-105-noLot-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM AVOID for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Negative Frame",
+    "twitter": "Negative Frame",
+    "threads": "Negative Frame",
+    "facebook": "Negative Frame",
+    "instagram": "Negative Frame",
+    "bluesky": "Contrarian"
+  },
+  "captions": {
+    "linkedin": "Stop buying lottery tickets and calling it investing. 📊\n\n3 academic papers, 1 brutal finding: the stocks that look most exciting in your watchlist quietly drag your portfolio down.\n\nBali, Cakici and Whitelaw (2011) called it the MAX effect. Ang et al. (2006) called it the IVOL puzzle. Kumar (2009) called them lottery stocks. Same conclusion: retail piles in, future returns sag.\n\nHere's the complete screen. No black box:\n\n🔹 MAX FILTER, exclude the top decile of extreme daily gains.\n🔹 IVOL GUARD, remove the top quintile of idiosyncratic volatility.\n🔹 PRICE FLOOR, cut names trading below 5 dollars.\n🔹 MONTHLY REBALANCE, update lottery scores at month-end.\n🔹 LOW TURNOVER, only threshold-crossing names churn.\n\nIt's a long-only overlay. Bolt it on top of any equity portfolio you already run. The point isn't to find winners, it's to stop funding losers that look like winners.\n\nWhy it works: retail demand for skewness is durable, and short-sale frictions keep the mispricing alive. The behavioral bias isn't going away.\n\n1 of 440 strategies in our research library.\n\nDM \"AVOID\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #FactorInvesting #SystematicTrading #Fintech",
+    "twitter": "Stop buying lottery tickets and calling it investing.\n\nBali-Cakici-Whitelaw (2011): top-decile MAX stocks underperform.\nAng et al (2006): high IVOL underperforms.\nKumar (2009): retail loves both.\n\nLong-only screen, monthly rebalance.\n\nDM \"AVOID\" for the full algo + paper.",
+    "threads": "Stop buying lottery tickets and calling it investing. 📊\n\nThe most exciting stocks in your watchlist (huge 1-day rips, high IVOL, sub-5-dollar names) quietly drag your portfolio down. Bali-Cakici-Whitelaw (2011), Ang et al (2006), Kumar (2009).\n\nThe screen:\n🔹 cut top-decile MAX\n🔹 cut top-quintile IVOL\n🔹 cut sub-5-dollar names\n🔹 monthly rebalance\n\nLong-only overlay.\n\n1 of 440 in our library. DM \"AVOID\" for the algo + paper.",
+    "facebook": "Stop buying lottery tickets and calling it investing. 📊\n\nThe stocks that look most exciting in your watchlist (huge single-day pops, high idiosyncratic volatility, sub-5-dollar names) quietly drag your portfolio down. That's not opinion. It's 3 peer-reviewed papers pointing at the same thing.\n\nBali, Cakici and Whitelaw (2011) called it the MAX effect. Ang et al. (2006) documented the IVOL puzzle. Kumar (2009) named them lottery stocks.\n\nHere's the long-only screen:\n\n🔹 MAX FILTER, exclude the top decile of extreme daily gains.\n🔹 IVOL GUARD, remove the top quintile of idiosyncratic volatility.\n🔹 PRICE FLOOR, cut names trading below 5 dollars.\n🔹 MONTHLY REBALANCE, update lottery scores at month-end.\n\nBolt it on top of any equity portfolio. The point isn't picking winners. It's stopping the slow bleed from names that look like winners.\n\n1 of 440 strategies in our research library.\n\nDM \"AVOID\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "Stop buying lottery tickets and calling it investing. 📊\n\n3 peer-reviewed papers, 1 finding: the most exciting stocks in your watchlist quietly drag your portfolio down.\n\nThe long-only screen:\n🔹 cut top-decile MAX (biggest 1-day gains)\n🔹 cut top-quintile IVOL\n🔹 cut sub-5-dollar names\n🔹 monthly rebalance\n\nBali-Cakici-Whitelaw (2011), Ang et al (2006), Kumar (2009).\n\n1 of 440 in our library. DM \"AVOID\" for the algo + paper.\n\n#AlgorithmicTrading #QuantTrading #FactorInvesting #QualityInvesting #Fintech",
+    "bluesky": "Most traders chase the biggest 1-day pops. Bali-Cakici-Whitelaw (2011): those names underperform.\n\nLong-only screen:\n🔹 cut top-decile MAX\n🔹 cut top-quintile IVOL\n🔹 cut sub-5-dollar names\n🔹 monthly rebalance\n\nDM \"AVOID\" for the algo + paper."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "strategy": "100-trend-carry-value-momentum-blend",
+  "image_file": "images/strategy-100-blend.png",
+  "image_overrides": {
+    "instagram": "images/strategy-100-blend-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM BLEND for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Contrarian",
+    "twitter": "Contrarian",
+    "threads": "Contrarian",
+    "facebook": "Contrarian",
+    "instagram": "Receipts",
+    "bluesky": "Contrarian"
+  },
+  "captions": {
+    "linkedin": "One factor is fragile. Anyone running pure value got buried from 2018 to 2020. Anyone running pure momentum got buried in the 2009 reversal. Anyone running pure trend got carried out in 2011 to 2013.\n\nThe paper that fixes this isn't new. Asness, Moskowitz & Pedersen (2013) showed value and momentum are negatively correlated across 8 markets. Koijen et al. (2018) showed carry is robust across asset classes and not subsumed by known factors. Hurst, Ooi & Pedersen (2017) showed trend keeps its crisis alpha.\n\nCombine the four. Equal-risk weight them. Cap leverage.\n\n🔹 TREND SLEEVE, time-series momentum multi-horizon\n🔹 CARRY SLEEVE, interest, term spread, basis, roll-down\n🔹 VALUE / MOMENTUM, negatively correlated long-horizon edge\n🔹 ERC WEIGHTING, equal risk contribution across sleeves\n🔹 VOL TARGETING at three layers: instrument, sleeve, portfolio\n🔹 MONTHLY REBALANCE with daily intra-month risk management\n\n2018 to 2020 cut blended returns. Correlations spiked in the crisis. No free lunch is fully free.\n\nAsness-Moskowitz-Pedersen, Koijen et al., Hurst-Ooi-Pedersen papers; educational only.\n\nWe share the strategy... for free. The build is the business.\n\n1 of 440 strategies in our research library.\n\n👉 DM \"BLEND\" for the complete algo + research file.\n\n#FactorInvesting #SystematicTrading #QuantitativeFinance #PortfolioConstruction #AlgorithmicTrading",
+    "twitter": "Most quants pick one factor and ride it.\n\nThen 2018 to 2020 happens and pure value gets carried out.\n\nThe edge isn't picking the right factor. It's combining four orthogonal ones (trend, carry, value, momentum) with equal risk weighting.\n\nDM \"BLEND\" for the file.",
+    "threads": "Most quants pick one factor. 2018-2020 buries value, 2009 buries momentum, 2011-2013 buries trend.\n\nThe fix: combine four orthogonal premia.\n\n🔹 Trend (Hurst et al. 2017)\n🔹 Carry (Koijen et al. 2018)\n🔹 Value + Momentum (Asness et al. 2013)\n🔹 Equal risk contribution\n🔹 Vol targeting at three layers\n\nNo free lunch is fully free. Crisis correlations spike.\n\nDM \"BLEND\" for the complete algo + research file.",
+    "facebook": "One factor is fragile. Anyone running pure value got buried from 2018 to 2020. Anyone running pure momentum got buried in the 2009 reversal. Anyone running pure trend got carried out in 2011 to 2013.\n\nThe paper that fixes this isn't new.\n\nAsness, Moskowitz & Pedersen (2013) showed value and momentum are negatively correlated across 8 markets. Koijen et al. (2018) showed carry is robust across asset classes and not subsumed by known factors. Hurst, Ooi & Pedersen (2017) showed trend keeps its crisis alpha.\n\nCombine the four. Equal-risk weight them. Cap leverage.\n\n🔹 TREND SLEEVE, time-series momentum multi-horizon\n🔹 CARRY SLEEVE, interest, term spread, basis, roll-down\n🔹 VALUE / MOMENTUM, negatively correlated edge\n🔹 ERC WEIGHTING, equal risk contribution across sleeves\n🔹 VOL TARGETING at three layers: instrument, sleeve, portfolio\n🔹 MONTHLY REBALANCE with daily intra-month risk\n\n2018 to 2020 still cut blended returns. Correlations spiked in the crisis. No free lunch is fully free.\n\nWe share the strategy... for free. The build is the business.\n\n1 of 440 strategies in our research library.\n\nDM \"BLEND\" for the complete algo + research file.",
+    "instagram": "4 academic papers. 4 orthogonal premia. 1 portfolio.\n\n🔹 Trend, Hurst-Ooi-Pedersen 2017\n🔹 Carry, Koijen et al. 2018\n🔹 Value + Momentum, Asness-Moskowitz-Pedersen 2013\n🔹 Equal risk contribution weighting\n🔹 Vol target at instrument, sleeve, portfolio\n🔹 Monthly rebalance, daily intra-month risk\n\n2018-2020 still hurt the blend. Crisis correlations spike. No free lunch is fully free.\n\nWe share the strategy... for free. The build is the business.\n\nDM \"BLEND\" for the complete algo + research file.\n.\n.\n#FactorInvesting #QuantTrading #SystematicTrading #PortfolioConstruction #AlgorithmicTrading",
+    "bluesky": "Pure value died 2018 to 2020. Pure momentum died 2009. Pure trend died 2011 to 2013.\n\nThe fix is combining 4 orthogonal premia (trend, carry, value, momentum) with equal risk weighting.\n\nAsness-Moskowitz-Pedersen 2013. Koijen 2018. Hurst 2017.\n\nDM \"BLEND\" for the file."
+  }
+}

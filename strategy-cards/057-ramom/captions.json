@@ -1,0 +1,24 @@
+{
+  "strategy": "057-ramom",
+  "image_file": "images/strategy-057-ramom.png",
+  "image_overrides": {
+    "instagram": "images/strategy-057-ramom-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM RESIDUAL for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Contrarian",
+    "twitter": "Contrarian",
+    "threads": "Negative Frame",
+    "facebook": "Contrarian",
+    "instagram": "Contrarian",
+    "bluesky": "Negative Frame"
+  },
+  "captions": {
+    "linkedin": "Most trend followers bleed 35% of their edge in turnover. Here's the fix.\n\nBaltas & Kosowski published it in Market Momentum (2020). Three refinements to baseline time-series momentum that cut turnover by 35% with no performance loss.\n\nThe baseline problem: standard TSM uses simple standard-deviation vol and a binary on-off position. That means noisy vol estimates flip your size every month, and a marginal trend signal forces a full position.\n\nThe RAMOM fix, three pieces:\n\n🔹 YANG-ZHANG RANGE VOL, uses OHLC data instead of just closes. Cuts noise in vol estimates and reduces sizing churn by ~17%.\n🔹 CONTINUOUS TREND SCALING, replaces the binary long/short with a TREND rule (t-statistic mapped to [-1, +1]). Marginal signals get partial positions. Cuts turnover another ~24%.\n🔹 CORRELATION-DYNAMIC LEVERAGE, de-leverages when cross-market correlations spike (diversification is broken, you want less risk on).\n\nResult documented: ~35% turnover reduction, Sharpe target ~1.2, tested on ~64 liquid global futures across commodities, equities, bonds, FX.\n\nThe lesson for retail systems: your edge is real but transaction costs eat it. Smarter vol and continuous sizing are how the funds keep more of what they make.\n\nStrategy shared free. Performance depends on execution, sizing, and risk gates, that's the part we engineer.\n\nThis is 1 of 440 strategies in our research library.\n\n👉 DM \"RESIDUAL\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business. 🚀\n\n#AlgorithmicTrading #QuantitativeFinance #TrendFollowing #SystematicTrading #Fintech",
+    "twitter": "Most trend followers bleed 35% of edge in turnover.\n\nBaltas & Kosowski (2020) fix:\n🔹 Yang-Zhang OHLC vol (-17% churn)\n🔹 Continuous trend scaling (-24% more)\n🔹 Correlation-keyed leverage\n🔹 ~64 global futures\n\nSame Sharpe, fewer trades.\n\nDM \"RESIDUAL\" 👇",
+    "threads": "Stop running TSM on close-only vol and binary positions.\n\nBaltas & Kosowski (Market Momentum 2020) cut turnover 35% with no performance loss:\n🔹 Yang-Zhang range vol (uses OHLC)\n🔹 Continuous trend scaling (t-stat mapped to [-1,+1])\n🔹 Correlation-keyed leverage\n🔹 ~64 global futures\n🔹 Target Sharpe ~1.2\n\n1 of 440 in our library. DM \"RESIDUAL\" for the algo.",
+    "facebook": "Most trend-following systems bleed 35% of their edge in turnover. Here's the academic fix.\n\nBaltas & Kosowski published it in Market Momentum (2020). Three refinements to baseline time-series momentum that cut turnover by 35% with no performance loss.\n\nThe baseline problem: standard TSM uses simple close-to-close volatility and a binary on-off position. Vol estimates flip your size every month, and a marginal signal forces a full position.\n\nThe RAMOM fix, three pieces:\n\n🔹 Yang-Zhang range vol. Uses OHLC data instead of just closes. Cuts noise and reduces sizing churn by ~17%.\n🔹 Continuous trend scaling. Replaces the binary long/short with a TREND rule (t-stat mapped to [-1, +1]). Marginal signals get partial positions. Cuts another ~24%.\n🔹 Correlation-dynamic leverage. De-leverages when cross-market correlations spike.\n\nResult documented: 35% turnover reduction, Sharpe target ~1.2, tested on ~64 liquid global futures.\n\nYour edge is real but transaction costs eat it. Smarter vol and continuous sizing are how funds keep more of what they make.\n\nStrategy shared free. Performance depends on execution and risk gates, that's the part we engineer.\n\n1 of 440 strategies in our research library.\n\nDM \"RESIDUAL\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "Most trend systems bleed 35% of edge in turnover. Baltas & Kosowski (2020) fixed it 📊\n\nThe three refinements:\n🔹 Yang-Zhang OHLC vol\n🔹 Continuous trend scaling (t-stat)\n🔹 Correlation-keyed leverage\n🔹 ~64 global futures\n🔹 Target Sharpe ~1.2\n\n1 of 440 in our library 🎯\n\nDM \"RESIDUAL\" for the algo + research file 👇\n.\n.\n#AlgorithmicTrading #QuantTrading #TrendFollowing #SystematicTrading #Fintech",
+    "bluesky": "Stop running TSM on close-only vol and binary positions.\n\nBaltas & Kosowski (2020) cut turnover 35% with:\n🔹 Yang-Zhang OHLC vol\n🔹 Continuous trend scaling\n🔹 Correlation-keyed leverage\n\n~64 global futures, no performance loss.\n\nDM \"RESIDUAL\" for the algo."
+  }
+}

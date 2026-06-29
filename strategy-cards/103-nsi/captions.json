@@ -1,0 +1,24 @@
+{
+  "strategy": "103-net-stock-issuance",
+  "image_file": "images/strategy-103-nsi.png",
+  "image_overrides": {
+    "instagram": "images/strategy-103-nsi-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM ISSUANCE for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Stolen Lessons",
+    "twitter": "Stolen Lessons",
+    "threads": "Stolen Lessons",
+    "facebook": "Stolen Lessons",
+    "instagram": "Receipts",
+    "bluesky": "Stolen Lessons"
+  },
+  "captions": {
+    "linkedin": "CFOs know things public investors don't. The clearest tell is when they choose to issue or repurchase their own stock.\n\nPontiff & Woodgate (Journal of Finance, 2008) measured this with one number: the log change in split-adjusted shares outstanding. Firms that net-issued underperformed. Firms that net-repurchased beat the market.\n\nThe signal beats size, book-to-market, and momentum individually in regressions. That's the headline.\n\n🔹 SPLIT ADJUST, this step is critical, raw share counts lie\n🔹 MANAGER TIMING, issue when overvalued, repurchase when undervalued\n🔹 CONTINUOUS MEASURE, every firm gets a signed score, not just SEO/buyback events\n🔹 ANNUAL REBALANCE, June formation, 6-month data lag\n🔹 ROBUST CONTROLS, survives size, BM, momentum, accruals\n🔹 POST-1970 ONLY, no effect before 1970, regime-dependent\n\nThe regime caveat matters. This isn't a timeless universal law. Pre-1970 the signal didn't work. McLean, Pontiff & Watanabe found mixed international magnitudes. Treat it as a post-war US equity phenomenon.\n\nPontiff & Woodgate (2008) Journal of Finance; educational only, not investment advice.\n\nWe share the strategy... for free. The build is the business.\n\n1 of 440 strategies in our research library.\n\n👉 DM \"ISSUANCE\" for the complete algo + research file.\n\n#QuantitativeFinance #FactorInvesting #ValueInvesting #SystematicTrading #AlgorithmicTrading",
+    "twitter": "Steal what CFOs know.\n\nWhen they net-repurchase, the stock outperforms. When they net-issue, it underperforms.\n\nPontiff & Woodgate (JF 2008) measured it as log change in split-adjusted shares. Beats size, BM, momentum individually.\n\nDM \"ISSUANCE\" for the file.",
+    "threads": "Steal what CFOs know.\n\nPontiff & Woodgate (JF 2008) showed managers time their own stock. They issue when it's overvalued and repurchase when it's undervalued.\n\nThe measure: log change in split-adjusted shares outstanding.\n\n🔹 Every firm scored, continuous and signed\n🔹 Beats size, BM, momentum individually\n🔹 Annual June formation\n🔹 Post-1970 only, regime-dependent\n\nDM \"ISSUANCE\" for the file.",
+    "facebook": "CFOs know things public investors don't. The clearest tell is when they choose to issue or repurchase their own stock.\n\nPontiff & Woodgate (Journal of Finance, 2008) measured this with one number: the log change in split-adjusted shares outstanding. Firms that net-issued underperformed. Firms that net-repurchased beat the market.\n\nThe signal beats size, book-to-market, and momentum individually in regressions. That's the headline.\n\n🔹 SPLIT ADJUST, this step is critical, raw share counts lie\n🔹 MANAGER TIMING, issue when overvalued, repurchase when undervalued\n🔹 CONTINUOUS MEASURE, every firm gets a signed score, not just SEO/buyback events\n🔹 ANNUAL REBALANCE, June formation, 6-month data lag\n🔹 ROBUST CONTROLS, survives size, BM, momentum, accruals\n🔹 POST-1970 ONLY, no effect before 1970, regime-dependent\n\nThe regime caveat matters. This isn't a timeless universal law. Pre-1970 the signal didn't work. McLean, Pontiff & Watanabe found mixed international magnitudes. Treat it as a post-war US equity phenomenon.\n\nWe share the strategy... for free. The build is the business.\n\n1 of 440 strategies in our research library.\n\nDM \"ISSUANCE\" for the complete algo + research file.",
+    "instagram": "1 number. 38 years of data. Beats size, BM, and momentum individually in regressions.\n\nLog change in split-adjusted shares outstanding. Pontiff & Woodgate (JF 2008).\n\n🔹 Net issuers underperform\n🔹 Net repurchasers outperform\n🔹 Annual June rebalance\n🔹 Split adjust is critical\n🔹 Post-1970 regime only\n\nWe share the strategy... for free. The build is the business.\n\nDM \"ISSUANCE\" for the complete algo + research file.\n.\n.\n#QuantTrading #FactorInvesting #ValueInvesting #SystematicTrading #AlgorithmicTrading",
+    "bluesky": "Steal what CFOs know.\n\nPontiff & Woodgate (JF 2008): log change in split-adjusted shares outstanding predicts the cross-section.\n\nNet issuers underperform. Net repurchasers beat the market. Post-1970 US equities.\n\nDM \"ISSUANCE\" for the file."
+  }
+}

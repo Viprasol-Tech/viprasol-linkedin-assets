@@ -1,0 +1,24 @@
+{
+  "strategy": "080-turn-of-the-month",
+  "image_file": "images/strategy-080-tom.png",
+  "image_overrides": {
+    "instagram": "images/strategy-080-tom-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM CALENDAR for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Receipts",
+    "twitter": "Receipts",
+    "threads": "Curiosity Gap",
+    "facebook": "Receipts",
+    "instagram": "Receipts",
+    "bluesky": "Contrarian"
+  },
+  "captions": {
+    "linkedin": "4 trading days a month earned ALL the gains in the DJIA. For 90 years.\n\nThat's the Lakonishok-Smidt result, published in the Review of Financial Studies in 1988. Xu & McConnell re-tested it in the Financial Analysts Journal in 2006 and confirmed: virtually all excess return concentrated in a 4-day window.\n\nThe window: last trading day of the month plus the first 3 trading days of the next month.\n\nThe rest of the month? Cash performance.\n\nThe mechanic:\n\n🔹 LONG EQUITY (index ETF or futures) at the close of the second-to-last trading day of the month\n🔹 EXIT at the close of trading day +3 of the new month\n🔹 FLAT THE REST OF THE MONTH (in cash or T-bills)\n🔹 NO INDICATORS, NO SIGNALS, just exchange calendar dates\n🔹 ~20% of trading days in market\n\nHypothesized driver: institutional cash flows. Pensions get contributions at month-end, payroll inflows hit retirement accounts, fund managers rebalance for month-end reporting. Net buying pressure concentrates in that window.\n\nDocumented across international developed markets, not just the US.\n\nThe lesson: you don't need to be in the market every day. You need to be in the right 4 days.\n\nStrategy shared free. Performance depends on execution, sizing, and risk gates, that's the part we engineer.\n\nThis is 1 of 440 strategies in our research library.\n\n👉 DM \"CALENDAR\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business. 🚀\n\n#AlgorithmicTrading #QuantitativeFinance #SystematicTrading #MarketAnomalies #Fintech",
+    "twitter": "4 trading days a month earned ALL the DJIA's gains. For 90 years.\n\nLakonishok-Smidt (RFS 1988), confirmed by Xu-McConnell (FAJ 2006):\n🔹 Long last day of month\n🔹 Exit close of day +3\n🔹 ~20% time in market\n🔹 Calendar rule, no signals\n\nDM \"CALENDAR\" 👇",
+    "threads": "Here's what 90 years of DJIA data showed:\n\n4 specific trading days each month earned ALL the gains. The other 16 averaged zero.\n\nLakonishok & Smidt (RFS 1988), confirmed by Xu & McConnell (FAJ 2006):\n🔹 Last trading day of month + first 3 of next\n🔹 Long equity in window, cash the rest\n🔹 ~20% time in market\n🔹 Driver: month-end cash flows\n\n1 of 440 in our library. DM \"CALENDAR\" for the algo.",
+    "facebook": "4 trading days a month earned all of the DJIA's gains. For 90 years.\n\nThat's the Lakonishok-Smidt result, published in the Review of Financial Studies in 1988. Xu & McConnell re-tested it in the Financial Analysts Journal in 2006 and confirmed: virtually all excess return concentrated in a 4-day window.\n\nThe window: last trading day of the month plus the first 3 trading days of the next.\n\nThe rest of the month? Flat performance.\n\nThe mechanic:\n\n🔹 Long equity (index ETF or futures) at the close of the second-to-last trading day.\n🔹 Exit at the close of trading day +3 of the new month.\n🔹 Flat the rest (cash or T-bills).\n🔹 No indicators, no signals, just exchange calendar dates.\n🔹 ~20% of trading days in the market.\n\nHypothesized driver: institutional cash flows. Pensions get month-end contributions, payroll hits retirement accounts, fund managers rebalance for month-end reporting. Net buying pressure concentrates in the window.\n\nDocumented across international developed markets.\n\nStrategy shared free. Performance depends on execution, sizing, and risk gates, that's the part we engineer.\n\n1 of 440 strategies in our research library.\n\nDM \"CALENDAR\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "4 trading days a month earned ALL the DJIA's gains. For 90 years 📊\n\nLakonishok-Smidt (RFS 1988), confirmed Xu-McConnell (FAJ 2006):\n🔹 Long last day of month\n🔹 Exit close of day +3\n🔹 Flat the other ~80% of days\n🔹 Driver: month-end cash flows\n🔹 Documented internationally\n\n1 of 440 in our library 🎯\n\nDM \"CALENDAR\" for the algo + research file 👇\n.\n.\n#AlgorithmicTrading #QuantTrading #SystematicTrading #MarketAnomalies #Fintech",
+    "bluesky": "You don't need to be in the market every day. You need 4 specific days.\n\nLakonishok-Smidt (RFS 1988) showed ALL DJIA gains concentrated in last day + first 3 of next month, over 90 years. Xu-McConnell (FAJ 2006) confirmed.\n\nDM \"CALENDAR\" for the algo."
+  }
+}

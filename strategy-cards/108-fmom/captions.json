@@ -1,0 +1,24 @@
+{
+  "strategy": "108-factor-momentum",
+  "image_file": "images/strategy-108-fmom.png",
+  "image_overrides": {
+    "instagram": "images/strategy-108-fmom-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM FACTOR for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Contrarian",
+    "twitter": "Contrarian",
+    "threads": "Contrarian",
+    "facebook": "Contrarian",
+    "instagram": "Contrarian",
+    "bluesky": "Receipts"
+  },
+  "captions": {
+    "linkedin": "Most quants chase stock momentum. They're hunting the wrong target. 📊\n\nEhsani and Linnainmaa (2022, Journal of Finance) made the cleaner argument: it isn't stocks that have momentum, it's factors. And factor momentum quietly subsumes stock, industry, and intermediate momentum as special cases of the same thing.\n\nThe mechanism is simple. Anomaly factors are autocorrelated. A factor that beat its mean over the last 12 months tends to do it again next month.\n\nHere's the complete logic. No black box:\n\n🔹 FACTOR LIBRARY, 20-50 long/short anomaly factors.\n🔹 TRAILING 12M, rank factors by prior-year return.\n🔹 SIGN ORIENT, flip negative-return factors to short.\n🔹 EQUAL RISK, weight across factors to avoid vol concentration.\n🔹 MONTHLY REBALANCE, refresh signs and hold 1 month.\n\nIf you already run a multi-factor book, factor momentum is a meta-layer that times your own exposures. You stop fighting sleeves when they're down and lean in when they're up.\n\nThe paper's headline result: average factor return is 6 bps after a down year vs 51 bps after an up year. The autocorrelation is real.\n\n1 of 440 strategies in our research library.\n\nDM \"FACTOR\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #FactorInvesting #MomentumInvesting #Fintech",
+    "twitter": "Most quants chase stock momentum. Wrong target.\n\nEhsani-Linnainmaa (2022, JF): factors have momentum. Factor momentum subsumes stock and industry momentum.\n\nRank 20+ factors by trailing 12m, long winners, short losers, monthly rebalance.\n\nDM \"FACTOR\" for the algo + paper.",
+    "threads": "Most quants chase stock momentum. They're hunting the wrong target. 📊\n\nEhsani-Linnainmaa (2022, JF): it isn't stocks that have momentum, it's factors. And factor momentum subsumes stock, industry, and intermediate momentum.\n\nThe logic:\n🔹 20-50 long/short anomaly factors\n🔹 rank by trailing 12m return\n🔹 flip losers to short\n🔹 equal risk weights\n🔹 monthly rebalance\n\nMeta-layer on top of any multi-factor book.\n\n1 of 440 in our library. DM \"FACTOR\" for the algo + paper.",
+    "facebook": "Most quants chase stock momentum. They're hunting the wrong target. 📊\n\nEhsani and Linnainmaa (2022, Journal of Finance) made the cleaner argument: it isn't stocks that have momentum. It's factors. And factor momentum subsumes stock momentum, industry momentum, and intermediate momentum as special cases of the same thing.\n\nThe mechanism is simple. Anomaly factors are autocorrelated. A factor that beat its mean over the last 12 months tends to do it again next month.\n\nThe complete logic:\n\n🔹 FACTOR LIBRARY, 20-50 long/short anomaly factors.\n🔹 TRAILING 12M, rank factors by prior-year cumulative return.\n🔹 SIGN ORIENT, flip negative-return factors to the short side.\n🔹 EQUAL RISK, weight across factors to avoid vol concentration.\n🔹 MONTHLY REBALANCE, refresh signs and hold 1 month.\n\nIf you already run a multi-factor book, this is a meta-layer that times your own exposures.\n\n1 of 440 strategies in our research library.\n\nDM \"FACTOR\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "Most quants chase stock momentum. Wrong target. 📊\n\nEhsani-Linnainmaa (2022, JF): factors have momentum. Factor momentum subsumes stock, industry, and intermediate momentum.\n\n🔹 20-50 anomaly factors\n🔹 rank by trailing 12m\n🔹 flip losers to short\n🔹 equal risk weights\n🔹 monthly rebalance\n\n1 of 440 in our library. DM \"FACTOR\" for the algo + paper.\n\n#AlgorithmicTrading #QuantTrading #FactorInvesting #MomentumInvesting #Fintech",
+    "bluesky": "Ehsani-Linnainmaa (2022, JF): average factor returns 6 bps after a down year, 51 bps after an up year.\n\nFactors are autocorrelated. Rank 20+ factors by trailing 12m, long winners, short losers, monthly rebalance.\n\nDM \"FACTOR\" for the algo + paper."
+  }
+}

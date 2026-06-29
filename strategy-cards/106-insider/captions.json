@@ -1,0 +1,24 @@
+{
+  "strategy": "106-insider-trading-signals",
+  "image_file": "images/strategy-106-insider.png",
+  "image_overrides": {
+    "instagram": "images/strategy-106-insider-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM INSIDER for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Stolen Lessons",
+    "twitter": "Stolen Lessons",
+    "threads": "Stolen Lessons",
+    "facebook": "Stolen Lessons",
+    "instagram": "Stolen Lessons",
+    "bluesky": "Curiosity Gap"
+  },
+  "captions": {
+    "linkedin": "Company officers file every share they buy with the SEC. We just copy them. 📊\n\nLakonishok and Lee (2001, RFS) ran the numbers across decades of Form 4 filings and found 1 clean signal hiding in plain sight: when 2 or more insiders open-market buy the same stock inside 90 days, you're looking at conviction the market hasn't priced yet.\n\nNot sales. Sales mean nothing. Officers sell for taxes, diversification, divorce, kids. Purchases are the signal.\n\nHere's the complete logic. No black box:\n\n🔹 FORM-4 PARSING, ingest SEC EDGAR open-market purchases daily.\n🔹 CLUSTER LOGIC, flag 2+ distinct insiders inside a 90-day window.\n🔹 SMALL-CAP TILT, concentrate where coverage is thin and asymmetry peaks.\n🔹 FILING-DATE ENTRY, go long on public disclosure, never on the trade date.\n🔹 SALES IGNORED, exclude routine and diversification sells.\n🔹 6-MONTH HOLD, exit on a fixed horizon.\n\nPost-SOX the disclosure lag dropped to 2 days, which actually preserved the core effect. The mispricing comes from slow information diffusion in small, neglected names, not from insider speed.\n\nIt's event-driven, mechanical, and uses 1 public dataset. The hard part is the parsing and the cluster logic, not the idea.\n\n1 of 440 strategies in our research library.\n\nDM \"INSIDER\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #ValueInvesting #SystematicTrading #Fintech",
+    "twitter": "Company officers file every share they buy with the SEC.\n\nLakonishok-Lee (2001, RFS): when 2+ insiders open-market buy inside 90 days, that's the signal. Sales mean nothing.\n\nFiling-date entry, 6-month hold, small-cap tilt.\n\nDM \"INSIDER\" for the algo + paper.",
+    "threads": "Company officers file every share they buy with the SEC. We just copy them. 📊\n\nLakonishok-Lee (2001, RFS): 2+ insiders open-market buying the same stock inside 90 days = conviction the market hasn't priced.\n\nSales mean nothing (taxes, diversification). Purchases are the signal.\n\n🔹 parse SEC EDGAR Form 4 daily\n🔹 2+ distinct insiders, 90-day window\n🔹 small-cap tilt (slow info diffusion)\n🔹 enter on filing date, hold 6 months\n\n1 of 440 in our library. DM \"INSIDER\" for the algo + paper.",
+    "facebook": "Company officers file every share they buy with the SEC. We just copy them. 📊\n\nLakonishok and Lee (2001, RFS) ran the numbers across decades of Form 4 filings and found 1 clean signal: when 2 or more insiders open-market buy the same stock inside 90 days, that's conviction the market hasn't priced yet.\n\nSales don't count. Officers sell for taxes, diversification, divorce. Purchases are the signal.\n\nThe complete logic:\n\n🔹 FORM-4 PARSING, ingest SEC EDGAR open-market purchases daily.\n🔹 CLUSTER LOGIC, flag 2+ distinct insiders inside a 90-day window.\n🔹 SMALL-CAP TILT, concentrate where coverage is thin.\n🔹 FILING-DATE ENTRY, go long on public disclosure.\n🔹 6-MONTH HOLD, exit on a fixed horizon.\n\nThe mispricing comes from slow information diffusion in small, neglected names. Not from insider speed.\n\n1 of 440 strategies in our research library.\n\nDM \"INSIDER\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "Company officers file every share they buy with the SEC. We just copy them. 📊\n\nLakonishok-Lee (2001, RFS): 2+ insiders open-market buying inside 90 days = real conviction. Sales mean nothing.\n\nThe logic:\n🔹 parse SEC EDGAR Form 4\n🔹 2+ insiders, 90-day window\n🔹 small-cap tilt\n🔹 filing-date entry\n🔹 6-month hold\n\n1 of 440 in our library. DM \"INSIDER\" for the algo + paper.\n\n#AlgorithmicTrading #QuantTrading #ValueInvesting #FactorInvesting #Fintech",
+    "bluesky": "Here's what nobody tells you about insider trading data: sales mean nothing.\n\nLakonishok-Lee (2001, RFS): 2+ insiders open-market buying inside 90 days is the signal. Small-cap tilt, filing-date entry, 6-month hold.\n\nDM \"INSIDER\" for the algo + paper."
+  }
+}

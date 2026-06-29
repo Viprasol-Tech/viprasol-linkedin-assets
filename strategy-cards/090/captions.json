@@ -1,0 +1,24 @@
+{
+  "strategy": "090-residual-momentum",
+  "image_file": "images/strategy-090.png",
+  "image_overrides": {
+    "instagram": "images/strategy-090-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft CTA: DM REGRESSION.",
+  "hook_categories": {
+    "linkedin": "Receipts",
+    "twitter": "Receipts",
+    "threads": "Stolen Lessons",
+    "facebook": "Negative Frame",
+    "instagram": "Receipts",
+    "bluesky": "Receipts"
+  },
+  "captions": {
+    "linkedin": "Roughly 2x the Sharpe of plain momentum. With far smaller crashes. Same data. 📊\n\nThat's the headline from Blitz, Huij & Martens (Journal of Empirical Finance, 2011) on residual momentum.\n\nClassic Jegadeesh-Titman momentum has 2 problems. It loads on market, size, and value factor risk. And it crashes hard in 2009-style reversals. Residual momentum fixes both.\n\nThe complete logic:\n\n🔹 REGRESS. For each stock, run a rolling 36-month Fama-French 3-factor regression on monthly returns.\n🔹 RESIDUAL. Pull out the idiosyncratic return after stripping market, size, and value betas.\n🔹 FORMATION. Use the last 11 months of residuals (the standard momentum window), standardized by their own volatility (information-ratio style).\n🔹 RANK by the standardized residual. Long top decile, short bottom decile. Equal-weighted.\n🔹 REBALANCE monthly.\n\nWhy it works: stripping factor exposures removes the unstable, crowded loadings that drive momentum crashes. What's left is the pure behavioral underreaction signal.\n\nBlitz et al. showed standard rational momentum explanations don't account for the residual premium. It's structurally different.\n\n1 of 440 strategies in our research library.\n\nDM \"REGRESSION\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\nViprasol Tech\n\n#AlgorithmicTrading #QuantitativeFinance #MomentumInvesting #FactorInvesting #SystematicTrading",
+    "twitter": "Roughly 2x the Sharpe of plain momentum. With far smaller crashes.\n\nResidual Momentum (Blitz, Huij & Martens, JEF 2011):\n\n🔹 Rolling 36mo FF3 regression\n🔹 Rank on standardized residuals (11mo)\n🔹 Long top decile, short bottom\n🔹 Strips factor crash risk\n\nDM \"REGRESSION\".",
+    "threads": "Dutch quant shop Robeco quietly published this in 2011. It's been in their book ever since.\n\nResidual Momentum (Blitz, Huij & Martens, JEF 2011):\n\n🔹 Rolling 36mo Fama-French 3-factor regression\n🔹 Pull idiosyncratic residual\n🔹 Standardize by own volatility (info-ratio style)\n🔹 Rank on 11mo formation\n🔹 Long top, short bottom decile\n🔹 Roughly 2x Sharpe of raw momentum\n\nDM \"REGRESSION\".",
+    "facebook": "Most momentum strategies have a hidden flaw. They crash hard at the worst time. Here's the academic fix. 📊\n\nResidual Momentum (Blitz, Huij & Martens, JEF 2011) addresses 2 problems with classic Jegadeesh-Titman momentum:\n\n1. It loads on unstable market, size, and value factor risk.\n2. It crashes in reversals (like Q1 2009).\n\nThe logic:\n\n🔹 REGRESS each stock on Fama-French 3-factor model, rolling 36 months.\n🔹 RESIDUAL: pull the idiosyncratic return after stripping factor betas.\n🔹 STANDARDIZE by own volatility (information-ratio style).\n🔹 RANK on 11-month formation window. Long top decile, short bottom. Equal-weighted, monthly rebalance.\n\nResult per the paper: roughly double the Sharpe of raw momentum, with far smaller drawdowns in crash periods.\n\n1 of 440 strategies in our research library.\n\nDM \"REGRESSION\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\nViprasol Tech",
+    "instagram": "Roughly 2x the Sharpe of plain momentum. With far smaller crashes. 📊\n\nResidual Momentum (Blitz, Huij & Martens, JEF 2011):\n\n🔹 Rolling 36mo FF3 regression\n🔹 Pull idiosyncratic residuals\n🔹 Rank on 11mo standardized\n🔹 Long top decile, short bottom\n🔹 Strips factor crash risk\n\nDM \"REGRESSION\" for the algo.\n.\n.\n#AlgorithmicTrading #QuantTrading #MomentumInvesting #FactorInvesting #Fintech",
+    "bluesky": "Roughly 2x the Sharpe of plain momentum. Far smaller crashes.\n\nResidual Momentum (Blitz, Huij, Martens, JEF 2011):\n🔹 Rolling 36mo FF3 regression\n🔹 Rank on 11mo standardized residuals\n🔹 Long top decile, short bottom\n\nDM \"REGRESSION\" for the algo."
+  }
+}

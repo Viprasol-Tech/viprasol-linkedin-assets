@@ -1,0 +1,24 @@
+{
+  "strategy": "036-value-momentum-everywhere",
+  "image_file": "images/strategy-036-vme.png",
+  "image_overrides": {
+    "instagram": "images/strategy-036-vme-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM DIVERSIFICATION for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Receipts",
+    "twitter": "Receipts",
+    "threads": "Receipts",
+    "facebook": "Receipts",
+    "instagram": "Receipts",
+    "bluesky": "Receipts"
+  },
+  "captions": {
+    "linkedin": "Asness, Moskowitz and Pedersen tested value and momentum in 8 asset classes. Both factors showed up in every single one.\n\nThat is the rarest result in quant finance. One signal, 8 markets, decades of data, all positive.\n\nHere's the complete logic from the 2013 Journal of Finance paper. No black box:\n\n🔹 NEGATIVE CORR. Value and momentum average -0.49 correlation globally, so blending one with the other cuts drawdowns.\n🔹 EIGHT MARKETS. Stocks, bonds, currencies, commodities and index futures, all in one framework.\n🔹 MONTHLY REBALANCE. Rank-weight each security by signal inside its asset class.\n🔹 SIGNAL LAG. Momentum uses 12-month minus 1-month. Value uses a 5-year reversal proxy.\n🔹 INVERSE VOL WEIGHT. Scale each class to equal risk so commodities don't dominate the book.\n\nPaper sample ends July 2011. Post-publication compression is documented. Net-of-cost returns are lower than gross. You verify the numbers yourself.\n\nThis is 1 of 440 strategies in our research library.\n\nWant the complete algo and the research file? DM \"DIVERSIFICATION\".\n\nViprasol Tech. We share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #FactorInvesting #SystematicTrading #Fintech",
+    "twitter": "Asness, Moskowitz, Pedersen tested value AND momentum in 8 asset classes (JF 2013). Both worked in every one.\n\n🔹 -0.49 correlation between the two\n🔹 Monthly rank-weight\n🔹 Inverse-vol scaling per class\n\nDM \"DIVERSIFICATION\" for the algo + research file.",
+    "threads": "Asness, Moskowitz and Pedersen tested value and momentum across 8 asset classes. Both significant in every single one (JF 2013).\n\nThe logic:\n\n🔹 -0.49 average correlation\n🔹 8 markets, monthly rebalance\n🔹 12-month minus 1-month momentum\n🔹 5-year value reversal\n🔹 Inverse-vol scaling per class\n\n1 of 440 in our research library.\n\nDM \"DIVERSIFICATION\" for the algo + research file.",
+    "facebook": "Asness, Moskowitz and Pedersen tested value and momentum across 8 asset classes. Both factors showed up in every single one.\n\nThat's a rare result in quant finance.\n\nThe complete logic from JF 2013:\n\n🔹 NEGATIVE CORR. Value and momentum average -0.49 globally.\n🔹 EIGHT MARKETS. Stocks, bonds, currencies, commodities, index futures.\n🔹 MONTHLY REBALANCE. Rank-weight each security inside its asset class.\n🔹 SIGNAL LAG. 12-month minus 1-month momentum, 5-year value reversal.\n🔹 INVERSE VOL WEIGHT. Equalize risk so commodities don't dominate.\n\nSample ends July 2011. Compression documented post-publication. You verify the numbers.\n\n1 of 440 in our research library. DM \"DIVERSIFICATION\" for the algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "Asness, Moskowitz, Pedersen tested value AND momentum in 8 asset classes. Both worked in every one (JF 2013).\n\nThe logic:\n🔹 -0.49 correlation\n🔹 8 markets, monthly rebalance\n🔹 12m skip-1 momentum\n🔹 5-year value reversal\n🔹 Inverse-vol scaling\n\n1 of 440 in our research library.\n\nDM \"DIVERSIFICATION\" for the algo + research file.\n\n#AlgorithmicTrading #QuantTrading #FactorInvesting #ValueInvesting #Fintech",
+    "bluesky": "Asness, Moskowitz, Pedersen tested value + momentum in 8 asset classes. Both worked in every one (JF 2013).\n\n🔹 -0.49 correlation between the two\n🔹 Monthly rank-weight\n🔹 Inverse-vol scaling per class\n\nDM \"DIVERSIFICATION\" for the algo + research file."
+  }
+}

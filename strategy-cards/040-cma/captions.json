@@ -1,0 +1,24 @@
+{
+  "strategy": "040-ff-investment-cma",
+  "image_file": "images/strategy-040-cma.png",
+  "image_overrides": {
+    "instagram": "images/strategy-040-cma-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM DISCIPLINE for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Curiosity Gap",
+    "twitter": "Curiosity Gap",
+    "threads": "Curiosity Gap",
+    "facebook": "Curiosity Gap",
+    "instagram": "Curiosity Gap",
+    "bluesky": "Curiosity Gap"
+  },
+  "captions": {
+    "linkedin": "Here's the factor that quietly replaced value in the 2015 Fama-French model. Nobody talks about it, but its t-statistic is 3.4 and it correlates 0.7 with HML.\n\nThe signal: companies that grow their assets slowly outperform companies that grow them aggressively.\n\nNot revenue growth. Not earnings growth. Total asset growth, year over year.\n\nHere's the complete logic from JFE 2015. No black box:\n\n🔹 ASSET GROWTH SIGNAL. Change in total assets divided by lagged total assets, split conservative vs aggressive.\n🔹 SIZE-NEUTRAL. Sort independently on market cap, then on investment growth.\n🔹 FISCAL-YEAR LAG. Two prior fiscal years of total-assets data required for clean computation.\n🔹 ANNUAL REBALANCE. June formation, 12-month hold, low-turnover by design.\n🔹 ZERO-COST SPREAD. Long conservative-growth firms funded by short aggressive growers.\n\nFama and French 2015. CMA mean 0.33% per month, t=3.4 across construction variants. US full sample 1963 to 2013. Weaker internationally, Japan insignificant. You verify it.\n\nThis is 1 of 440 strategies in our research library.\n\nWant the complete algo and the research file? DM \"DISCIPLINE\".\n\nViprasol Tech. We share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #FactorInvesting #SystematicTrading #Fintech",
+    "twitter": "Here's the factor that quietly replaced value in the 2015 Fama-French model.\n\nCompanies that grow assets slowly beat companies that grow them fast. t=3.4.\n\n🔹 Asset growth signal\n🔹 Size-neutral 2x3 sort\n🔹 June annual rebalance\n\nDM \"DISCIPLINE\" for the algo + research file.",
+    "threads": "Here's the factor that quietly replaced value in the 2015 Fama-French five-factor model. t=3.4 and nobody on retail Twitter talks about it.\n\nThe logic:\n\n🔹 Change in total assets / lagged total assets\n🔹 Conservative vs aggressive split\n🔹 Size-neutral, 2x3 sort\n🔹 June annual rebalance, 12-month hold\n🔹 Long conservative, short aggressive\n\nCorrelates 0.7 with HML. Weaker in Japan.\n\nDM \"DISCIPLINE\" for the algo + research file.",
+    "facebook": "Here's the factor that quietly replaced value in the 2015 Fama-French model.\n\nNobody talks about it, but its t-statistic is 3.4 and it correlates 0.7 with HML.\n\nThe signal: companies that grow their assets slowly outperform companies that grow them aggressively. Not revenue. Not earnings. Total asset growth.\n\nThe complete logic from JFE 2015:\n\n🔹 ASSET GROWTH SIGNAL. Change in total assets / lagged total assets.\n🔹 SIZE-NEUTRAL. Sort on market cap, then investment growth.\n🔹 FISCAL-YEAR LAG. 2 prior fiscal years required.\n🔹 ANNUAL REBALANCE. June formation, 12-month hold.\n🔹 ZERO-COST SPREAD. Long conservative, short aggressive.\n\nCMA mean 0.33%/mo, t=3.4. Weaker in Japan. You verify it.\n\n1 of 440 in our research library. DM \"DISCIPLINE\" for the algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "Here's the factor that quietly replaced value in the 2015 Fama-French model. t=3.4, nobody talks about it.\n\nThe logic:\n🔹 Asset growth signal\n🔹 Size-neutral 2x3 sort\n🔹 June annual rebalance\n🔹 12-month hold\n🔹 Long conservative, short aggressive\n\n1 of 440 in our research library.\n\nDM \"DISCIPLINE\" for the algo + research file.\n\n#AlgorithmicTrading #QuantTrading #FactorInvesting #SystematicTrading #Fintech",
+    "bluesky": "Here's the factor that quietly replaced value in the 2015 Fama-French model. t=3.4.\n\n🔹 Asset growth signal, conservative vs aggressive\n🔹 Size-neutral 2x3 sort\n🔹 June annual rebalance\n\nDM \"DISCIPLINE\" for the algo + research file."
+  }
+}

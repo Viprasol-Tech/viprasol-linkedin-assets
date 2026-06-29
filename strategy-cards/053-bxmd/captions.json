@@ -1,0 +1,24 @@
+{
+  "strategy": "053-bxmd-30-delta",
+  "image_file": "images/strategy-053-bxmd.png",
+  "image_overrides": {
+    "instagram": "images/strategy-053-bxmd-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM BXMD for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Receipts",
+    "twitter": "Receipts",
+    "threads": "Curiosity Gap",
+    "facebook": "Receipts",
+    "instagram": "Receipts",
+    "bluesky": "Contrarian"
+  },
+  "captions": {
+    "linkedin": "Wilshire ran 32.5 years of options buy-write data. The 30-delta strike won the efficient frontier.\n\nNot the at-the-money. Not the 2% OTM. The 30-delta.\n\nCboe BXMD Index (Wilshire Associates, 2019):\n\n🔹 OWN S&P 500\n🔹 SELL 1 CALL each month at approximately 0.30 delta (further OTM than BXM)\n🔹 STRIKE ADAPTS to the implied vol regime monthly (Black-Scholes pricing)\n🔹 LESS PREMIUM collected vs ATM, but you retain far more rally upside\n🔹 MONTHLY REBALANCE, mechanical strike selection\n\nWhy the 30-delta beat both the ATM (BXM) and the 2% OTM (BXY) variants over 32.5 years: you give up a little premium cushion, but you keep enough upside that bull years stop being a drag.\n\nThis is what \"mean-variance optimal\" means in practice. Tune the strike, recover the upside, accept thinner downside buffer.\n\nThe takeaway for retail: the strike you pick matters more than whether you sell calls at all.\n\nStrategy shared free. Performance depends on execution, sizing, and roll discipline, that's the part we engineer.\n\nThis is 1 of 440 strategies in our research library.\n\n👉 DM \"BXMD\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business. 🚀\n\n#AlgorithmicTrading #QuantitativeFinance #OptionsTrading #SystematicTrading #Fintech",
+    "twitter": "Wilshire ran 32.5 years of buy-write data. The 30-delta strike won.\n\nNot ATM. Not 2% OTM. 30-delta.\n\nCboe BXMD (Wilshire 2019):\n🔹 Own SPX\n🔹 Sell 1 call at ~0.30 delta monthly\n🔹 Strike adapts to vol\n🔹 Retains more rally upside\n\nDM \"BXMD\" for the algo 👇",
+    "threads": "Here's what most option sellers get wrong.\n\nThey pick the strike by feel. Wilshire tested 32.5 years and the 30-delta beat the ATM AND the 2% OTM on the efficient frontier.\n\nCboe BXMD (Wilshire 2019):\n🔹 Own S&P 500\n🔹 Sell 1 call at ~0.30 delta\n🔹 Strike adapts to vol regime\n🔹 Less premium, more rally retention\n\n1 of 440 in our library. DM \"BXMD\" for the algo.",
+    "facebook": "Here's proof that the strike you pick matters more than whether you sell calls.\n\nWilshire Associates ran 32.5 years of options buy-write data on the S&P 500. They compared three strikes:\n\n🔹 The at-the-money call (BXM)\n🔹 The 2% out-of-the-money call (BXY)\n🔹 The 30-delta call (BXMD)\n\nThe 30-delta won the efficient frontier. Higher annualized return than the other two.\n\nThe mechanics:\n\n🔹 Own the S&P 500.\n🔹 Each month, sell 1 call priced at approximately 0.30 delta (further OTM, Black-Scholes determined).\n🔹 The strike adapts to whatever implied vol is doing.\n🔹 You collect less premium than the ATM version, but you keep enough upside that bull years aren't a drag.\n\nStrategy shared free. Performance depends on execution, sizing, and roll discipline, that's the part we engineer.\n\n1 of 440 strategies in our research library.\n\nDM \"BXMD\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "32.5 years of options data, and the 30-delta strike won the efficient frontier 📊\n\nCboe BXMD (Wilshire 2019):\n🔹 own S&P 500\n🔹 sell 1 call at ~0.30 delta monthly\n🔹 strike adapts to vol regime\n🔹 less premium, more rally upside retained\n🔹 monthly rebalance\n\n1 of 440 in our library 🎯\n\nDM \"BXMD\" for the algo + research file 👇\n.\n.\n#AlgorithmicTrading #QuantTrading #OptionsTrading #SystematicTrading #Fintech",
+    "bluesky": "Most option sellers default to ATM strikes. Wilshire tested 32.5 years and the 30-delta beat ATM AND 2% OTM.\n\nCboe BXMD (Wilshire 2019):\n🔹 Own SPX\n🔹 Sell 1 call at ~0.30 delta\n🔹 Adapts to vol regime\n\nDM \"BXMD\" for the algo."
+  }
+}

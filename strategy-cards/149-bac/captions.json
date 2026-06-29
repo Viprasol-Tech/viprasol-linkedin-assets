@@ -1,0 +1,24 @@
+{
+  "strategy": "149-betting-against-correlation",
+  "image_file": "images/strategy-149-bac.png",
+  "image_overrides": {
+    "instagram": "images/strategy-149-bac-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM CORRELATION for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Receipts",
+    "twitter": "Receipts",
+    "threads": "Receipts",
+    "facebook": "Receipts",
+    "instagram": "Receipts",
+    "bluesky": "Stolen Lessons"
+  },
+  "captions": {
+    "linkedin": "A 2020 paper won the Fama-DFA Prize for splitting beta in 2. Here's what they found. 📊\n\nAsness, Frazzini, Gormsen and Pedersen (2020, JFE) took the classic low-risk anomaly and broke it open. Beta is correlation multiplied by the volatility ratio. So which piece is doing the work?\n\nTheir answer: correlation. The low-correlation premium is the cleaner version of betting-against-beta, and it co-moves with margin debt. Investors who can't lever up bid the high-beta names instead, and the low-correlation names get left behind.\n\nHere's the complete logic. No black box:\n\n🔹 BETA DECOMPOSE, beta = correlation x volatility ratio.\n🔹 VOL QUINTILES, sort by volatility first to hold variance constant.\n🔹 WITHIN-BUCKET SPLIT, sort by correlation inside each vol group.\n🔹 BETA BALANCE, scale legs to net-zero beta per bucket.\n🔹 1-YR SIGMA, 5-YR RHO, short window for vol, long for correlation.\n🔹 MONTHLY REBALANCE.\n\nIt's a leverage-constraint story, not a lottery-demand story. The companion SMAX factor handles lottery demand. Shows up in the US and internationally.\n\nIf you already run a low-vol sleeve, this is the version that survives once you control for the volatility piece.\n\n1 of 440 strategies in our research library.\n\nDM \"CORRELATION\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #FactorInvesting #SystematicTrading #Fintech",
+    "twitter": "2020 Fama-DFA Prize paper, Asness-Frazzini-Gormsen-Pedersen (JFE): split beta into correlation x vol ratio.\n\nThe correlation piece is what drives betting-against-beta. Co-moves with margin debt. Leverage-constraint story.\n\nDM \"CORRELATION\" for the algo + paper.",
+    "threads": "A 2020 Fama-DFA Prize paper split beta in 2. 📊\n\nAsness-Frazzini-Gormsen-Pedersen (2020, JFE): beta = correlation x vol ratio. The correlation piece drives betting-against-beta. Co-moves with margin debt.\n\nThe logic:\n🔹 5 vol quintiles\n🔹 sort by correlation within each\n🔹 long low-corr, short high-corr\n🔹 net-zero beta\n🔹 monthly rebalance\n\n1 of 440 in our library. DM \"CORRELATION\" for the algo + paper.",
+    "facebook": "A 2020 paper won the Fama-DFA Prize for splitting beta in 2. Here's what they found. 📊\n\nAsness, Frazzini, Gormsen and Pedersen (2020, JFE) took the classic low-risk anomaly and broke it open. Beta is correlation multiplied by the volatility ratio. Which piece drives the premium?\n\nTheir answer: correlation. The low-correlation premium is the cleaner version of betting-against-beta, and it co-moves with margin debt, which lines up with leverage-constraint theory.\n\nThe logic:\n\n🔹 BETA DECOMPOSE, separate beta into correlation and vol ratio.\n🔹 VOL QUINTILES, sort by volatility first to hold variance constant.\n🔹 WITHIN-BUCKET SPLIT, sort by correlation inside each volatility group.\n🔹 BETA BALANCE, scale legs to net-zero beta per bucket spread.\n🔹 MONTHLY REBALANCE.\n\nShows up in the US and internationally. It's a leverage-constraint story, not a lottery-demand story.\n\n1 of 440 strategies in our research library.\n\nDM \"CORRELATION\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "2020 Fama-DFA Prize paper: split beta in 2. 📊\n\nAsness-Frazzini-Gormsen-Pedersen (JFE): beta = correlation x vol ratio. The correlation piece drives betting-against-beta.\n\n🔹 5 vol quintiles\n🔹 sort by correlation inside each\n🔹 long low-corr, short high-corr\n🔹 net-zero beta\n🔹 monthly rebalance\n\n1 of 440 in our library. DM \"CORRELATION\" for the algo + paper.\n\n#AlgorithmicTrading #QuantTrading #FactorInvesting #SystematicTrading #Fintech",
+    "bluesky": "Stolen from a 2020 Fama-DFA Prize paper (Asness-Frazzini-Gormsen-Pedersen, JFE):\n\nBeta = correlation x vol ratio. The correlation piece is what drives betting-against-beta. Sort vol first, sort corr inside, monthly rebalance.\n\nDM \"CORRELATION\" for the algo + paper."
+  }
+}

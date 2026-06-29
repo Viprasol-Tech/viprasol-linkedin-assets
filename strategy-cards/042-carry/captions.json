@@ -1,0 +1,24 @@
+{
+  "strategy": "042-carry-cross-asset",
+  "image_file": "images/strategy-042-carry.png",
+  "image_overrides": {
+    "instagram": "images/strategy-042-carry-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM YIELD for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Stolen Lessons",
+    "twitter": "Stolen Lessons",
+    "threads": "Stolen Lessons",
+    "facebook": "Stolen Lessons",
+    "instagram": "Stolen Lessons",
+    "bluesky": "Stolen Lessons"
+  },
+  "captions": {
+    "linkedin": "AQR runs billions on one signal across 9 asset classes. Koijen, Moskowitz, Pedersen and Vrugt published the whole framework in JFE 2018. The signal is carry.\n\nNot FX carry. Not bond carry. Carry as a universal concept that works in every market with a forward curve or a yield.\n\nHere's the complete logic. No black box:\n\n🔹 NINE ASSET CLASSES. Equities, bonds, the yield curve itself, FX, commodities, credit, and options (both calls and puts).\n🔹 UNIFIED DEFINITION. Carry = forward or futures premium, or yield plus roll, across any asset.\n🔹 MONTHLY REBALANCE. Rank instruments by carry, long high-carry, short low-carry.\n🔹 RANK-WEIGHTED. Dollar-neutral long-short weights proportional to carry rank.\n🔹 DIVERSIFIED SCALING. Inverse-volatility weight per class so no single market dominates risk.\n🔹 RECESSION RISK. Joint crash exposure in 1975, 1982 and 2008 creates real negative skew. Sharpe alone hides it.\n\nKoijen, Moskowitz, Pedersen, Vrugt 2018. Sample 1972 to 2012. Crowding post-publication. Tail risk understated. You verify it.\n\nThis is 1 of 440 strategies in our research library.\n\nWant the complete algo and the research file? DM \"YIELD\".\n\nViprasol Tech. We share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #CarryTrade #FactorInvesting #Fintech",
+    "twitter": "AQR runs billions on one signal across 9 asset classes.\n\nKoijen, Moskowitz, Pedersen, Vrugt published the framework in JFE 2018: carry, as a universal concept.\n\n🔹 9 classes, monthly rebalance\n🔹 Rank-weighted long-short\n🔹 Inverse-vol per class\n\nDM \"YIELD\".",
+    "threads": "AQR runs billions on one signal across 9 asset classes. Koijen, Moskowitz, Pedersen, Vrugt published the framework (JFE 2018).\n\nThe logic:\n\n🔹 9 classes: equities, bonds, curve, FX, commodities, credit, calls, puts\n🔹 Carry = forward premium or yield + roll\n🔹 Monthly rank-weighted long-short\n🔹 Inverse-vol scaling per class\n🔹 Real recession crash risk\n\nDM \"YIELD\" for the algo + research file.",
+    "facebook": "AQR runs billions on one signal across 9 asset classes.\n\nKoijen, Moskowitz, Pedersen and Vrugt published the framework in JFE 2018. The signal is carry, treated as a universal concept that works in any market with a forward curve or a yield.\n\nThe complete logic:\n\n🔹 NINE ASSET CLASSES. Equities, bonds, curve, FX, commodities, credit, calls, puts.\n🔹 UNIFIED DEFINITION. Carry = forward premium or yield + roll.\n🔹 MONTHLY REBALANCE. Long high-carry, short low-carry.\n🔹 RANK-WEIGHTED. Dollar-neutral, proportional to rank.\n🔹 DIVERSIFIED SCALING. Inverse-vol per class.\n🔹 RECESSION RISK. Joint crashes in 1975, 1982, 2008. Negative skew is real.\n\nSample 1972 to 2012. Crowding post-publication. You verify.\n\n1 of 440 in our research library. DM \"YIELD\" for the algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "AQR runs billions on one signal across 9 asset classes. Koijen, Moskowitz, Pedersen, Vrugt published the framework (JFE 2018).\n\nThe logic:\n🔹 9 asset classes\n🔹 Carry = forward premium or yield + roll\n🔹 Monthly rank-weighted long-short\n🔹 Inverse-vol scaling\n🔹 Real recession crash risk\n\n1 of 440 in our research library.\n\nDM \"YIELD\" for the algo + research file.\n\n#AlgorithmicTrading #QuantTrading #CarryTrade #FactorInvesting #Fintech",
+    "bluesky": "AQR runs billions on one signal across 9 asset classes. Koijen, Moskowitz, Pedersen, Vrugt published it (JFE 2018).\n\n🔹 Unified carry: forward premium or yield + roll\n🔹 Monthly rank-weighted long-short\n🔹 Inverse-vol per class\n\nDM \"YIELD\"."
+  }
+}

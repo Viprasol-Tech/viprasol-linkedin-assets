@@ -1,0 +1,24 @@
+{
+  "strategy": "216-lynch-garp",
+  "image_file": "images/strategy-216-garp.png",
+  "image_overrides": {
+    "instagram": "images/strategy-216-garp-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM GARP for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Stolen Lessons",
+    "twitter": "Stolen Lessons",
+    "threads": "Contrarian",
+    "facebook": "Stolen Lessons",
+    "instagram": "Stolen Lessons",
+    "bluesky": "Receipt"
+  },
+  "captions": {
+    "linkedin": "Peter Lynch ran Magellan from 1977 to 1990. We turned his playbook into a screen you can run tonight.\n\nThe strategy: BUY GROWTH AT REASONABLE PRICE. PEG ratio under 1, understandable business, clean balance sheet, multi-year hold.\n\nHere's the complete logic, no black box:\n\n🔹 PEG RATIO FILTER. Price-to-earnings divided by growth rate. Under 1 means you're paying less than the growth justifies.\n🔹 GROWTH QUALITY CHECK. Revenue growth has to corroborate earnings growth. Otherwise it's accounting.\n🔹 BALANCE SHEET TEST. Debt-to-equity under 0.5 to 1.0. Healthy current ratio. Survives the next recession.\n🔹 CATEGORY FRAMEWORK. Sort every name into fast grower, stalwart, cyclical, turnaround, or asset play. Each gets different position sizing.\n🔹 CONVICTION HOLD. Let winners compound. Only trim when the story breaks, not when the price wobbles.\n\nPeter Lynch's GARP philosophy, One Up on Wall Street (1989) and Beating the Street (1993). Educational use only.\n\nMost vendors hide the rules and sell signals. We give you the rules and earn the build.\n\n1 of 440 strategies in our research library.\n\nDM 'GARP' for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #ValueInvesting #FactorInvesting #SystematicTrading",
+    "twitter": "Peter Lynch ran Magellan 1977 to 1990 on one rule: PEG ratio under 1.\n\nThe full GARP screen:\n🔹 PEG filter\n🔹 revenue growth check\n🔹 debt/equity under 0.5\n🔹 5-category sort\n🔹 hold until the story breaks\n\nLynch (1989). Educational.\n\nDM 'GARP' for the algo + research file.",
+    "threads": "Most retail traders think value investing is dead.\n\nPeter Lynch's GARP rules from 1989 still work, and they're mechanical enough to code in an afternoon:\n\n🔹 PEG ratio under 1\n🔹 revenue growth confirms earnings\n🔹 debt-to-equity under 0.5\n🔹 sort into 5 categories, size each differently\n🔹 hold until the story breaks\n\nOne Up on Wall Street (1989). 1 of 440 in our research library.\n\nDM 'GARP' for the complete algo + research file.\n\nViprasol Tech.",
+    "facebook": "Peter Lynch ran Fidelity Magellan from 1977 to 1990 using one core rule: pay a P/E that's justified by the growth rate.\n\nThat's GARP. Growth At Reasonable Price. And it's mechanical enough to screen tonight.\n\nThe complete logic:\n\n🔹 PEG ratio under 1 as the entry filter.\n🔹 Revenue growth has to corroborate earnings growth, otherwise it's accounting tricks.\n🔹 Debt-to-equity under 0.5 to 1.0, healthy current ratio.\n🔹 Sort each name into fast grower, stalwart, cyclical, turnaround, or asset play. Position size by category.\n🔹 Let winners compound. Only trim when the underlying story breaks.\n\nSource: Peter Lynch, One Up on Wall Street (1989) and Beating the Street (1993). Educational use only.\n\n1 of 440 strategies in our research library.\n\nDM 'GARP' for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "Peter Lynch's playbook, codified.\n\nGARP: Growth At Reasonable Price.\n\n🔹 PEG ratio under 1\n🔹 revenue growth confirms earnings\n🔹 debt/equity under 0.5\n🔹 5-category sort\n🔹 hold until story breaks\n\nLynch (1989). Educational use only.\n\n1 of 440 strategies in our research library.\n\nDM 'GARP' for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantTrading #ValueInvesting #FactorInvesting #Fintech",
+    "bluesky": "Peter Lynch's 1989 GARP rule, codified:\n\n🔹 PEG under 1\n🔹 revenue growth confirms earnings\n🔹 debt/equity under 0.5\n🔹 sort into 5 categories\n🔹 hold until story breaks\n\nLynch, One Up on Wall Street.\n\nDM 'GARP' for the algo + research file."
+  }
+}

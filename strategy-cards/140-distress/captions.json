@@ -1,0 +1,24 @@
+{
+  "strategy": "140-o-score-distress",
+  "image_file": "images/strategy-140-distress.png",
+  "image_overrides": {
+    "instagram": "images/strategy-140-distress-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM DISTRESS for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Curiosity Gap",
+    "twitter": "Curiosity Gap",
+    "threads": "Curiosity Gap",
+    "facebook": "Curiosity Gap",
+    "instagram": "Curiosity Gap",
+    "bluesky": "Negative Frame"
+  },
+  "captions": {
+    "linkedin": "The riskiest-looking stocks in the market earn the lowest returns. CAPM says the opposite. 📊\n\nDichev (1998, JF) found it first. Campbell, Hilscher and Szilagyi (2008, JF) reconfirmed it with a hazard model. Firms with the highest bankruptcy risk produce negative alphas, not a fat risk premium.\n\nThe distress anomaly is what happens when retail buys lottery odds, institutions can't short the names (borrow is impossible), and the mispricing just sits there.\n\nHere's the complete logic. No black box:\n\n🔹 OHLSON LOGIT, compute the 9-term O-score per firm.\n🔹 DECILE BUCKETS, rank firms by O-score every fiscal year.\n🔹 INVERSE RISK, long the healthy decile, short the distressed.\n🔹 ANNUAL FORMATION, rebalance on fresh accounting data.\n🔹 DELISTING TRACK, include full bankruptcy and delisting returns or you'll fool yourself.\n\nLong-only variant: own healthy, skip distressed. Most of the spread survives.\n\nWhy traders miss this: the names look cheap. Low P/B, low P/E, beaten down. Classic value screens load on them. An O-score overlay strips out the worst slice without giving up the cheap end.\n\n1 of 440 strategies in our research library.\n\nDM \"DISTRESS\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #ValueInvesting #FactorInvesting #Fintech",
+    "twitter": "CAPM says the riskiest stocks earn the highest returns. Wrong.\n\nDichev (1998, JF) + Campbell-Hilscher-Szilagyi (2008, JF): high-distress firms produce NEGATIVE alphas.\n\nOhlson O-score, long healthy, short distressed.\n\nDM \"DISTRESS\" for the algo + paper.",
+    "threads": "The riskiest-looking stocks in the market earn the lowest returns. CAPM says the opposite. 📊\n\nDichev (1998, JF) and Campbell-Hilscher-Szilagyi (2008, JF): high-distress firms produce negative alphas.\n\nThe logic:\n🔹 compute 9-term Ohlson O-score per firm\n🔹 rank into deciles annually\n🔹 long healthy decile, short distressed\n🔹 include delisting returns\n\nIf you can't short, just own healthy and skip distressed. Most of the edge survives.\n\n1 of 440 in our library. DM \"DISTRESS\" for the algo + paper.",
+    "facebook": "The riskiest-looking stocks in the market earn the lowest returns. CAPM says the opposite. 📊\n\nDichev (1998, JF) found it first. Campbell, Hilscher and Szilagyi (2008, JF) reconfirmed it with a hazard model. Firms with the highest bankruptcy risk produce negative alphas, not a fat risk premium.\n\nThe distress anomaly is what happens when retail buys lottery odds and institutions can't short the names because borrow is impossible. The mispricing sits there.\n\nThe logic:\n\n🔹 OHLSON LOGIT, compute the 9-term O-score per firm from accounting ratios.\n🔹 DECILE BUCKETS, rank firms annually.\n🔹 INVERSE RISK, long the healthy decile, short the distressed decile.\n🔹 ANNUAL FORMATION, fresh fiscal-year data.\n🔹 DELISTING TRACK, include bankruptcy and delisting returns.\n\nLong-only variant: own healthy, skip distressed. Most of the spread survives.\n\n1 of 440 strategies in our research library.\n\nDM \"DISTRESS\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "The riskiest-looking stocks earn the LOWEST returns. CAPM says the opposite. 📊\n\nDichev (1998, JF) + Campbell-Hilscher-Szilagyi (2008, JF): high-distress firms produce negative alphas.\n\n🔹 9-term Ohlson O-score\n🔹 decile rank annually\n🔹 long healthy, short distressed\n🔹 include delisting returns\n\n1 of 440 in our library. DM \"DISTRESS\" for the algo + paper.\n\n#AlgorithmicTrading #QuantTrading #ValueInvesting #FactorInvesting #Fintech",
+    "bluesky": "Stop loading up on the cheapest, ugliest stocks in the screen.\n\nDichev (1998, JF): highest-bankruptcy-risk names produce NEGATIVE alphas, not a risk premium.\n\nRank by Ohlson O-score, own the healthy decile, skip the distressed one.\n\nDM \"DISTRESS\" for the algo + paper."
+  }
+}

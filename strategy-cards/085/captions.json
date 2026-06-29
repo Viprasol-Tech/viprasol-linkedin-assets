@@ -1,0 +1,24 @@
+{
+  "strategy": "085-commodity-carry-roll-yield",
+  "image_file": "images/strategy-085.png",
+  "image_overrides": {
+    "instagram": "images/strategy-085-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft CTA: DM CONTANGO.",
+  "hook_categories": {
+    "linkedin": "Curiosity Gap",
+    "twitter": "Contrarian",
+    "threads": "Receipts",
+    "facebook": "Negative Frame",
+    "instagram": "Curiosity Gap",
+    "bluesky": "Contrarian"
+  },
+  "captions": {
+    "linkedin": "Most futures traders stare at spot prices. The professional commodity desks ignore them. 📊\n\nHere's what dominates commodity futures returns... and it isn't price direction.\n\nIt's the shape of the curve.\n\nErb & Harvey (RFS, 2006) and Koijen, Moskowitz, Pedersen & Vrugt (JFE, 2018) documented carry as a single, unified factor priced across asset classes. In commodities, it works like this:\n\n🔹 RANK every commodity by annualized roll yield (the slope between front and second contract).\n🔹 LONG the most BACKWARDATED. These pay you to hold them.\n🔹 SHORT the most CONTANGOED. These bleed you on every roll.\n🔹 DOLLAR-NEUTRAL, monthly rebalance, ~20-30 commodities across energy, metals, grains, softs, livestock.\n\nWhy it persists: storage costs, hedging pressure from producers, and convenience yield create a structural slope. That slope is the reward, not the price move.\n\nPeer-reviewed across 4 decades. Replicated globally. Still works because the underlying flows (hedgers needing to lock in prices) don't go away.\n\nThis is 1 of 440 strategies in our research library.\n\nDM \"CONTANGO\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\nViprasol Tech\n\n#AlgorithmicTrading #QuantitativeFinance #CommodityTrading #CarryTrade #SystematicTrading",
+    "twitter": "Most futures traders watch spot. The pros watch the curve.\n\nCommodity carry (Erb & Harvey 2006, Koijen 2018):\n\n🔹 Rank ~25 commodities by roll yield\n🔹 Long backwardated, short contangoed\n🔹 Dollar-neutral, monthly\n\nDM \"CONTANGO\" for the algo.",
+    "threads": "Roll yield, not spot, drives commodity returns.\n\nPeer-reviewed across 4 decades (Erb & Harvey 2006, Koijen et al. 2018):\n\n🔹 RANK ~25 commodities by annualized roll yield\n🔹 LONG most backwardated, SHORT most contangoed\n🔹 DOLLAR-NEUTRAL, monthly rebalance\n🔹 Storage, hedging pressure, convenience yield drive the slope\n\n1 of 440 strategies in our research library.\n\nDM \"CONTANGO\" for the complete algo + research file.",
+    "facebook": "Stop trading commodity futures on price direction alone. You're ignoring the bigger driver. 📊\n\nCommodity Carry (Erb & Harvey, RFS 2006; Koijen, Moskowitz, Pedersen & Vrugt, JFE 2018) found that roll yield, not spot returns, dominates long-run commodity performance.\n\nThe logic:\n\n🔹 RANK ~25 commodities (energy, metals, grains, softs, livestock) by annualized roll yield.\n🔹 LONG the most backwardated. These pay you to hold them.\n🔹 SHORT the most contangoed. These bleed you on every roll.\n🔹 Dollar-neutral. Monthly rebalance.\n\nWhy it works: structural hedging pressure from producers, storage costs, and convenience yield create a slope that rewards the carry holder.\n\n1 of 440 strategies in our research library.\n\nDM \"CONTANGO\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\nViprasol Tech",
+    "instagram": "Most futures traders watch spot. The pros watch the curve. 📊\n\nCommodity Carry (Erb & Harvey 2006, Koijen 2018):\n\n🔹 Rank ~25 commodities by roll yield\n🔹 Long backwardated, short contangoed\n🔹 Dollar-neutral, monthly rebalance\n🔹 Driven by storage, hedging pressure\n\n1 of 440 strategies.\n\nDM \"CONTANGO\" for the algo + paper.\n.\n.\n#AlgorithmicTrading #QuantTrading #CommodityTrading #CarryTrade #Fintech",
+    "bluesky": "Most futures traders watch spot. The pros watch the curve.\n\nCommodity Carry (Erb & Harvey 2006, Koijen 2018):\n🔹 Rank by roll yield\n🔹 Long backwardated, short contangoed\n🔹 Dollar-neutral, monthly\n\n1 of 440 strategies.\n\nDM \"CONTANGO\" for the algo."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "strategy": "225-q-factor-roe",
+  "image_file": "images/strategy-225-roe.png",
+  "image_overrides": {
+    "instagram": "images/strategy-225-roe-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM ROE for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Receipt",
+    "twitter": "Receipt",
+    "threads": "Contrarian",
+    "facebook": "Receipt",
+    "instagram": "Receipt",
+    "bluesky": "Receipt"
+  },
+  "captions": {
+    "linkedin": "Hou, Xue and Zhang tested 80 published anomalies against one factor. Half of them disappeared.\n\nThe factor: ROE. Profitability. Published in Review of Financial Studies (2015) as the q-factor model.\n\nHere's the complete logic, no black box:\n\n🔹 ROE SORT MONTHLY. Rank every NYSE/AMEX/NASDAQ common stock by latest quarterly ROE. Refresh as new earnings drop.\n🔹 PROFITABILITY PREMIUM. The long-short spread carried a t-stat above 2 from 1967 to 2012. That's statistical significance, not a return claim.\n🔹 INVESTMENT ORTHOGONAL. Near-zero correlation with the investment factor. Two independent dimensions of quality.\n🔹 18-CELL SORT. 2 by 3 by 3 across size, investment, profitability. Spans the cross-section.\n🔹 PEAD CAPTURE. Monthly refresh from quarterly earnings catches post-earnings-announcement drift before it decays.\n🔹 ANOMALY DIGESTION. ROE plus the investment factor absorb roughly half of 80 published anomalies, including standard momentum.\n\nSource: Hou, Xue and Zhang (2015), Review of Financial Studies 28(3). Educational use only.\n\nMost factor vendors won't tell you which factors are redundant. The q-model paper does.\n\n1 of 440 strategies in our research library.\n\nDM 'ROE' for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #FactorInvesting #QualityInvesting #SystematicTrading",
+    "twitter": "Hou, Xue, Zhang tested 80 anomalies. Half disappeared once ROE was added.\n\nThe q-factor recipe:\n🔹 sort by latest quarterly ROE\n🔹 refresh monthly\n🔹 long top, short bottom\n🔹 t-stat above 2, 1967-2012\n\nHXZ (2015), RFS.\n\nDM 'ROE' for the algo + research file.",
+    "threads": "Most retail quants stack 5 factors and call it diversification.\n\nHou, Xue and Zhang showed that 2 factors, ROE and investment, absorb half of 80 published anomalies. Including momentum.\n\nThe ROE recipe:\n🔹 monthly sort on latest quarterly ROE\n🔹 long top, short bottom\n🔹 t-stat above 2, 1967-2012\n\nRFS (2015). 1 of 440 in our research library.\n\nDM 'ROE' for the complete algo + research file.\n\nViprasol Tech.",
+    "facebook": "Hou, Xue and Zhang ran a test that should have ended the factor zoo debate.\n\nThey took 80 published market anomalies and checked which ones survived once you controlled for ROE and investment. Roughly half disappeared. Including the standard momentum factor.\n\nThe ROE leg of the q-factor model:\n\n🔹 Sort all NYSE/AMEX/NASDAQ common stocks by latest quarterly return on equity.\n🔹 Refresh the sort monthly as new earnings reports drop.\n🔹 Long the top decile, short the bottom.\n🔹 The premium carried a t-stat above 2 from 1967 to 2012. That's statistical significance, not a return promise.\n🔹 Monthly refresh from quarterly earnings catches post-earnings drift before it decays.\n🔹 Two-factor model (RX plus HML-FX in their cousin paper) prices the cross-section at least as well as Fama-French-Carhart.\n\nSource: Hou, Xue and Zhang (2015), Review of Financial Studies 28(3). Educational use only.\n\n1 of 440 strategies in our research library.\n\nDM 'ROE' for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "1 factor absorbed half of 80 published anomalies. Including momentum.\n\nIt's ROE. Profitability.\n\n🔹 monthly sort on quarterly ROE\n🔹 long top, short bottom\n🔹 t-stat above 2, 1967-2012\n🔹 catches post-earnings drift\n🔹 independent of investment factor\n\nHou, Xue, Zhang (2015), RFS. Educational use only.\n\n1 of 440 in our research library.\n\nDM 'ROE' for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantTrading #FactorInvesting #QualityInvesting #Fintech",
+    "bluesky": "Hou, Xue, Zhang (2015): 1 factor (ROE) absorbed half of 80 anomalies. Including momentum.\n\n🔹 monthly sort on quarterly ROE\n🔹 long top, short bottom\n🔹 t-stat above 2, 1967-2012\n\nRFS, peer-reviewed.\n\nDM 'ROE' for the algo + research file."
+  }
+}

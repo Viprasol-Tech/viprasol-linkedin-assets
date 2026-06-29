@@ -1,0 +1,24 @@
+{
+  "strategy": "101-piotroski-f-score",
+  "image_file": "images/strategy-101-fscore.png",
+  "image_overrides": {
+    "instagram": "images/strategy-101-fscore-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM PIOTROSKI for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Negative Frame",
+    "twitter": "Negative Frame",
+    "threads": "Curiosity Gap",
+    "facebook": "Negative Frame",
+    "instagram": "Negative Frame",
+    "bluesky": "Stolen Lessons"
+  },
+  "captions": {
+    "linkedin": "Stop buying cheap stocks blind. Half of high book-to-market names are not undervalued. They're distressed, and distressed firms keep falling.\n\nJoseph Piotroski (Journal of Accounting Research, 2000) built a 9-point checklist to separate the phoenixes from the zombies inside the value universe. Each signal is binary, mechanical, and pulled straight from the financial statements:\n\n🔹 PROFITABILITY, ROA and cash flow positive and improving\n🔹 LEVERAGE DROPS, deleveraging and liquidity improving\n🔹 NO ISSUANCE, firms not issuing new equity shares\n🔹 MARGIN IMPROVING, gross margin and asset turnover gains\n🔹 ANNUAL CADENCE, 5 months post fiscal year-end data\n🔹 QUALITY FOCUS, 9 binary accounting strength signals\n\nThe edge concentrates in small, illiquid, low-analyst names where information diffuses slowly. Large-cap magnitude compressed after publication as institutions adopted it.\n\nPiotroski (2000) Journal of Accounting Research; educational only, not investment advice.\n\nWe share the strategy... for free. The build is the business.\n\n1 of 440 strategies in our research library.\n\n👉 DM \"PIOTROSKI\" for the complete algo + research file.\n\n#ValueInvesting #QuantitativeFinance #FactorInvesting #SystematicTrading #AlgorithmicTrading",
+    "twitter": "Stop buying cheap stocks blind.\n\nHalf of high book-to-market names are distressed, not undervalued. Distressed keeps falling.\n\nPiotroski (2000) built a 9-point accounting checklist to separate winners from zombies inside the value bucket.\n\nDM \"PIOTROSKI\" for the file.",
+    "threads": "Here's what nobody tells you about value investing: half of the cheap stocks are cheap because they should be.\n\nPiotroski (2000) built a 9-point accounting checklist to separate phoenixes from zombies in the high book-to-market universe.\n\n🔹 ROA + cash flow positive and improving\n🔹 Deleveraging, liquidity gains\n🔹 No new share issuance\n🔹 Gross margin gains\n\nStrongest in small, illiquid, low-analyst names.\n\nDM \"PIOTROSKI\" for the file.",
+    "facebook": "Stop buying cheap stocks blind. Half of high book-to-market names are not undervalued. They're distressed, and distressed firms keep falling.\n\nJoseph Piotroski (Journal of Accounting Research, 2000) built a 9-point accounting checklist to separate the phoenixes from the zombies inside the value universe.\n\nEach signal is binary, mechanical, and pulled straight from the financial statements:\n\n🔹 PROFITABILITY, ROA and cash flow positive and improving\n🔹 LEVERAGE DROPS, deleveraging and liquidity improving\n🔹 NO ISSUANCE, firms not issuing new equity shares\n🔹 MARGIN IMPROVING, gross margin and asset turnover gains\n🔹 ANNUAL CADENCE, 5 months post fiscal year-end data\n🔹 QUALITY FOCUS, 9 binary signals total\n\nThe edge concentrates in small, illiquid, low-analyst names where information diffuses slowly. Large-cap magnitude compressed after publication as institutions adopted it.\n\nPiotroski (2000) Journal of Accounting Research; educational only, not investment advice.\n\nWe share the strategy... for free. The build is the business.\n\n1 of 440 strategies in our research library.\n\nDM \"PIOTROSKI\" for the complete algo + research file.",
+    "instagram": "Stop buying cheap stocks blind. Half of them deserve to be cheap.\n\nPiotroski's 9-point checklist (Journal of Accounting Research, 2000):\n🔹 ROA + cash flow positive and rising\n🔹 Deleveraging, liquidity improving\n🔹 No new share issuance\n🔹 Gross margin gains\n🔹 Asset turnover gains\n\nStrongest in small, illiquid, low-analyst names where information diffuses slowly.\n\nWe share the strategy... for free. The build is the business.\n\nDM \"PIOTROSKI\" for the complete algo + research file.\n.\n.\n#ValueInvesting #QuantTrading #FactorInvesting #SystematicTrading #AlgorithmicTrading",
+    "bluesky": "Steal Piotroski's 9-point accounting checklist (Journal of Accounting Research, 2000).\n\nInside the high book-to-market universe, the score separates phoenixes from zombies. Strongest in small, illiquid, low-analyst names.\n\nDM \"PIOTROSKI\" for the file."
+  }
+}

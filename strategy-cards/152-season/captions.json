@@ -1,0 +1,24 @@
+{
+  "strategy": "152-heston-sadka-seasonality",
+  "image_file": "images/strategy-152-season.png",
+  "image_overrides": {
+    "instagram": "images/strategy-152-season-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM SEASON for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Contrarian",
+    "twitter": "Contrarian",
+    "threads": "Contrarian",
+    "facebook": "Contrarian",
+    "instagram": "Contrarian",
+    "bluesky": "Receipts"
+  },
+  "captions": {
+    "linkedin": "December winners win December again. Most quants throw this signal in the trash. 📊\n\nHeston and Sadka (2008, JFE) ran a regression nobody else bothered to run. They lagged stock returns by 12, 24, 36, all the way out to 240 months. Coefficients were positive at every annual lag.\n\nIn plain English: the stock that beat its peers last January tends to beat them next January too. Same for every month. The pattern survives controls for size, industry, January effect, dividends and earnings.\n\nMost people dismiss this as the January effect, or noise. It isn't. It's a stock-level calendar pattern that runs alongside size, value, and momentum.\n\nHere's the complete logic. No black box:\n\n🔹 SAME-MONTH SIGNAL, compute each stock's average return in the target month over 10-20 years.\n🔹 DECILE RANKING, sort by that historical same-month performance.\n🔹 LONG TOP DECILE, hold for 1 month.\n🔹 MONTHLY REBALANCE, re-rank for the next calendar slot.\n🔹 INTERNATIONAL, documented in multiple markets.\n\nLikely drivers: seasonal cash flows, risk exposures, or behavioral calendar anchoring. Pick your story. The signal is the signal.\n\nIf you already run momentum, this is an orthogonal calendar signal that combines cleanly.\n\n1 of 440 strategies in our research library.\n\nDM \"SEASON\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #SystematicTrading #MarketAnomalies #Fintech",
+    "twitter": "December winners win December again.\n\nHeston-Sadka (2008, JFE): lag stock returns 12, 24... 240 months. Coefficients positive at every annual lag. Survives size, industry, January.\n\nDecile rank by same-month history.\n\nDM \"SEASON\" for the algo + paper.",
+    "threads": "December winners win December again. Most quants ignore this. 📊\n\nHeston-Sadka (2008, JFE): regress returns on 12, 24... 240-month lags. Coefficients positive at every annual lag. Survives size, industry, January, earnings.\n\n🔹 avg each stock's return in target month over 10-20 yrs\n🔹 decile rank\n🔹 long top decile, 1-month hold\n🔹 monthly rebalance\n\n1 of 440 in our library. DM \"SEASON\" for the algo + paper.",
+    "facebook": "December winners win December again. Most quants throw this signal in the trash. 📊\n\nHeston and Sadka (2008, JFE) ran a regression nobody else bothered to run. They lagged stock returns by 12, 24, 36, all the way out to 240 months. Coefficients were positive at every annual lag.\n\nIn plain English: the stock that beat its peers last January tends to beat them next January too. Same for every month. The pattern survives controls for size, industry, January effect, dividends and earnings.\n\nIt isn't the January effect. It's a stock-level calendar signal.\n\nThe logic:\n\n🔹 SAME-MONTH SIGNAL, average each stock's return in the target month over 10-20 years.\n🔹 DECILE RANKING, sort stocks by that history.\n🔹 LONG TOP DECILE, hold for 1 month.\n🔹 MONTHLY REBALANCE, re-rank each month.\n🔹 INTERNATIONAL, documented in multiple markets.\n\nLikely drivers: seasonal cash flows, risk exposures, behavioral calendar anchoring. Orthogonal to momentum.\n\n1 of 440 strategies in our research library.\n\nDM \"SEASON\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "December winners win December again. Most quants ignore it. 📊\n\nHeston-Sadka (2008, JFE): stock returns are autocorrelated at 12, 24, 36... 240-month lags. Not the January effect. A stock-level calendar signal.\n\n🔹 avg each stock's return in target month over 10-20 yrs\n🔹 decile rank\n🔹 long top decile, 1-month hold\n🔹 monthly rebalance\n\n1 of 440 in our library. DM \"SEASON\" for the algo + paper.\n\n#AlgorithmicTrading #QuantTrading #SystematicTrading #MarketAnomalies #Fintech",
+    "bluesky": "Heston-Sadka (2008, JFE): regress stock returns on their own 12, 24, 36... 240-month lags. Coefficients positive at every annual lag.\n\nLast January's winner tends to win next January too. Survives size, industry, dividends, earnings.\n\nDM \"SEASON\" for the algo + paper."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "strategy": "088-quality-minus-junk",
+  "image_file": "images/strategy-088.png",
+  "image_overrides": {
+    "instagram": "images/strategy-088-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft CTA: DM DEFENSIVE.",
+  "hook_categories": {
+    "linkedin": "Stolen Lessons",
+    "twitter": "Stolen Lessons",
+    "threads": "Receipts",
+    "facebook": "Contrarian",
+    "instagram": "Stolen Lessons",
+    "bluesky": "Curiosity Gap"
+  },
+  "captions": {
+    "linkedin": "AQR built a multi-billion-dollar book on this factor. We're about to steal the recipe. 📊\n\nQuality Minus Junk (Asness, Frazzini & Pedersen, RFS 2019) is the most replicated defensive factor in modern quant finance. Tested across 25 countries. Robust to definition. Negatively correlated with value.\n\nHere's the 4-pillar quality score:\n\n🔹 PROFITABILITY. Gross profit to assets, cash-flow margins.\n🔹 GROWTH. Trailing 5-year growth in profitability measures.\n🔹 SAFETY. Low beta, low leverage, low earnings volatility.\n🔹 PAYOUT. Shareholder-friendly dividends and buybacks.\n\nThe trade:\n\n🔹 SCORE every stock on the composite.\n🔹 LONG the top 30%, SHORT the bottom 30% (the \"junk\").\n🔹 Size-neutral, value-weighted, monthly rebalance.\n🔹 Replicate across 24 developed countries for geographic diversification.\n\nWhy it works: the market underprices boring, profitable, low-volatility businesses because they aren't lottery tickets. The behavioral preference for upside-skewed stocks leaves a quiet premium on quality.\n\nWhy it matters: quality is defensive. It tends to hold up in stress periods while junk gets dumped. That asymmetry is the whole point.\n\n1 of 440 strategies in our research library.\n\nDM \"DEFENSIVE\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\nViprasol Tech\n\n#AlgorithmicTrading #QuantitativeFinance #QualityInvesting #FactorInvesting #SystematicTrading",
+    "twitter": "AQR built a book on this factor. Here's the recipe.\n\nQuality Minus Junk (Asness, Frazzini, Pedersen, RFS 2019):\n\n🔹 Score: profitability, growth, safety, payout\n🔹 Long top 30%, short bottom 30%\n🔹 Replicated in 25 countries\n\nDM \"DEFENSIVE\".",
+    "threads": "25 countries. Robust to definition. Negatively correlated with value.\n\nQuality Minus Junk (Asness, Frazzini & Pedersen, RFS 2019):\n\n🔹 PROFITABILITY: gross profit, cash flow margins\n🔹 GROWTH: 5yr trailing growth in profitability\n🔹 SAFETY: low beta, low leverage, low earnings vol\n🔹 PAYOUT: dividends + buybacks\n🔹 Long top 30%, short bottom 30%\n\nDefensive in stress periods.\n\nDM \"DEFENSIVE\" for the algo.",
+    "facebook": "Everyone chases growth stocks. The quiet money owns quality. 📊\n\nQuality Minus Junk (Asness, Frazzini & Pedersen, RFS 2019) is the most replicated defensive factor in quant finance. Across 25 countries, robust to how you define quality.\n\nThe 4-pillar composite:\n\n🔹 PROFITABILITY: gross profit to assets, cash-flow margins.\n🔹 GROWTH: trailing 5-year growth in profitability.\n🔹 SAFETY: low beta, low leverage, low earnings volatility.\n🔹 PAYOUT: dividends and buybacks.\n\nThe trade: long top 30%, short bottom 30%, size-neutral, value-weighted, monthly rebalance.\n\nWhy it works: the market underprices boring, profitable, stable businesses because they aren't lottery tickets.\n\n1 of 440 strategies in our research library.\n\nDM \"DEFENSIVE\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\nViprasol Tech",
+    "instagram": "AQR built a book on this. Here's the recipe. 📊\n\nQuality Minus Junk (Asness, Frazzini, Pedersen, RFS 2019):\n\n🔹 Score on profitability, growth, safety, payout\n🔹 Long top 30%, short bottom 30%\n🔹 Size-neutral, value-weighted\n🔹 Tested in 25 countries\n🔹 Defensive in stress periods\n\nDM \"DEFENSIVE\" for the algo.\n.\n.\n#AlgorithmicTrading #QuantTrading #FactorInvesting #QualityInvesting #Fintech",
+    "bluesky": "Here's what AQR's defensive book runs on.\n\nQuality Minus Junk (Asness, Frazzini, Pedersen, RFS 2019):\n🔹 Score: profitability, growth, safety, payout\n🔹 Long top 30%, short bottom 30%\n🔹 Replicated in 25 countries\n\nDM \"DEFENSIVE\" for the algo."
+  }
+}

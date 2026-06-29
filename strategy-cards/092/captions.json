@@ -1,0 +1,24 @@
+{
+  "strategy": "092-52-week-high-momentum",
+  "image_file": "images/strategy-092.png",
+  "image_overrides": {
+    "instagram": "images/strategy-092-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft CTA: DM ANCHOR.",
+  "hook_categories": {
+    "linkedin": "Curiosity Gap",
+    "twitter": "Curiosity Gap",
+    "threads": "Contrarian",
+    "facebook": "Stolen Lessons",
+    "instagram": "Curiosity Gap",
+    "bluesky": "Contrarian"
+  },
+  "captions": {
+    "linkedin": "There's a single number on every stock chart that predicts next-month returns better than 12 months of price history. 📊\n\nIt's the 52-week high.\n\nGeorge & Hwang (Journal of Finance, 2004) found that nearness to the 52-week high (current price divided by the trailing 52-week peak) dominates Jegadeesh-Titman individual-stock and industry momentum. In a horse race, the 52-week high signal wins.\n\nHere's the complete logic:\n\n🔹 RATIO. For each stock, compute (current price) / (52-week high). A number between 0 and 1.\n🔹 RANK every stock by the ratio.\n🔹 LONG the top 30% (stocks closest to their 52-week high).\n🔹 SHORT the bottom 30% (stocks farthest below).\n🔹 EQUAL-WEIGHTED, overlapping 6-month holds.\n🔹 Forecasted returns do NOT reverse over subsequent years. This is persistent drift, not short-term mean reversion.\n\nWhy it works: anchoring bias. Investors treat the 52-week high as a psychological reference point. Stocks near the high face resistance from sellers using the anchor as an exit price. When they punch through, the anchor releases and the stock drifts higher with low turnover.\n\nInternational studies confirmed the effect in 18 of 20 markets.\n\n1 of 440 strategies in our research library.\n\nDM \"ANCHOR\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\nViprasol Tech\n\n#AlgorithmicTrading #QuantitativeFinance #MomentumInvesting #BehavioralFinance #SystematicTrading",
+    "twitter": "One number on every chart predicts next-month returns better than 12mo of price history.\n\nThe 52-week high.\n\nGeorge & Hwang (JF 2004):\n\n🔹 Ratio: price / 52wk high\n🔹 Long top 30%, short bottom 30%\n🔹 6mo overlapping holds\n🔹 Beats classic momentum\n\nDM \"ANCHOR\".",
+    "threads": "Forget complex momentum windows. The simplest signal beats them all.\n\n52-Week High Momentum (George & Hwang, JF 2004):\n\n🔹 Signal: price / 52-week high\n🔹 Long top 30% (near high), short bottom 30%\n🔹 6mo overlapping holds, equal-weighted\n🔹 Dominates Jegadeesh-Titman in head-to-head\n🔹 Returns do NOT reverse long-term\n🔹 Anchoring bias drives it\n\nConfirmed in 18 of 20 international markets.\n\nDM \"ANCHOR\".",
+    "facebook": "Behavioral economists have known about anchoring bias for decades. Quants turned it into a trading factor. 📊\n\n52-Week High Momentum (George & Hwang, Journal of Finance 2004) uses a single ratio to beat classic Jegadeesh-Titman momentum head to head.\n\nThe logic:\n\n🔹 RATIO: current price divided by trailing 52-week high. A number between 0 and 1.\n🔹 RANK every stock by the ratio.\n🔹 LONG top 30% (near the high), SHORT bottom 30% (far below).\n🔹 6-month overlapping holds, equal-weighted.\n\nWhy it works: investors treat the 52-week high as a psychological reference. Stocks near the high face seller resistance; when they break through, the anchor releases and the drift continues. Crucially, the forecasted returns do not reverse, so this isn't a short-term mean-reversion play.\n\nConfirmed in 18 of 20 international markets.\n\n1 of 440 strategies in our research library.\n\nDM \"ANCHOR\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\nViprasol Tech",
+    "instagram": "One ratio on every chart beats 12 months of momentum history. 📊\n\n52-Week High (George & Hwang, JF 2004):\n\n🔹 Ratio: price / 52wk high\n🔹 Long top 30%, short bottom 30%\n🔹 6mo overlapping holds\n🔹 Returns don't reverse\n🔹 Anchoring bias drives it\n\nDM \"ANCHOR\" for the algo.\n.\n.\n#AlgorithmicTrading #QuantTrading #MomentumInvesting #BehavioralFinance #Fintech",
+    "bluesky": "Forget complex momentum windows. The simplest signal wins.\n\n52-Week High (George & Hwang, JF 2004):\n🔹 Ratio: price / 52wk high\n🔹 Long top 30%, short bottom 30%\n🔹 6mo overlapping holds\n🔹 Beats Jegadeesh-Titman\n\nDM \"ANCHOR\" for the algo."
+  }
+}

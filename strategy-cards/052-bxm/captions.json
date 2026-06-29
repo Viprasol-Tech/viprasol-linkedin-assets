@@ -1,0 +1,24 @@
+{
+  "strategy": "052-covered-call-bxm",
+  "image_file": "images/strategy-052-bxm.png",
+  "image_overrides": {
+    "instagram": "images/strategy-052-bxm-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM COVERED for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Negative Frame",
+    "twitter": "Negative Frame",
+    "threads": "Receipts",
+    "facebook": "Curiosity Gap",
+    "instagram": "Negative Frame",
+    "bluesky": "Contrarian"
+  },
+  "captions": {
+    "linkedin": "Stop selling naked calls.\n\nThe Cboe built an entire index to show you the safer way, and it's been live since 2002.\n\nIt's called BXM. Whaley wrote the original paper in the Journal of Derivatives (2002). The mechanics:\n\n🔹 OWN THE S&P 500 (the \"covered\" part, not naked)\n🔹 SELL 1 AT-THE-MONEY CALL each month against full notional\n🔹 ~50 DELTA strike, monthly roll cycle\n🔹 Collect 1.69% to 1.8% monthly premium on average\n🔹 Premium becomes a cushion in flat or declining tape\n🔹 You cap upside above the strike. That's the trade.\n\n32+ years of live, exchange-published data. No backtest curve-fit, no vendor screenshots. Just one of the oldest systematic income overlays in modern finance.\n\nThe retail mistake: selling premium without owning the underlying. Then one fast rally, account gone.\n\nThe institutional version: own the index, sell the call, sleep at night.\n\nStrategy shared free. Performance depends on execution, sizing, and roll discipline, that's the part we engineer.\n\nThis is 1 of 440 strategies in our research library.\n\n👉 DM \"COVERED\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business. 🚀\n\n#AlgorithmicTrading #QuantitativeFinance #OptionsTrading #SystematicTrading #Fintech",
+    "twitter": "Stop selling naked calls.\n\nCboe built an index to show the safer version. BXM, live since 2002 (Whaley, J. Derivatives):\n\n🔹 Own SPX\n🔹 Sell 1 ATM call monthly\n🔹 ~1.7% premium income\n🔹 Capped upside above strike\n\n1 of 440 in our library. DM \"COVERED\" 👇",
+    "threads": "32 years of live, exchange-published data on one options income strategy.\n\nCboe BXM Index (Whaley, J. Derivatives 2002):\n🔹 Own S&P 500\n🔹 Sell 1 ATM call monthly, ~50 delta\n🔹 Collect ~1.7% premium\n🔹 Cap upside above strike\n\nNot a backtest. A live benchmark.\n\nStrategy shared free. 1 of 440 in our library.\n\nDM \"COVERED\" for the algo + research file.",
+    "facebook": "Here's what nobody tells retail option sellers.\n\nThe Cboe built an index in 2002 to track the safest, most boring version of \"sell calls for income.\" It's called BXM, and the paper sits in the Journal of Derivatives (Whaley, 2002).\n\nThe mechanics, in plain English:\n\n🔹 You own the S&P 500. (The \"covered\" part.)\n🔹 You sell 1 at-the-money call each month against the full notional.\n🔹 You collect 1.69% to 1.8% premium on average per month.\n🔹 If the index rallies above your strike, you cap out. That's the cost.\n🔹 If it drifts or drops, the premium cushions you.\n\n32+ years of live, exchange-published data. No curve fit.\n\nStrategy shared free. Performance depends on execution, sizing, and roll discipline, that's the part we engineer.\n\nThis is 1 of 440 strategies in our research library.\n\nDM \"COVERED\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "Stop selling naked calls. There's a 32-year exchange-published version that's safer 📊\n\nCboe BXM Index (Whaley, J. Derivatives 2002):\n🔹 own S&P 500\n🔹 sell 1 ATM call monthly\n🔹 ~50 delta strike\n🔹 ~1.7% premium income\n🔹 capped upside above strike\n\n1 of 440 in our library 🎯\n\nDM \"COVERED\" for the algo + research file 👇\n.\n.\n#AlgorithmicTrading #QuantTrading #OptionsTrading #SystematicTrading #Fintech",
+    "bluesky": "Most retail option sellers go naked. Cboe built an entire index to show the covered version is the durable one.\n\nBXM (Whaley, J. Derivatives 2002):\n🔹 Own SPX\n🔹 Sell 1 ATM call monthly\n🔹 ~1.7% premium\n🔹 Capped above strike\n\nDM \"COVERED\" for the algo."
+  }
+}

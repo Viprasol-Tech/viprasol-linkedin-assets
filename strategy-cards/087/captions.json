@@ -1,0 +1,24 @@
+{
+  "strategy": "087-fx-value-ppp",
+  "image_file": "images/strategy-087.png",
+  "image_overrides": {
+    "instagram": "images/strategy-087-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft CTA: DM MISPRICED.",
+  "hook_categories": {
+    "linkedin": "Contrarian",
+    "twitter": "Contrarian",
+    "threads": "Curiosity Gap",
+    "facebook": "Negative Frame",
+    "instagram": "Contrarian",
+    "bluesky": "Negative Frame"
+  },
+  "captions": {
+    "linkedin": "Unpopular opinion: Most FX traders look at the wrong chart. 📊\n\nThey watch the spot rate. They should be watching the real exchange rate against purchasing power parity.\n\nAsness, Moskowitz & Pedersen (Journal of Finance, 2013) showed FX value works as a unified factor alongside equities, bonds, and commodities. The mechanism is patience, not prediction.\n\nHere's the complete logic:\n\n🔹 PPP. Anchor every currency to its purchasing power parity benchmark using point-in-time CPI data (no look-ahead).\n🔹 RANK currencies by negative 5-year real exchange rate change. Cheap currencies rise to the top.\n🔹 LONG the cheap tercile, SHORT the expensive. Use forwards, rank-weighted.\n🔹 HOLD. Half-life is 3-5 years. This is a slow factor.\n🔹 PAIR with FX momentum. They're negatively correlated, so the combo diversifies.\n\nWhy it works: real exchange rates mean-revert because trade flows, capital movement, and inflation pressure pull them back. It just takes years.\n\nWhy retail can't capture it: the holding period kills them. They want monthly P&L, the factor wants multi-year patience.\n\n1 of 440 strategies in our research library.\n\nDM \"MISPRICED\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\nViprasol Tech\n\n#AlgorithmicTrading #QuantitativeFinance #ForexTrading #ValueInvesting #SystematicTrading",
+    "twitter": "Unpopular opinion: most FX traders watch the wrong chart.\n\nFX Value (Asness, Moskowitz & Pedersen, JF 2013):\n\n🔹 Anchor each currency to PPP\n🔹 Rank by 5yr real exchange rate change\n🔹 Long cheap, short expensive\n🔹 Half-life: 3-5 years\n\nDM \"MISPRICED\" for the algo.",
+    "threads": "Here's what nobody tells you about FX value.\n\nIt isn't about predicting next week. It's about patience.\n\nAsness, Moskowitz & Pedersen (JF 2013):\n\n🔹 Anchor each currency to PPP using point-in-time CPI\n🔹 Rank by 5yr real exchange rate change\n🔹 Long cheap tercile, short expensive\n🔹 Half-life: 3-5 years. Multi-year hold\n🔹 Pair with FX momentum (negatively correlated)\n\n1 of 440 strategies.\n\nDM \"MISPRICED\" for the algo.",
+    "facebook": "Stop chasing FX signals on the 4-hour chart. The real edge runs on a 3-5 year clock. 📊\n\nFX Value (Asness, Moskowitz & Pedersen, JF 2013) is one of the most replicated cross-asset factors in academic finance. The mechanism:\n\n🔹 Anchor every currency to purchasing power parity using point-in-time CPI data.\n🔹 RANK currencies by negative 5-year real exchange rate change.\n🔹 LONG the cheap tercile, SHORT the expensive tercile, via forwards.\n🔹 Hold for multi-year mean reversion. Half-life: 3-5 years.\n\nIt's negatively correlated with momentum, so the combo diversifies cleanly.\n\nWhy retail traders skip it: monthly P&L pressure kills the holding period.\n\n1 of 440 strategies in our research library.\n\nDM \"MISPRICED\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\nViprasol Tech",
+    "instagram": "Unpopular opinion: most FX traders watch the wrong chart. 📊\n\nFX Value (Asness, Moskowitz & Pedersen, JF 2013):\n\n🔹 Anchor each currency to PPP\n🔹 Rank by 5yr real exchange rate change\n🔹 Long cheap, short expensive\n🔹 Half-life: 3-5 years\n🔹 Pairs with FX momentum\n\n1 of 440 strategies.\n\nDM \"MISPRICED\" for the algo.\n.\n.\n#AlgorithmicTrading #QuantTrading #ForexTrading #ValueInvesting #Fintech",
+    "bluesky": "Most FX traders trade the wrong horizon.\n\nFX Value (Asness, Moskowitz, Pedersen, JF 2013):\n🔹 Anchor to PPP\n🔹 Rank by 5yr real FX change\n🔹 Long cheap, short expensive\n🔹 Multi-year hold\n\nDM \"MISPRICED\" for the algo."
+  }
+}

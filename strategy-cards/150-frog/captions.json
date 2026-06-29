@@ -1,0 +1,24 @@
+{
+  "strategy": "150-frog-in-the-pan-momentum",
+  "image_file": "images/strategy-150-frog.png",
+  "image_overrides": {
+    "instagram": "images/strategy-150-frog-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM FROG for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Stolen Lessons",
+    "twitter": "Receipts",
+    "threads": "Curiosity Gap",
+    "facebook": "Stolen Lessons",
+    "instagram": "Receipts",
+    "bluesky": "Curiosity Gap"
+  },
+  "captions": {
+    "linkedin": "Da, Gurun and Warachka (2014, RFS) split momentum in 2 and only 1 half actually worked. 📊\n\nStandard momentum lumps every winner together. The Frog-in-the-Pan paper asked a sharper question: did the winner creep up day after day, or get there by a few violent jumps?\n\nContinuous-information momentum (slow daily drift) earned +5.94% in the paper. Discrete-information momentum (a few big jumps) earned -2.07%. Same 12-1 formation, opposite outcomes.\n\nThe mechanism is limited attention. A 1% jump hits the news. A 0.1% drift over 60 sessions is the same move, and almost nobody notices.\n\nHere's the complete logic. No black box:\n\n🔹 12-1 FORMATION, skip the most recent month.\n🔹 INFO DISCRETENESS, score each stock by the fraction of up-vs-down days.\n🔹 CONTINUOUS FILTER, keep only the steady-drip names.\n🔹 LONG WINNERS / SHORT LOSERS, inside the continuous bucket.\n🔹 6-MONTH HOLD, continuous-info momentum does not reverse.\n🔹 LOW-COVERAGE TILT, neglected names show the strongest drift.\n\nIf you already run momentum, this is a single filter that strips out the slice most likely to mean-revert.\n\n1 of 440 strategies in our research library.\n\nDM \"FROG\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #MomentumInvesting #FactorInvesting #Fintech",
+    "twitter": "Da-Gurun-Warachka (2014, RFS): split momentum by how it was earned.\n\nContinuous-info momentum (slow daily drift): +5.94% in the paper.\nDiscrete-info momentum (a few big jumps): -2.07%.\n\nSame 12-1 formation. Opposite outcomes. Limited attention.\n\nDM \"FROG\" for the algo + paper.",
+    "threads": "Here's what nobody tells you about momentum: half of it mean-reverts. 📊\n\nDa-Gurun-Warachka (2014, RFS) split momentum by how the winner got there. Slow daily drift (continuous info) earned +5.94% in the paper. A few violent jumps (discrete info) earned -2.07%. Same 12-1 window.\n\nThe logic:\n🔹 12-1 formation, skip last month\n🔹 score by up-vs-down day fraction\n🔹 keep only continuous-info names\n🔹 6-month hold, no reversal\n🔹 low-coverage tilt\n\n1 of 440 in our library. DM \"FROG\" for the algo + paper.",
+    "facebook": "Da, Gurun and Warachka (2014, RFS) split momentum in 2 and only 1 half actually worked. 📊\n\nStandard momentum lumps every winner together. The Frog-in-the-Pan paper asked: did the winner creep up slowly, or did it get there with a few violent jumps?\n\nContinuous-information momentum (slow daily drift) earned +5.94% in the paper. Discrete-information momentum (a few big jumps) earned -2.07%. Same 12-1 formation, opposite outcomes.\n\nThe mechanism is limited attention. A 1% jump hits the news. A 0.1% daily drift over 60 sessions is the same move, and almost nobody notices.\n\nThe logic:\n\n🔹 12-1 FORMATION, skip the most recent month.\n🔹 INFO DISCRETENESS, score by the fraction of up-vs-down days.\n🔹 CONTINUOUS FILTER, keep steady-drip names only.\n🔹 6-MONTH HOLD, no reversal.\n🔹 LOW-COVERAGE TILT, media coverage weakens the effect.\n\n1 of 440 strategies in our research library.\n\nDM \"FROG\" for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "Da-Gurun-Warachka (2014, RFS): split momentum by HOW it was earned. 📊\n\nContinuous-info (slow daily drift): +5.94% in the paper.\nDiscrete-info (a few big jumps): -2.07%.\n\nThe logic:\n🔹 12-1 formation\n🔹 score up-vs-down day fraction\n🔹 keep continuous names only\n🔹 6-month hold\n🔹 low-coverage tilt\n\n1 of 440 in our library. DM \"FROG\" for the algo + paper.\n\n#AlgorithmicTrading #QuantTrading #MomentumInvesting #FactorInvesting #Fintech",
+    "bluesky": "Here's what nobody tells you about momentum: how the winner got there matters more than how much it won.\n\nDa-Gurun-Warachka (2014, RFS): continuous-info momentum +5.94% vs discrete -2.07%. Same 12-1 formation.\n\nDM \"FROG\" for the algo + paper."
+  }
+}

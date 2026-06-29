@@ -1,0 +1,24 @@
+{
+  "strategy": "233-vrp-market-timing",
+  "image_file": "images/strategy-233-vrp.png",
+  "image_overrides": {
+    "instagram": "images/strategy-233-vrp-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM TIMER for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Curiosity Gap",
+    "twitter": "Curiosity Gap",
+    "threads": "Receipt",
+    "facebook": "Curiosity Gap",
+    "instagram": "Curiosity Gap",
+    "bluesky": "Receipt"
+  },
+  "captions": {
+    "linkedin": "Here's what nobody tells you about market timing: 1 signal beats the P/E ratio at forecasting the next quarter.\n\nIt's the Variance Risk Premium. VRP. Published in Review of Financial Studies (2009) by Bollerslev, Tauchen and Zhou.\n\nHere's the complete logic, no black box:\n\n🔹 VRP SIGNAL. Implied variance (VIX squared divided by 12) minus realized daily-return variance. That's it.\n🔹 QUARTERLY PEAK. Predictive R-squared is above 15% at the 1-quarter horizon. Hump-shaped. Weaker at monthly, weaker at annual.\n🔹 RISK-PREMIUM CHANNEL. When investors get nervous, they pay more for variance insurance. That extra premium signals higher required returns ahead.\n🔹 MONTHLY REEVAL. Standardize the VRP. Map terciles or use a linear function to set exposure weight.\n🔹 CONTRARIAN BY DESIGN. High VRP signals risk-on into stress. Counter-intuitive, which is why most retail traders fade it.\n🔹 CRISIS PROTOCOL. Cap leverage when VIX is above 40. Don't catch falling knives during liquidity events.\n\nSource: Bollerslev, Tauchen and Zhou (2009), Review of Financial Studies 22(11). Replicated internationally by Bollerslev et al. (2014). Educational use only.\n\nMost timing models look at price. This one looks at the price of fear.\n\n1 of 440 strategies in our research library.\n\nDM 'TIMER' for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #OptionsTrading #VolatilityTrading #SystematicTrading",
+    "twitter": "1 signal beats P/E at the quarterly horizon.\n\nVRP = VIX squared over 12 minus realized variance.\n\n🔹 standardize monthly\n🔹 tercile map to exposure\n🔹 high VRP, risk on\n🔹 cap leverage when VIX above 40\n\nBollerslev, Tauchen, Zhou (2009), RFS.\n\nDM 'TIMER' for the algo.",
+    "threads": "Bollerslev, Tauchen and Zhou (2009) published 1 timing signal with predictive R-squared above 15% at the quarterly horizon.\n\nIt beats the P/E ratio.\n\nThe recipe:\n🔹 implied variance (VIX squared over 12) minus realized variance\n🔹 standardize monthly\n🔹 tercile map to exposure\n🔹 cap leverage when VIX above 40\n\nRFS (2009). 1 of 440 in our research library.\n\nDM 'TIMER' for the complete algo + research file.\n\nViprasol Tech.",
+    "facebook": "Here's what nobody tells you about market timing models.\n\nOne signal, published in 2009, beats the P/E ratio at forecasting the next quarter's equity return. It carries a predictive R-squared above 15%.\n\nIt's the Variance Risk Premium. VRP.\n\nThe complete logic:\n\n🔹 Compute implied variance as VIX squared divided by 12.\n🔹 Subtract realized daily-return variance.\n🔹 That's the VRP. It tracks how much investors are paying for variance insurance over what variance actually turned out to be.\n🔹 Standardize the signal. Map terciles or use a linear function to set equity exposure.\n🔹 High VRP signals risk-on. Counter-intuitive, which is why it survives.\n🔹 Cap leverage when VIX is above 40. Don't catch falling knives in liquidity events.\n\nSource: Bollerslev, Tauchen and Zhou (2009), Review of Financial Studies 22(11). Theoretical backing in Drechsler and Yaron (2011). International replication in Bollerslev et al. (2014). Educational use only.\n\n1 of 440 strategies in our research library.\n\nDM 'TIMER' for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "Here's what nobody tells you about market timing.\n\n1 signal beats P/E at the quarterly horizon.\n\nIt's the Variance Risk Premium:\n🔹 VIX squared over 12, minus realized variance\n🔹 standardize monthly\n🔹 tercile map to exposure\n🔹 high VRP, risk on\n🔹 cap leverage when VIX above 40\n\nBollerslev, Tauchen, Zhou (2009), RFS. Educational use only.\n\n1 of 440 in our research library.\n\nDM 'TIMER' for the complete algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantTrading #OptionsTrading #VolatilityTrading #Fintech",
+    "bluesky": "1 timing signal beats P/E at the quarterly horizon. Published 2009.\n\nVRP = VIX squared over 12 minus realized variance.\n\n🔹 standardize monthly\n🔹 tercile map to exposure\n🔹 cap leverage above VIX 40\n\nBollerslev, Tauchen, Zhou, RFS.\n\nDM 'TIMER' for the algo + research file."
+  }
+}

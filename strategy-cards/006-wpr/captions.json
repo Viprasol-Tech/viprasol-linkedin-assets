@@ -1,0 +1,24 @@
+{
+  "strategy": "006-williams-percent-r-cot",
+  "image_file": "images/strategy-006-wpr.png",
+  "image_overrides": {
+    "instagram": "images/strategy-006-wpr-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM POSITIONING for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Stolen Lessons",
+    "twitter": "Stolen Lessons",
+    "threads": "Contrarian",
+    "facebook": "Stolen Lessons",
+    "instagram": "Curiosity Gap",
+    "bluesky": "Stolen Lessons"
+  },
+  "captions": {
+    "linkedin": "Larry Williams won the 1987 World Cup of Futures Trading using this exact COT logic. Most retail traders never read a single CFTC report.\n\nThe edge isn't a secret. It's just slow, weekly data nobody wants to wait for.\n\nHere's the complete logic. No black box:\n\n🔹 COMMERCIALS INDEX. Normalize weekly hedger net position to a 156-week historic range.\n🔹 MOMENTUM TRIGGER. Williams %R turning near 80 or 20 fires the entry inside the favorable COT condition.\n🔹 MULTI-MARKET. Any futures market with CFTC COT report coverage qualifies.\n🔹 WEEKLY CONDITION. COT condition resets Friday on report release, not intraday.\n🔹 STOP DISCIPLINE. Hard stops beyond recent swing keep one bad print from breaking the account.\n\nBased on Larry Williams' COT materials. CFTC data is official, but the effect remains contested in modern markets. You verify it yourself.\n\nThis is 1 of 440 strategies in our research library.\n\nWant the complete algo and the research file? DM \"POSITIONING\".\n\nViprasol Tech. We share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #FuturesTrading #SystematicTrading #COT",
+    "twitter": "Larry Williams won the 1987 World Cup of Futures Trading using COT data.\n\n🔹 Commercials Index, 156-week lookback\n🔹 Williams %R at 80/20 fires entry\n🔹 Weekly Friday reset, hard stops\n\nStrategy shared free. DM \"POSITIONING\" for the algo + research file.",
+    "threads": "Most retail traders never open a CFTC report. Larry Williams built a tournament-winning system on it.\n\nThe complete logic:\n\n🔹 COMMERCIALS INDEX. 156-week normalization of hedger net position.\n🔹 MOMENTUM TRIGGER. %R near 80 or 20 inside favorable COT.\n🔹 WEEKLY CONDITION. Friday report only.\n🔹 STOP DISCIPLINE. Hard stop beyond recent swing.\n\n1 of 440 in our research library.\n\nDM \"POSITIONING\" for the algo + research file.",
+    "facebook": "Larry Williams won the 1987 World Cup of Futures Trading using this exact COT logic. Most retail traders never read a single CFTC report.\n\nThe edge isn't a secret. It's just slow, weekly data nobody wants to wait for.\n\nHere's the complete logic:\n\n🔹 COMMERCIALS INDEX. Normalize weekly hedger net position to a 156-week range.\n🔹 MOMENTUM TRIGGER. Williams %R turning near 80 or 20 fires the entry.\n🔹 MULTI-MARKET. Any market with CFTC COT report coverage.\n🔹 WEEKLY CONDITION. COT resets Friday on report release.\n🔹 STOP DISCIPLINE. Hard stop beyond recent swing.\n\nCFTC data is official. The effect remains contested. You verify it.\n\n1 of 440 in our research library. DM \"POSITIONING\" for the algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "Here's what nobody tells retail traders: Larry Williams won a futures championship using free CFTC data.\n\nThe COT + Williams %R logic:\n🔹 156-week hedger index\n🔹 %R extremes at 80/20\n🔹 Multi-market futures\n🔹 Weekly Friday reset\n🔹 Hard stop beyond swing\n\n1 of 440 in our research library.\n\nDM \"POSITIONING\" for the algo + research file.\n\n#AlgorithmicTrading #QuantTrading #FuturesTrading #SystematicTrading #COT",
+    "bluesky": "Larry Williams won the 1987 World Cup of Futures Trading on COT data.\n\n🔹 156-week Commercials Index\n🔹 %R extremes at 80/20\n🔹 Weekly Friday reset\n🔹 Hard stops, no leverage stack\n\nDM \"POSITIONING\" for the algo + research file."
+  }
+}

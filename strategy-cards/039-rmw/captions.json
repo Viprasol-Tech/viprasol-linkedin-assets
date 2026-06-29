@@ -1,0 +1,24 @@
+{
+  "strategy": "039-ff-profitability-rmw",
+  "image_file": "images/strategy-039-rmw.png",
+  "image_overrides": {
+    "instagram": "images/strategy-039-rmw-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM PROFITABILITY for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Negative Frame",
+    "twitter": "Negative Frame",
+    "threads": "Negative Frame",
+    "facebook": "Negative Frame",
+    "instagram": "Negative Frame",
+    "bluesky": "Negative Frame"
+  },
+  "captions": {
+    "linkedin": "Stop chasing high-growth narratives. Fama and French ran 50 years of US equity data and found that robust operating profitability beat weak operating profitability with a t-statistic of 2.92.\n\nThe signal isn't earnings. It isn't revenue. It's operating profit divided by book equity, lagged cleanly.\n\nHere's the complete logic from JFE 2015. No black box:\n\n🔹 OP METRIC. Operating profitability = (revenue minus COGS minus SG&A minus interest) divided by book equity.\n🔹 SIZE-NEUTRAL SORT. Robust and weak split independently of market cap, so small-caps don't carry the factor alone.\n🔹 ANNUAL FORMATION. Rebalance end of June using prior fiscal-year data.\n🔹 VALUE-WEIGHTED. Positions sized by market cap inside 6 intersection portfolios.\n🔹 LONG-SHORT. Long high-profitability firms, short low-profitability firms.\n\nFama and French 2015, in-sample through December 2013. Small-stock RMW (t=3.06) drives the factor. Big-cap RMW is weak (t=1.81). Post-publication decay documented. You verify it.\n\nThis is 1 of 440 strategies in our research library.\n\nWant the complete algo and the research file? DM \"PROFITABILITY\".\n\nViprasol Tech. We share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #FactorInvesting #QualityInvesting #Fintech",
+    "twitter": "Stop chasing growth narratives.\n\nFama-French found robust profitability beat weak profitability with t=2.92 across 50 years (JFE 2015).\n\n🔹 OP / Book Equity signal\n🔹 Size-neutral 2x3 sort\n🔹 June annual rebalance\n\nDM \"PROFITABILITY\" for the algo + research file.",
+    "threads": "Stop chasing growth narratives. Fama-French found robust profitability beat weak profitability with t=2.92 over 50 years (JFE 2015).\n\nThe logic:\n\n🔹 OP = (Revenue - COGS - SG&A - Interest) / Book Equity\n🔹 Size-neutral 2x3 sort\n🔹 June annual rebalance\n🔹 Value-weighted, 6 portfolios\n🔹 Long robust, short weak\n\nPremium concentrates in small caps. You verify.\n\nDM \"PROFITABILITY\" for the algo + research file.",
+    "facebook": "Stop chasing high-growth narratives.\n\nFama and French ran 50 years of US equity data and found robust operating profitability beat weak operating profitability with a t-statistic of 2.92.\n\nThe signal isn't earnings. It isn't revenue. It's operating profit divided by book equity.\n\nThe complete logic from JFE 2015:\n\n🔹 OP = (Revenue - COGS - SG&A - Interest) / Book Equity\n🔹 SIZE-NEUTRAL SORT. Robust vs weak split independently of market cap.\n🔹 ANNUAL FORMATION. June rebalance using prior fiscal-year data.\n🔹 VALUE-WEIGHTED. 6 intersection portfolios.\n🔹 LONG-SHORT. Long high-profitability, short low-profitability.\n\nSmall-stock RMW drives the factor (t=3.06). Big-cap weak (t=1.81). Decay documented. You verify.\n\n1 of 440 in our research library. DM \"PROFITABILITY\" for the algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "Stop chasing growth narratives. Fama-French found robust profitability beat weak with t=2.92 across 50 years.\n\nThe logic:\n🔹 OP / Book Equity\n🔹 Size-neutral 2x3 sort\n🔹 June annual rebalance\n🔹 Value-weighted, 6 portfolios\n🔹 Long robust, short weak\n\n1 of 440 in our research library.\n\nDM \"PROFITABILITY\" for the algo + research file.\n\n#AlgorithmicTrading #QuantTrading #FactorInvesting #QualityInvesting #Fintech",
+    "bluesky": "Stop chasing growth narratives. Fama-French found robust profitability beat weak with t=2.92 over 50 years (JFE 2015).\n\n🔹 OP / Book Equity signal\n🔹 Size-neutral 2x3 sort\n🔹 June rebalance, long-short\n\nDM \"PROFITABILITY\" for the algo + research file."
+  }
+}

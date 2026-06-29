@@ -1,0 +1,24 @@
+{
+  "strategy": "051-put-writing-vrp",
+  "image_file": "images/strategy-051-vrp.png",
+  "image_overrides": {
+    "instagram": "images/strategy-051-vrp-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM VOLATILITY for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Receipts",
+    "twitter": "Receipts",
+    "threads": "Receipts",
+    "facebook": "Receipts",
+    "instagram": "Receipts",
+    "bluesky": "Receipts"
+  },
+  "captions": {
+    "linkedin": "For 32 years, the VIX has averaged 4.2 points above realized S&P 500 volatility. That gap is the volatility risk premium. Cboe published the entire methodology to harvest it.\n\nMost retail options traders are buying the gap. The PUT index is selling it, mechanically, every month.\n\nHere's the complete logic from the Cboe PUT methodology and Bondarenko 2019. No black box:\n\n🔹 CASH-SECURED. 100% collateral in T-bills, no leverage, bounded max loss.\n🔹 MONTHLY ROLL. Write 1-month ATM SPX puts at the 3rd-Friday expiration cycle.\n🔹 VRP HARVEST. Capture the gap between implied and realized over the holding period.\n🔹 ATM STRIKE. Select the listed strike nearest to current index level.\n🔹 INTEREST ACCRUAL. Collateral earns the T-bill rate, a material part of total return.\n🔹 TAIL RISK SALE. Accept crash losses in exchange for steady premium income.\n\nCboe PUT index / Bondarenko 2019. Severe drawdowns in 2008, 2018, and 2020. Negative skew. Sharpe ratio understates tail risk. You verify it.\n\nThis is 1 of 440 strategies in our research library.\n\nWant the complete algo and the research file? DM \"VOLATILITY\".\n\nViprasol Tech. We share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #OptionsTrading #VolatilityRiskPremium #Fintech",
+    "twitter": "For 32 years VIX has averaged 4.2 points above realized S&P 500 vol.\n\nThat gap is the VRP. Cboe published how to harvest it.\n\n🔹 Cash-secured 1-month ATM SPX puts\n🔹 Monthly roll, T-bill collateral\n🔹 Negative skew on crashes\n\nDM \"VOLATILITY\" for the algo + research file.",
+    "threads": "For 32 years VIX has averaged 4.2 points above realized S&P 500 vol (1990-2018). Cboe published the methodology to harvest it.\n\nThe logic:\n\n🔹 Cash-secured, 100% T-bill collateral\n🔹 Monthly roll, 1-month ATM SPX puts\n🔹 3rd-Friday expiration cycle\n🔹 Collateral earns T-bill rate\n🔹 Accept tail crash losses\n\nSevere drawdowns in 2008, 2018, 2020. You verify.\n\nDM \"VOLATILITY\".",
+    "facebook": "For 32 years, the VIX has averaged 4.2 points above realized S&P 500 volatility.\n\nThat gap is the volatility risk premium. Cboe published the entire methodology to harvest it.\n\nMost retail options traders are buying the gap. The PUT index is selling it, mechanically, every month.\n\nThe complete logic:\n\n🔹 CASH-SECURED. 100% T-bill collateral, no leverage.\n🔹 MONTHLY ROLL. 1-month ATM SPX puts, 3rd-Friday cycle.\n🔹 VRP HARVEST. Capture implied minus realized.\n🔹 ATM STRIKE. Nearest listed strike to spot.\n🔹 INTEREST ACCRUAL. Collateral earns T-bill rate.\n🔹 TAIL RISK SALE. Crash losses in exchange for premium.\n\nBondarenko 2019, Cboe methodology. Severe drawdowns in 2008, 2018, 2020. Negative skew. You verify.\n\n1 of 440 in our research library. DM \"VOLATILITY\" for the algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "For 32 years VIX has averaged 4.2 points above realized S&P 500 vol. That gap is the VRP, and Cboe published how to harvest it.\n\nThe logic:\n🔹 Cash-secured, 100% T-bills\n🔹 Monthly ATM SPX put roll\n🔹 3rd-Friday expiration\n🔹 T-bill interest accrual\n🔹 Tail crash risk accepted\n\n1 of 440 in our research library.\n\nDM \"VOLATILITY\" for the algo + research file.\n\n#AlgorithmicTrading #QuantTrading #OptionsTrading #VolatilityRiskPremium #Fintech",
+    "bluesky": "For 32 years VIX averaged 4.2 points above realized S&P 500 vol. That gap is the VRP, Cboe published how to harvest it.\n\n🔹 Cash-secured monthly ATM SPX puts\n🔹 T-bill collateral, no leverage\n🔹 Accept tail crash losses\n\nDM \"VOLATILITY\" for the algo + research file."
+  }
+}

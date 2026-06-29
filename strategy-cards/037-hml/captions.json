@@ -1,0 +1,24 @@
+{
+  "strategy": "037-ff-value-hml",
+  "image_file": "images/strategy-037-hml.png",
+  "image_overrides": {
+    "instagram": "images/strategy-037-hml-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM VALUATION for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Contrarian",
+    "twitter": "Contrarian",
+    "threads": "Contrarian",
+    "facebook": "Contrarian",
+    "instagram": "Contrarian",
+    "bluesky": "Contrarian"
+  },
+  "captions": {
+    "linkedin": "Most traders called value dead after 2020. Fama and French published the HML spread with a t-statistic of 2.91 across 28 years. That's not noise. That's a signal that worked, decayed, and now divides the entire profession.\n\nHere's the original logic from JFE 1993. No black box:\n\n🔹 BOOK-TO-MARKET SORT. Split stocks into value and growth using BE/ME ratios at the 30/70 NYSE breakpoints.\n🔹 SIZE-NEUTRAL. Average high and low across 2 market-cap buckets so small-caps don't drive the spread.\n🔹 JUNE FORMATION. Annual rebalance at fiscal year-end gives you a clean accounting data lag.\n🔹 VALUE-WEIGHTED. Positions inside each portfolio sized by market equity.\n🔹 ZERO-COST SPREAD. Long value funded by short growth, dollar-neutral.\n\nFama and French 1993, sample ends July 1991. The 2007 to 2020 drawdown is real. The five-factor model from 2015 makes HML redundant when profitability and investment are added. You verify it.\n\nThis is 1 of 440 strategies in our research library.\n\nWant the complete algo and the research file? DM \"VALUATION\".\n\nViprasol Tech. We share the strategy, for free. The build is the business.\n\n#AlgorithmicTrading #QuantitativeFinance #ValueInvesting #FactorInvesting #Fintech",
+    "twitter": "Most traders called value dead after 2020.\n\nFama-French published HML with t=2.91 across 28 years (JFE 1993).\n\n🔹 Book-to-market sort at 30/70\n🔹 Size-neutral, value-weighted\n🔹 June rebalance, zero-cost spread\n\nDM \"VALUATION\" for the algo + research file.",
+    "threads": "Most traders called value dead. Fama-French published HML with t=2.91 across 28 years (JFE 1993).\n\nThe original logic:\n\n🔹 Book-to-market sort, 30/70 NYSE breakpoints\n🔹 Size-neutral across 2 cap buckets\n🔹 June annual rebalance\n🔹 Value-weighted inside each portfolio\n🔹 Long value, short growth, dollar-neutral\n\nDrawdown 2007-2020 documented. You verify it.\n\nDM \"VALUATION\" for the algo + research file.",
+    "facebook": "Most traders called value dead after 2020.\n\nFama and French published the HML spread with a t-statistic of 2.91 across 28 years. That's not noise. That's a signal that worked, decayed, and still divides the profession.\n\nThe original logic from JFE 1993:\n\n🔹 BOOK-TO-MARKET SORT. 30/70 NYSE breakpoints.\n🔹 SIZE-NEUTRAL. Average across 2 market-cap buckets.\n🔹 JUNE FORMATION. Annual rebalance, clean data lag.\n🔹 VALUE-WEIGHTED. Sized by market equity.\n🔹 ZERO-COST SPREAD. Long value funded by short growth.\n\nSample ends July 1991. Five-factor 2015 paper makes HML redundant with profitability + investment added. You verify it.\n\n1 of 440 in our research library. DM \"VALUATION\" for the algo + research file.\n\nViprasol Tech. We share the strategy, for free. The build is the business.",
+    "instagram": "Most traders called value dead after 2020. Fama-French published HML with t=2.91 across 28 years.\n\nThe logic:\n🔹 Book-to-market sort at 30/70\n🔹 Size-neutral across 2 cap buckets\n🔹 June annual rebalance\n🔹 Value-weighted\n🔹 Long value, short growth\n\n1 of 440 in our research library.\n\nDM \"VALUATION\" for the algo + research file.\n\n#AlgorithmicTrading #QuantTrading #ValueInvesting #FactorInvesting #Fintech",
+    "bluesky": "Most traders called value dead. Fama-French published HML with t=2.91 across 28 years (JFE 1993).\n\n🔹 Book-to-market at 30/70\n🔹 Size-neutral, value-weighted\n🔹 June rebalance, dollar-neutral\n\nDM \"VALUATION\" for the algo + research file."
+  }
+}

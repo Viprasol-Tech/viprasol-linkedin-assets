@@ -1,0 +1,24 @@
+{
+  "strategy": "091-intermediate-horizon-momentum",
+  "image_file": "images/strategy-091.png",
+  "image_overrides": {
+    "instagram": "images/strategy-091-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft CTA: DM STAGGER.",
+  "hook_categories": {
+    "linkedin": "Contrarian",
+    "twitter": "Contrarian",
+    "threads": "Curiosity Gap",
+    "facebook": "Stolen Lessons",
+    "instagram": "Contrarian",
+    "bluesky": "Curiosity Gap"
+  },
+  "captions": {
+    "linkedin": "Most momentum traders use the wrong 6 months. 📊\n\nThe textbook Jegadeesh-Titman trade ranks stocks on the past 6 to 12 months and goes long winners, short losers. Standard. Replicated for 30 years.\n\nNovy-Marx (Journal of Financial Economics, 2012) ripped it apart.\n\nHe decomposed the formation window and found something unsettling: the recent 6 months (months 1 to 6) carry almost no predictive power. The entire momentum premium comes from the intermediate window, months 7 to 12.\n\nThe complete logic:\n\n🔹 LOOKBACK. Use months 12 through 7 for the formation window. Skip the most recent 6 months entirely.\n🔹 RANK stocks by that intermediate return.\n🔹 LONG winners, SHORT losers. Equal-weighted.\n🔹 HOLD 6 months, Jegadeesh-Titman overlapping-portfolio style.\n🔹 Replicated across commodities and international indices.\n\nGap between intermediate and recent sleeves: up to ~50 bps per month.\n\nWhy it matters: simple underreaction stories about price discovery can't explain this. The information embedded in 6-month-old prices outperforms what's in last month's prices. That contradicts every intuitive model retail uses.\n\nFor large liquid stocks (where microstructure noise is minimal), the pattern is even sharper.\n\n1 of 440 strategies in our research library.\n\nDM \"STAGGER\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\nViprasol Tech\n\n#AlgorithmicTrading #QuantitativeFinance #MomentumInvesting #FactorInvesting #SystematicTrading",
+    "twitter": "Most momentum traders use the wrong 6 months.\n\nIntermediate-Horizon Momentum (Novy-Marx, JFE 2012):\n\n🔹 Formation: months 12 to 7 (NOT 1 to 6)\n🔹 Recent 6mo has almost no predictive power\n🔹 Long winners, short losers, 6mo hold\n🔹 Replicated globally\n\nDM \"STAGGER\".",
+    "threads": "Here's a momentum result that breaks every retail intuition.\n\nNovy-Marx (JFE 2012) decomposed the standard momentum lookback. He found:\n\n🔹 Recent 6mo (months 1-6): almost no predictive power\n🔹 Intermediate window (months 12-7): all the alpha\n🔹 Long winners, short losers on the intermediate window\n🔹 6mo overlapping holds, equal-weighted\n🔹 Gap of up to 50 bps/mo between sleeves\n\nContradicts simple underreaction stories.\n\nDM \"STAGGER\".",
+    "facebook": "Most retail momentum traders rank on the past 6 months. The academic literature says: skip the recent 6 months entirely. 📊\n\nIntermediate-Horizon Momentum (Novy-Marx, JFE 2012):\n\n🔹 LOOKBACK: months 12 through 7. Skip months 1 through 6.\n🔹 The recent 6 months carry almost no predictive power.\n🔹 The intermediate window carries the entire momentum premium.\n🔹 LONG winners, SHORT losers on the intermediate signal. Equal-weighted.\n🔹 HOLD 6 months, Jegadeesh-Titman overlapping-portfolio style.\n\nGap between intermediate and recent sleeves: up to ~50 bps per month per the paper.\n\nThis contradicts simple underreaction stories about price discovery. It's been replicated in commodities and international indices.\n\n1 of 440 strategies in our research library.\n\nDM \"STAGGER\" for the complete algo + research file.\n\nWe share the strategy, for free. The build is the business.\n\nViprasol Tech",
+    "instagram": "Most momentum traders use the wrong 6 months. 📊\n\nIntermediate Momentum (Novy-Marx, JFE 2012):\n\n🔹 Formation: months 12 to 7 (NOT 1 to 6)\n🔹 Recent 6mo has almost no predictive power\n🔹 Long winners, short losers\n🔹 6mo overlapping holds\n🔹 Replicated globally\n\nDM \"STAGGER\" for the algo.\n.\n.\n#AlgorithmicTrading #QuantTrading #MomentumInvesting #FactorInvesting #Fintech",
+    "bluesky": "Most momentum traders use the wrong 6 months.\n\nIntermediate Momentum (Novy-Marx, JFE 2012):\n🔹 Lookback: months 12 to 7 (skip 1-6)\n🔹 Recent 6mo has no edge\n🔹 Long winners, short losers, 6mo hold\n\nDM \"STAGGER\" for the algo."
+  }
+}

@@ -1,0 +1,3544 @@
+[
+  {
+    "sid": "034-tsmom",
+    "name": "Time-Series Momentum",
+    "dm_keyword": "TREND",
+    "folder": "034-time-series-momentum",
+    "_already_built": true
+  },
+  {
+    "sid": "035-xsmom",
+    "name": "Cross-Sectional Momentum",
+    "dm_keyword": "WINNERS",
+    "folder": "035-cross-sectional-momentum",
+    "_already_built": true
+  },
+  {
+    "h2_white": "POSITION ",
+    "scope": "Commodity & financial futures via CFTC positioning",
+    "decision_sub": "LONG-SHORT · POSITION TRADES",
+    "name": "Williams %R + COT System",
+    "folder": "006-williams-percent-r-cot",
+    "dm_keyword": "POSITIONING",
+    "h2_accent": "EXTREMES.",
+    "evidence": [
+      "Weekly COT reveals commercial hedger net position accumulated over days",
+      "Williams %R detects momentum extremes within the favorable COT condition",
+      "Both indicators must align — COT slow, %R fast — for trade entry",
+      "Historically contested edge; lagged COT data limits precision timing"
+    ],
+    "why": [
+      "POSITIONING",
+      "EXTREMES",
+      "TIMING",
+      "DISCRETION",
+      "LAGGED"
+    ],
+    "sub": "RANK · SIGNAL · TIME · EXIT",
+    "sid": "006-wpr",
+    "title": "ALIGN WITH COMMERCIALS",
+    "h1": "FOLLOW SMART MONEY.",
+    "decision_top": "MEAN-REVERSION TIMING",
+    "tag": "SLOW FILTER GUARDS AGAINST OSCILLATOR WHIPSAWS.",
+    "category": "technical",
+    "kicker": "HEDGERS REVEAL DIRECTIONAL INTENT VIA CFTC REPORTS",
+    "disclaimer": "Based on Larry Williams' COT materials; CFTC data is official but effect remains disputed in modern markets.",
+    "paper": "Larry Williams (1970s-80s materials, COT-focused works)",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "COMMERCIALS INDEX",
+        "desc": "Normalize weekly hedger net position to historic range"
+      },
+      {
+        "icon": "clock",
+        "title": "MOMENTUM TRIGGER",
+        "desc": "Detect %R turning near extremes for entry timing"
+      },
+      {
+        "icon": "globe",
+        "title": "MULTI-MARKET",
+        "desc": "Any market with CFTC COT report coverage"
+      },
+      {
+        "icon": "refresh",
+        "title": "WEEKLY CONDITION",
+        "desc": "COT condition resets on Friday report release only"
+      },
+      {
+        "icon": "trend",
+        "title": "MEAN REVERSION",
+        "desc": "Peak hedger positioning marks sentiment reversal zones"
+      },
+      {
+        "icon": "shield",
+        "title": "STOP DISCIPLINE",
+        "desc": "Hard stops beyond recent swing prevent overexposure"
+      }
+    ],
+    "peer_review_status": "practitioner",
+    "stats": [
+      {
+        "label": "BULLISH / BEARISH THRESHOLD",
+        "color": "TEAL",
+        "num": "80 / 20"
+      },
+      {
+        "label": "DEFAULT INDEX LOOKBACK WINDOW",
+        "color": "GOLD",
+        "num": "156 weeks"
+      },
+      {
+        "label": "CLASSIC %R PERIODS",
+        "color": "TEAL",
+        "num": "10 / 14"
+      }
+    ],
+    "h2_color": "TEAL",
+    "scene_hook": "AI analyst observing two dials: one tracking commercial hedger extremes, the other flashing momentum peaks—overlaying them reveals entry windows."
+  },
+  {
+    "h2_white": "BLEND ",
+    "scope": "8 asset classes: stocks, bonds, currencies, commodities, futures",
+    "decision_sub": "CROSS-SECTIONAL RANK · INVERSE VOL WEIGHT",
+    "name": "Value & Momentum Everywhere",
+    "folder": "036-value-momentum-everywhere",
+    "dm_keyword": "DIVERSIFICATION",
+    "h2_accent": "FACTORS.",
+    "evidence": [
+      "Value premia significant and positive in all eight asset classes studied",
+      "Momentum premia significant and positive across all eight classes",
+      "50/50 blend Sharpe ≈1.45 annualized, three times US equity premium alone",
+      "Liquidity loadings nearly cancel in combo — value negative, momentum positive"
+    ],
+    "why": [
+      "DIVERSIFICATION",
+      "CORRELATION",
+      "GLOBAL",
+      "REPLICABLE",
+      "DURABLE"
+    ],
+    "sub": "RANK · WEIGHT · COMBINE · REBALANCE",
+    "sid": "036-vme",
+    "title": "BLEND VALUE AND MOMENTUM",
+    "h1": "STACK THE EDGE.",
+    "decision_top": "MULTI-ASSET COMBO",
+    "tag": "TWO LEGS BEAT ONE — DIVERSIFY CROSS-ASSET.",
+    "category": "value",
+    "kicker": "NEGATIVE CORRELATION CUTS VOLATILITY, SHARPENS COMBINED RATIO",
+    "disclaimer": "Asness, Moskowitz & Pedersen 2013; sample ends July 2011; post-publication compression documented; net-of-cost returns lower than gross.",
+    "paper": "Asness, Moskowitz & Pedersen (Journal of Finance, 2013)",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "NEGATIVE CORR",
+        "desc": "Value and momentum average −0.49 correlation globally"
+      },
+      {
+        "icon": "globe",
+        "title": "EIGHT MARKETS",
+        "desc": "Stocks, bonds, currencies, commodities, index futures covered"
+      },
+      {
+        "icon": "refresh",
+        "title": "MONTHLY REBALANCE",
+        "desc": "Rank-weight each security by signal within asset class"
+      },
+      {
+        "icon": "clock",
+        "title": "SIGNAL LAG",
+        "desc": "Momentum uses 12-month skip-1; value uses 5-year reversal"
+      },
+      {
+        "icon": "trend",
+        "title": "INVERSE VOL WEIGHT",
+        "desc": "Scale classes equally to risk so high-vol commodities don't dominate"
+      },
+      {
+        "icon": "shield",
+        "title": "ZERO-COST LONG-SHORT",
+        "desc": "Dollar-neutral factors require no capital net of legs"
+      }
+    ],
+    "peer_review_status": "peer-reviewed",
+    "stats": [
+      {
+        "label": "AVG VALUE-MOMENTUM CORRELATION",
+        "color": "TEAL",
+        "num": "-0.49"
+      },
+      {
+        "label": "ASSET CLASSES / REBALANCE CADENCE",
+        "color": "GOLD",
+        "num": "8 / 1"
+      },
+      {
+        "label": "VALUE-MOMENTUM BLEND SPLIT",
+        "color": "TEAL",
+        "num": "50 / 50"
+      }
+    ],
+    "h2_color": "TEAL",
+    "scene_hook": "AI balancing two glowing scales—cheap assets on one, recent winners on the other—perfectly counterweighting to create harmony."
+  },
+  {
+    "h2_white": "VALUE ",
+    "scope": "US equities cross-sectional, size-neutral value spread",
+    "decision_sub": "ANNUAL REBALANCE · LONG-SHORT EQUAL SIZING",
+    "name": "Fama-French Value (HML)",
+    "folder": "037-ff-value-hml",
+    "dm_keyword": "VALUATION",
+    "h2_accent": "SPREAD.",
+    "evidence": [
+      "HML long-short spread significant 1963–1991 with t≈2.91",
+      "Value premium documented internationally across developed markets",
+      "2007–2020 deep drawdown raises debate over decay or intangibles bias",
+      "Five-factor model makes HML redundant when profitability/investment added"
+    ],
+    "why": [
+      "FUNDAMENTAL",
+      "LIQUID",
+      "HISTORICAL",
+      "DOCUMENTED",
+      "DECAYED"
+    ],
+    "sub": "RANK · SORT · WEIGHT · HOLD",
+    "sid": "037-hml",
+    "title": "BUY CHEAP, SHORT EXPENSIVE",
+    "h1": "EXPLOIT VALUATION GAP.",
+    "decision_top": "CROSS-SECTIONAL VALUE",
+    "tag": "ANNUALLY REBALANCED LONG-SHORT EQUITY FACTOR.",
+    "category": "value",
+    "kicker": "BOOK-TO-MARKET PREDICTS RETURNS ACROSS MARKET CAPS",
+    "disclaimer": "Fama & French 1993; sample data ends July 1991; post-2007 performance contested; value drought 2018–2020 suggests premium compression.",
+    "paper": "Fama & French (Journal of Financial Economics, 1993)",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "BOOK-TO-MARKET SORT",
+        "desc": "Split into value and growth using BE/ME ratios"
+      },
+      {
+        "icon": "globe",
+        "title": "SIZE-NEUTRAL",
+        "desc": "Average high and low across two market-cap buckets"
+      },
+      {
+        "icon": "clock",
+        "title": "JUNE FORMATION",
+        "desc": "Annual rebalance at fiscal year-end for clean data lag"
+      },
+      {
+        "icon": "trend",
+        "title": "VALUE-WEIGHTED",
+        "desc": "Positions within each portfolio sized by market equity"
+      },
+      {
+        "icon": "refresh",
+        "title": "SIX PORTFOLIOS",
+        "desc": "Intersection of 2 size groups and 3 valuation tiers"
+      },
+      {
+        "icon": "shield",
+        "title": "ZERO-COST SPREAD",
+        "desc": "Long value funded by short of growth / glamour"
+      }
+    ],
+    "peer_review_status": "peer-reviewed",
+    "stats": [
+      {
+        "label": "NYSE B/M BREAKPOINT PERCENTILES",
+        "color": "GOLD",
+        "num": "30 / 70"
+      },
+      {
+        "label": "ORIGINAL PAPER SAMPLE WINDOW",
+        "color": "TEAL",
+        "num": "1963-1991"
+      },
+      {
+        "label": "HISTORICAL MONTHLY RETURN (1963-1991)",
+        "color": "GOLD",
+        "num": "0.40% / mo"
+      }
+    ],
+    "h2_color": "GOLD",
+    "scene_hook": "AI examining a glowing ledger—cheap stocks highlighted bright, growth stocks fading—the notebook aging to show fundamental divergence."
+  },
+  {
+    "h2_white": "PROFITABILITY ",
+    "scope": "US equities cross-sectional, operating profitability premium",
+    "decision_sub": "ANNUAL REBALANCE · 2×3 INDEPENDENT SORT",
+    "name": "Fama-French Profitability (RMW)",
+    "folder": "039-ff-profitability-rmw",
+    "dm_keyword": "PROFITABILITY",
+    "h2_accent": "PREMIUM.",
+    "evidence": [
+      "RMW average 0.25% monthly with t≈2.92 (1963–2013 US sample)",
+      "Profitability premium documented internationally with weaker Japan results",
+      "Small-stock RMW (t≈3.06) drives factor; big-cap RMW weak (t≈1.81)",
+      "With investment and value factors, HML becomes redundant in five-factor model"
+    ],
+    "why": [
+      "FUNDAMENTAL",
+      "EARNINGS",
+      "ROBUST",
+      "DIVERSIFIED",
+      "CONCENTRATED"
+    ],
+    "sub": "RANK · SORT · WEIGHT · REBALANCE",
+    "sid": "039-rmw",
+    "title": "FAVOR ROBUST PROFIT",
+    "h1": "QUALITY BEATS WEAKNESS.",
+    "decision_top": "OPERATING QUALITY",
+    "tag": "ROBUST FIRMS OUTPACE WEAK ONES CONSISTENTLY.",
+    "category": "quality",
+    "kicker": "OPERATING INCOME DIVIDED BY EQUITY IDENTIFIES DURABLE EARNINGS",
+    "disclaimer": "Fama & French 2015; in-sample through December 2013; post-publication decay documented; premium concentrates in small caps.",
+    "paper": "Fama & French (Journal of Financial Economics, 2015)",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "OP METRIC",
+        "desc": "Operating profitability = (Revenue − COGS − SG&A − Interest) / Book Equity"
+      },
+      {
+        "icon": "globe",
+        "title": "SIZE-NEUTRAL SORT",
+        "desc": "Robust and weak split independently of market cap"
+      },
+      {
+        "icon": "refresh",
+        "title": "ANNUAL FORMATION",
+        "desc": "Rebalance end of June using prior fiscal-year data"
+      },
+      {
+        "icon": "trend",
+        "title": "VALUE-WEIGHTED",
+        "desc": "Positions sized by market cap within six intersection portfolios"
+      },
+      {
+        "icon": "clock",
+        "title": "DATA LAG",
+        "desc": "Fiscal-year-ending t−1 data activated from July of year t"
+      },
+      {
+        "icon": "shield",
+        "title": "LONG-SHORT",
+        "desc": "Long high-profitability firms, short low-profitability firms"
+      }
+    ],
+    "peer_review_status": "peer-reviewed",
+    "stats": [
+      {
+        "label": "OPERATING PROFIT BREAKPOINTS",
+        "color": "GREEN",
+        "num": "30 / 70"
+      },
+      {
+        "label": "2×3 RMW MEAN (1963–2013)",
+        "color": "GREEN",
+        "num": "0.25% / mo"
+      },
+      {
+        "label": "PORTFOLIOS / ANNUAL REBALANCE",
+        "color": "GOLD",
+        "num": "6 / 1"
+      }
+    ],
+    "h2_color": "GREEN",
+    "scene_hook": "AI scanning income statements in real-time—healthy profit margins glowing warm, razor-thin or negative margins fading cold."
+  },
+  {
+    "h2_white": "INVESTMENT ",
+    "scope": "US equities cross-sectional, conservative vs aggressive asset-growth spread",
+    "decision_sub": "ANNUAL REBALANCE · 2×3 INDEPENDENT SORT",
+    "name": "Fama-French Investment (CMA)",
+    "folder": "040-ff-investment-cma",
+    "dm_keyword": "DISCIPLINE",
+    "h2_accent": "FACTOR.",
+    "evidence": [
+      "CMA average 0.33% per month, t≈3.4 across construction variants",
+      "Correlates ~0.7 with HML; partly replaces value in five-factor model",
+      "Significant in US full sample (1963–2013); weaker internationally (Japan insignificant)",
+      "Post-publication weakening common; small-cap premium concentrates costs"
+    ],
+    "why": [
+      "VALUATION",
+      "INVESTMENT",
+      "DISCIPLINE",
+      "CAPACITY",
+      "CROWDED"
+    ],
+    "sub": "RANK · SORT · WEIGHT · HOLD",
+    "sid": "040-cma",
+    "title": "CONSERVATIVE BEATS AGGRESSIVE",
+    "h1": "LOW GROWTH WINS.",
+    "decision_top": "CONSERVATIVE GROWTH",
+    "tag": "CONSERVATIVE INVESTMENT DISCIPLINE PRICED AS LOWER RISK.",
+    "category": "defensive",
+    "kicker": "FIRMS THAT GROW ASSETS SLOWLY EARN HIGHER RETURNS",
+    "disclaimer": "Fama & French 2015; in-sample through 2013; HML redundancy and post-publication decay documented; short-leg costs material.",
+    "paper": "Fama & French (Journal of Financial Economics, 2015)",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "ASSET GROWTH SIGNAL",
+        "desc": "Change in total assets / lagged total assets (conservative vs aggressive)"
+      },
+      {
+        "icon": "globe",
+        "title": "SIZE-NEUTRAL",
+        "desc": "Sort independently on market cap, then investment growth"
+      },
+      {
+        "icon": "clock",
+        "title": "FISCAL-YEAR LAG",
+        "desc": "Two prior fiscal years of total-assets data required"
+      },
+      {
+        "icon": "refresh",
+        "title": "ANNUAL REBALANCE",
+        "desc": "June formation, 12-month hold window, low-turnover design"
+      },
+      {
+        "icon": "trend",
+        "title": "VALUE-WEIGHTED",
+        "desc": "Positions within each of six portfolios value-weighted"
+      },
+      {
+        "icon": "shield",
+        "title": "ZERO-COST SPREAD",
+        "desc": "Long conservative-growth firms funded by short aggressive growers"
+      }
+    ],
+    "peer_review_status": "peer-reviewed",
+    "stats": [
+      {
+        "label": "ASSET-GROWTH BREAKPOINTS",
+        "color": "GREEN",
+        "num": "30 / 70"
+      },
+      {
+        "label": "2×3 CMA MEAN (1963–2013)",
+        "color": "GREEN",
+        "num": "0.33% / mo"
+      },
+      {
+        "label": "INTERSECTING PORTFOLIOS / CADENCE",
+        "color": "GOLD",
+        "num": "6 / 1"
+      }
+    ],
+    "h2_color": "GREEN",
+    "scene_hook": "AI watching asset balance sheets expand and contract—companies that grow assets quickly dimming, steady growers brightening over time."
+  },
+  {
+    "h2_white": "GLOBAL ",
+    "scope": "9 asset classes: equities, bonds, currencies, commodities, credit, options",
+    "decision_sub": "MONTHLY REBALANCE · INVERSE VOL SCALE",
+    "name": "Carry (Cross-Asset)",
+    "folder": "042-carry-cross-asset",
+    "dm_keyword": "YIELD",
+    "h2_accent": "CARRY.",
+    "evidence": [
+      "Carry predicts returns cross-sectionally and time-series across all nine classes",
+      "1972–2012 global carry factor Sharpe ≈1.1–1.2 from diversification benefit",
+      "Negative correlation of carry across asset classes enables ~1.5× diversification uplift",
+      "Joint crash exposure during recessions (1975, 1982, 2008) creates negative skew"
+    ],
+    "why": [
+      "YIELD",
+      "PREMIUM",
+      "UNIVERSAL",
+      "DIVERSIFIED",
+      "CRISIS-PRONE"
+    ],
+    "sub": "RANK · SIGNAL · WEIGHT · ROLL",
+    "sid": "042-carry",
+    "title": "HARVEST CARRY EVERYWHERE",
+    "h1": "CAPTURE FORWARD PREMIUM.",
+    "decision_top": "CROSS-SECTIONAL RANK",
+    "tag": "YIELD AND ROLL REWARDS PATIENT CAPITAL GLOBALLY.",
+    "category": "carry",
+    "kicker": "SAME CARRY SIGNAL PREDICTS RETURNS ACROSS ALL MAJOR ASSET CLASSES",
+    "disclaimer": "Koijen, Moskowitz, Pedersen, Vrugt 2018; sample 1972–2012; crowding post-publication; tail risk not fully captured by Sharpe ratio.",
+    "paper": "Koijen, Moskowitz, Pedersen & Vrugt (Journal of Financial Economics, 2018)",
+    "features": [
+      {
+        "icon": "globe",
+        "title": "NINE ASSET CLASSES",
+        "desc": "Equities, bonds, curve, FX, commodities, credit, options (calls & puts)"
+      },
+      {
+        "icon": "scale",
+        "title": "UNIFIED DEFINITION",
+        "desc": "Carry = forward/futures premium or yield-plus-roll across any asset"
+      },
+      {
+        "icon": "refresh",
+        "title": "MONTHLY REBALANCE",
+        "desc": "Rank instruments by carry; long high-carry, short low-carry"
+      },
+      {
+        "icon": "trend",
+        "title": "RANK-WEIGHTED",
+        "desc": "Dollar-neutral long-short weights proportional to carry rank"
+      },
+      {
+        "icon": "clock",
+        "title": "DIVERSIFIED SCALING",
+        "desc": "Inverse-volatility weight per class to equalize risk contribution"
+      },
+      {
+        "icon": "shield",
+        "title": "LIQUIDITY & RECESSION RISK",
+        "desc": "Exposure to unwinds during crises — negative skew trade-off"
+      }
+    ],
+    "peer_review_status": "peer-reviewed",
+    "stats": [
+      {
+        "label": "WITHIN-CLASS SHARPE RATIO",
+        "color": "GOLD",
+        "num": "0.7"
+      },
+      {
+        "label": "GLOBAL CARRY FACTOR (DIVERSIFIED)",
+        "color": "GOLD",
+        "num": "1.1–1.2"
+      },
+      {
+        "label": "ASSET CLASSES / MONTHLY HOLD",
+        "color": "TEAL",
+        "num": "9 / 1"
+      }
+    ],
+    "h2_color": "GOLD",
+    "scene_hook": "AI surveying interest curves and forward curves across markets simultaneously—selecting positions where the future contracts outpay their spot-roll arithmetic."
+  },
+  {
+    "h2_white": "EQUITY INDEX ",
+    "scope": "S&P 500 index options (SPX), cash-collateralized put selling",
+    "decision_sub": "MONTHLY ATM ROLL · CASH-SECURED",
+    "name": "Put-Writing / Volatility Risk Premium (Cboe PUT)",
+    "folder": "051-put-writing-vrp",
+    "dm_keyword": "VOLATILITY",
+    "h2_accent": "PUT-WRITE.",
+    "evidence": [
+      "PUT returns ~S&P 500 level at two-thirds the volatility (1986–2018)",
+      "VIX average 19.3% vs realized 15.1% — 4.2 ppt structural premium gap",
+      "Sharpe ~0.65 vs S&P 0.49 when costs excluded and skew ignored",
+      "Severe drawdowns in fast crashes (2008, 2018, 2020) — negative skew evident"
+    ],
+    "why": [
+      "PREMIUM",
+      "VOLATILITY",
+      "COLLATERAL",
+      "SYSTEMATIC",
+      "CRASHES"
+    ],
+    "sub": "WRITE · COLLATERALIZE · ROLL · REINVEST",
+    "sid": "051-vrp",
+    "title": "SELL CRASH INSURANCE",
+    "h1": "HARVEST VOLATILITY PREMIUM.",
+    "decision_top": "VOLATILITY SELLER",
+    "tag": "MONTHLY ATM PUT ROLL CAPTURES VOLATILITY RISK PREMIUM.",
+    "category": "options-vrp",
+    "kicker": "IMPLIED VOLATILITY EXCEEDS REALIZED — SELLERS POCKET THE GAP",
+    "disclaimer": "Cboe PUT index / Bondarenko 2019; gross returns; tail risk understated by Sharpe ratio; negative skew and crash losses during recessions.",
+    "paper": "Bondarenko (Cboe white paper, 2019) & Cboe Methodology",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "CASH-SECURED",
+        "desc": "100% collateral in T-bills; no leverage, bounded max loss"
+      },
+      {
+        "icon": "clock",
+        "title": "MONTHLY ROLL",
+        "desc": "Write 1-month ATM SPX puts at 3rd-Friday expiration cycle"
+      },
+      {
+        "icon": "trend",
+        "title": "VRP HARVEST",
+        "desc": "Capture gap between implied volatility and realized over month"
+      },
+      {
+        "icon": "shield",
+        "title": "INTEREST ACCRUAL",
+        "desc": "Collateral earns T-bill rate; material component of returns"
+      },
+      {
+        "icon": "refresh",
+        "title": "ATM STRIKE",
+        "desc": "Select nearest listed strike to current index level"
+      },
+      {
+        "icon": "globe",
+        "title": "TAIL RISK SALE",
+        "desc": "Accept crash losses in exchange for steady premium income"
+      }
+    ],
+    "peer_review_status": "exchange-published",
+    "stats": [
+      {
+        "label": "ANNUALIZED RETURN (1986–2018)",
+        "color": "TEAL",
+        "num": "9.5%"
+      },
+      {
+        "label": "ANNUAL VOLATILITY (1986–2018)",
+        "color": "GOLD",
+        "num": "9.95%"
+      },
+      {
+        "label": "AVG VIX-MINUS-REALIZED 1990–2018",
+        "color": "TEAL",
+        "num": "4.2 pts"
+      }
+    ],
+    "h2_color": "TEAL",
+    "scene_hook": "AI standing guard at the crash boundary, collecting insurance premiums with each passing day—until turbulence arrives and the position hemorrhages."
+  },
+  {
+    "sid": "052-bxm",
+    "folder": "052-covered-call-bxm",
+    "name": "BXM Covered Call",
+    "category": "carry",
+    "scope": "S&P 500 index call option premium",
+    "paper": "Whaley, Journal of Derivatives (2002)",
+    "peer_review_status": "exchange-published",
+    "title": "SELL S&P CALLS FOR INCOME",
+    "sub": "WRITE · COLLECT · SHIELD · HARVEST",
+    "h1": "SELL MONTHLY CALLS",
+    "h2_white": "harvest volatility",
+    "h2_accent": "PREMIUM",
+    "h2_color": "GOLD",
+    "kicker": "COVERED CALL INDEXING CAPTURES VRP",
+    "tag": "Own S&P 500, sell ATM call monthly",
+    "features": [
+      {
+        "icon": "clock",
+        "title": "MONTHLY ROLL CYCLE",
+        "desc": "Systematic premium harvest every month-end"
+      },
+      {
+        "icon": "shield",
+        "title": "DOWNSIDE CUSHION",
+        "desc": "Collected premium buffers smaller losses"
+      },
+      {
+        "icon": "scale",
+        "title": "REDUCED VOLATILITY",
+        "desc": "Lower drawdowns vs long-only equity"
+      },
+      {
+        "icon": "refresh",
+        "title": "MECHANICAL REBALANCE",
+        "desc": "No discretion, fully systematic process"
+      },
+      {
+        "icon": "trend",
+        "title": "CAPPED UPSIDE COST",
+        "desc": "Sacrifices above-strike gains for income"
+      },
+      {
+        "icon": "globe",
+        "title": "CBOE-PUBLISHED BENCHMARK",
+        "desc": "Transparent index tracked for decades"
+      }
+    ],
+    "stats": [
+      {
+        "num": "1.69–1.8%",
+        "label": "MONTHLY PREMIUM INCOME",
+        "color": "GOLD"
+      },
+      {
+        "num": "~50 delta",
+        "label": "ATM STRIKE CONVENTION",
+        "color": "TEAL"
+      },
+      {
+        "num": "32+ years",
+        "label": "HISTORICAL DATA DEPTH",
+        "color": "TEAL"
+      }
+    ],
+    "decision_top": "VOLATILITY HARVEST",
+    "decision_sub": "PREMIUM COLLECTION · INCOME OVERLAY · RISK CONTROL",
+    "why": [
+      "INCOME",
+      "DURABLE",
+      "MECHANICAL",
+      "VERIFIABLE",
+      "ACCESSIBLE"
+    ],
+    "evidence": [
+      "Cboe BXM index, real-time, exchange-published since 2002",
+      "ATM call written against full S&P 500 notional each month",
+      "Lower volatility than buy-and-hold in flat/declining markets",
+      "Premium capped upside above strike at settlement"
+    ],
+    "dm_keyword": "COVERED",
+    "disclaimer": "Educational guide to the Cboe BXM Index (Whaley 2002); not investment advice.",
+    "scene_hook": "Options pit tickers scrolling left-to-right as premium flows in daily."
+  },
+  {
+    "sid": "053-bxmd",
+    "folder": "053-bxmd-30-delta",
+    "name": "BXMD 30-Delta Buy-Write",
+    "category": "carry",
+    "scope": "S&P 500 with out-of-money call overlay",
+    "paper": "Wilshire Associates (2019)",
+    "peer_review_status": "exchange-published",
+    "title": "OTM CALLS KEEP MORE UPSIDE",
+    "sub": "DELTA-TARGET · RETAIN · BALANCE · OUTPERFORM",
+    "h1": "SELL 30-DELTA CALLS",
+    "h2_white": "premium with",
+    "h2_accent": "RETENTION",
+    "h2_color": "GOLD",
+    "kicker": "30-DELTA STRIKE HIGHEST EFFICIENT FRONTIER",
+    "tag": "S&P 500 + further-OTM call, 30-delta",
+    "features": [
+      {
+        "icon": "trend",
+        "title": "HIGHER RETURNS CAPTURED",
+        "desc": "Further OTM strike retains more rally gains"
+      },
+      {
+        "icon": "scale",
+        "title": "MEAN-VARIANCE OPTIMAL",
+        "desc": "Highest Sharpe on efficient frontier"
+      },
+      {
+        "icon": "refresh",
+        "title": "DYNAMIC DELTA TARGETING",
+        "desc": "Strike adapts to volatility regime monthly"
+      },
+      {
+        "icon": "clock",
+        "title": "MONTHLY REBALANCE",
+        "desc": "Consistent 30-delta strike selection"
+      },
+      {
+        "icon": "shield",
+        "title": "THINNER CUSHION",
+        "desc": "Less premium but smaller downside buffer"
+      },
+      {
+        "icon": "globe",
+        "title": "CBOE INDEX STANDARD",
+        "desc": "Benchmark tracked with live quotations"
+      }
+    ],
+    "stats": [
+      {
+        "num": "32.5 yrs",
+        "label": "WILSHIRE STUDY PERIOD",
+        "color": "TEAL"
+      },
+      {
+        "num": "~0.30",
+        "label": "TARGET DELTA STRIKE",
+        "color": "GOLD"
+      },
+      {
+        "num": "Highest",
+        "label": "ANNUALIZED RETURN RANK",
+        "color": "GOLD"
+      }
+    ],
+    "decision_top": "OPTION STRIKE TUNING",
+    "decision_sub": "DELTA SELECTION · UPSIDE RETENTION · ADAPTIVE VOL",
+    "why": [
+      "TUNED",
+      "HIGHEST-RETURN",
+      "EFFICIENT",
+      "ADAPTIVE",
+      "DURABLE"
+    ],
+    "evidence": [
+      "Cboe BXMD, published and real-time updated",
+      "Strike chosen to approximate 0.30 delta per Black-Scholes",
+      "Collects less premium than ATM (BXM) but caps upside higher",
+      "Outperformed ATM buy-write (BXM) and 2%-OTM (BXY) in study"
+    ],
+    "dm_keyword": "BXMD",
+    "disclaimer": "Educational guide to Cboe BXMD Index (Wilshire 2019); not investment advice.",
+    "scene_hook": "Skew surface sliding right as volatility surface tilts, delta markers glowing."
+  },
+  {
+    "sid": "055-xtsm",
+    "folder": "055-cross-asset-tsm",
+    "name": "Cross-Asset Time-Series Momentum",
+    "category": "trend",
+    "scope": "Equity and bond indices across 20 countries",
+    "paper": "Pitkäjärvi, Suominen & Vaittinen, JFE (2020)",
+    "peer_review_status": "peer-reviewed",
+    "title": "BONDS PREDICT EQUITIES",
+    "sub": "CROSS-SIGNAL · DIVERSIFY · PREDICT · COMBINE",
+    "h1": "BOND RETURNS LEAD STOCKS",
+    "h2_white": "use",
+    "h2_accent": "CROSS-ASSET",
+    "h2_color": "TEAL",
+    "kicker": "45% SHARPE UPLIFT VS SINGLE-ASSET TSM",
+    "tag": "Past bond returns signal future equity moves",
+    "features": [
+      {
+        "icon": "globe",
+        "title": "20-COUNTRY BREADTH",
+        "desc": "Equities and bonds across developed markets"
+      },
+      {
+        "icon": "refresh",
+        "title": "CROSS-ASSET SIGNAL INNOVATION",
+        "desc": "Bond past predicts equity future positively"
+      },
+      {
+        "icon": "trend",
+        "title": "DUAL-DIRECTION MOMENTUM",
+        "desc": "Equity returns negatively predict bond returns"
+      },
+      {
+        "icon": "clock",
+        "title": "MONTHLY REBALANCING",
+        "desc": "12-month lookback combined with own-asset TSM"
+      },
+      {
+        "icon": "scale",
+        "title": "DIVERSIFIED LONG-SHORT",
+        "desc": "Market-neutral across countries and assets"
+      },
+      {
+        "icon": "shield",
+        "title": "CORRELATION REGIME GATE",
+        "desc": "Monitor for positive stock-bond correlation"
+      }
+    ],
+    "stats": [
+      {
+        "num": "45%",
+        "label": "SHARPE RATIO UPLIFT",
+        "color": "GOLD"
+      },
+      {
+        "num": "20",
+        "label": "DEVELOPED COUNTRIES",
+        "color": "TEAL"
+      },
+      {
+        "num": "2020",
+        "label": "PEER-REVIEWED YEAR",
+        "color": "TEAL"
+      }
+    ],
+    "decision_top": "CROSS-ASSET SIGNALS",
+    "decision_sub": "BOND-EQUITY LINK · DIVERSIFICATION · FORECASTING",
+    "why": [
+      "MULTI-COUNTRY",
+      "CROSS-SIGNAL",
+      "UPLIFTED",
+      "PUBLISHED",
+      "RECENT"
+    ],
+    "evidence": [
+      "JFE 2020: bonds → equities (+), equities → bonds (−)",
+      "Sharpe 45% higher than standard TSM across horizons",
+      "Works in all but one of 20 countries tested",
+      "Slow-moving capital / institutional rotation mechanism"
+    ],
+    "dm_keyword": "GLOBAL",
+    "disclaimer": "Educational guide to CATSM (Pitkäjärvi et al. 2020); not investment advice.",
+    "scene_hook": "Capital rivers flowing between bond and equity oceans, glowing tributaries."
+  },
+  {
+    "sid": "056-century",
+    "folder": "056-century-of-trend",
+    "name": "A Century of Trend-Following",
+    "category": "momentum",
+    "scope": "67 liquid futures across 4 asset classes",
+    "paper": "Hurst, Ooi & Pedersen, JPM (2017)",
+    "peer_review_status": "peer-reviewed",
+    "title": "136 YEARS OF POSITIVE RETURNS",
+    "sub": "TREND-FOLLOW · DIVERSIFY · HEDGE · SCALE",
+    "h1": "EVERY DECADE POSITIVE",
+    "h2_white": "time-series momentum",
+    "h2_accent": "ACROSS",
+    "h2_color": "TEAL",
+    "kicker": "POSITIVE SHARPE IN EVERY DECADE 1880–2016",
+    "tag": "1-, 3-, 12-month signals on 67 global futures",
+    "features": [
+      {
+        "icon": "trend",
+        "title": "MULTI-HORIZON BLEND",
+        "desc": "Combine 1-, 3-, 12-month signals equally weighted"
+      },
+      {
+        "icon": "globe",
+        "title": "GLOBAL DIVERSIFICATION",
+        "desc": "67 futures: commodities, equities, bonds, FX"
+      },
+      {
+        "icon": "scale",
+        "title": "INVERSE-VOL SIZING",
+        "desc": "Risk-parity across wildly different markets"
+      },
+      {
+        "icon": "clock",
+        "title": "MONTHLY REBALANCE",
+        "desc": "Systematic, low-discretion execution"
+      },
+      {
+        "icon": "shield",
+        "title": "CRISIS ALPHA CONVEX",
+        "desc": "Strong in prolonged equity drawdowns"
+      },
+      {
+        "icon": "refresh",
+        "title": "CENTURY-LONG EVIDENCE",
+        "desc": "136-year backtest validates the premium"
+      }
+    ],
+    "stats": [
+      {
+        "num": "1880–2016",
+        "label": "HISTORICAL SPAN",
+        "color": "TEAL"
+      },
+      {
+        "num": "67",
+        "label": "MARKET BASKET SIZE",
+        "color": "GOLD"
+      },
+      {
+        "num": "10%",
+        "label": "PORTFOLIO VOL TARGET",
+        "color": "GOLD"
+      }
+    ],
+    "decision_top": "CENTURY TREND BLEND",
+    "decision_sub": "MULTI-HORIZON · GLOBAL DIVERSIFICATION · PROVEN DURABILITY",
+    "why": [
+      "ANCIENT",
+      "GLOBAL",
+      "SYSTEMATIC",
+      "CRISIS-ALPHA",
+      "ROBUST"
+    ],
+    "evidence": [
+      "Positive returns in every decade 1880–2016, all 67 markets",
+      "Equal-weight 1/3/12-month signals, inverse-vol sized",
+      "10% portfolio vol target across equities, bonds, commodities, FX",
+      "Backtested gross ~18% annual, net ~11% after typical costs"
+    ],
+    "dm_keyword": "CENTURY",
+    "disclaimer": "Educational guide to trend-following (Hurst, Ooi, Pedersen 2017); not investment advice.",
+    "scene_hook": "Price candles glowing along trending lines across four asset-class lanes."
+  },
+  {
+    "sid": "057-ramom",
+    "folder": "057-ramom",
+    "name": "Risk-Adjusted Time-Series Momentum",
+    "category": "momentum",
+    "scope": "~64 liquid global futures with refined risk controls",
+    "paper": "Baltas & Kosowski, Market Momentum (2020)",
+    "peer_review_status": "peer-reviewed",
+    "title": "TURNOVER-EFFICIENT TREND FOLLOWING",
+    "sub": "REFINE · OPTIMIZE · REDUCE · MAINTAIN",
+    "h1": "SMART VOLATILITY & TREND SCALING",
+    "h2_white": "cost-conscious",
+    "h2_accent": "MOMENTUM",
+    "h2_color": "TEAL",
+    "kicker": "35% TURNOVER REDUCTION, NO PERFORMANCE LOSS",
+    "tag": "Yang-Zhang vol, TREND rule, correlation leverage",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "RANGE-BASED VOL ESTIMATOR",
+        "desc": "Yang-Zhang OHLC volatility reduces noise and churn"
+      },
+      {
+        "icon": "trend",
+        "title": "CONTINUOUS TREND SCALING",
+        "desc": "TREND rule strength replaces binary on-off positioning"
+      },
+      {
+        "icon": "refresh",
+        "title": "CORRELATION DYNAMIC LEVERAGE",
+        "desc": "De-lever when diversification breaks down"
+      },
+      {
+        "icon": "shield",
+        "title": "TURNOVER SLASHING",
+        "desc": "Reduces churn by ~35% vs baseline TSM"
+      },
+      {
+        "icon": "clock",
+        "title": "MONTHLY REBALANCE",
+        "desc": "12-month lookback with smarter daily OHLC data"
+      },
+      {
+        "icon": "globe",
+        "title": "~64 GLOBAL FUTURES",
+        "desc": "Diversified commodities, equities, bonds, currencies"
+      }
+    ],
+    "stats": [
+      {
+        "num": "1.2",
+        "label": "TARGET SHARPE RATIO",
+        "color": "GOLD"
+      },
+      {
+        "num": "35%",
+        "label": "TURNOVER REDUCTION",
+        "color": "GOLD"
+      },
+      {
+        "num": "64",
+        "label": "LIQUID FUTURES MARKETS",
+        "color": "TEAL"
+      }
+    ],
+    "decision_top": "REFINED TREND EFFICIENCY",
+    "decision_sub": "VOLATILITY PRECISION · TREND STRENGTH · CORRELATION GATE",
+    "why": [
+      "REFINED",
+      "TURNOVER-LIGHT",
+      "SHARP-TUNED",
+      "EMPIRICAL",
+      "PRACTICAL"
+    ],
+    "evidence": [
+      "Yang-Zhang range vol cuts turnover ~17% vs std dev alone",
+      "TREND rule (t-stat mapped to [-1,+1]) cuts turnover ~24% more",
+      "Correlation-keyed leverage de-risks concentrated regimes",
+      "Combined refinements recover ~35% of cost drag, Sharpe ~1.2"
+    ],
+    "dm_keyword": "RESIDUAL",
+    "disclaimer": "Educational guide to RAMOM (Baltas & Kosowski 2020); not investment advice.",
+    "scene_hook": "OHLC bars stacked as pillars, trend slopes glowing, red-blue correlation masks."
+  },
+  {
+    "sid": "080-tom",
+    "folder": "080-turn-of-the-month",
+    "name": "Turn-of-the-Month Seasonality",
+    "category": "seasonality",
+    "scope": "Equity indices, daily 4-day window",
+    "paper": "Lakonishok & Smidt, RFS (1988); Xu & McConnell, FAJ (2006)",
+    "peer_review_status": "peer-reviewed",
+    "title": "FOUR DAYS EACH MONTH EARN ALL GAINS",
+    "sub": "CALENDAR · CONCENTRATE · TIME · EXECUTE",
+    "h1": "BUY MONTH-END WINDOW",
+    "h2_white": "calendar-driven",
+    "h2_accent": "ANOMALY",
+    "h2_color": "TEAL",
+    "kicker": "ALL DJIA RETURNS EARNED IN ToM WINDOW",
+    "tag": "Long equity last day of month through day +3",
+    "features": [
+      {
+        "icon": "clock",
+        "title": "NARROW 4-DAY WINDOW",
+        "desc": "Last trading day plus first 3 trading days of month"
+      },
+      {
+        "icon": "shield",
+        "title": "LOW TIME IN MARKET",
+        "desc": "~20% of trading days, flat remainder in cash"
+      },
+      {
+        "icon": "trend",
+        "title": "MECHANICAL CALENDAR RULE",
+        "desc": "No discretion, purely date-driven entry-exit"
+      },
+      {
+        "icon": "globe",
+        "title": "INTERNATIONAL EVIDENCE",
+        "desc": "Works across many developed equity markets"
+      },
+      {
+        "icon": "refresh",
+        "title": "REBALANCE MONTHLY",
+        "desc": "Systematic execution at calendar boundaries"
+      },
+      {
+        "icon": "scale",
+        "title": "SIMPLE TO IMPLEMENT",
+        "desc": "No complex signals, just exchange calendar dates"
+      }
+    ],
+    "stats": [
+      {
+        "num": "1897–1986",
+        "label": "ORIGINAL STUDY SPAN",
+        "color": "TEAL"
+      },
+      {
+        "num": "~7–8x",
+        "label": "RETURN CONCENTRATION",
+        "color": "GOLD"
+      },
+      {
+        "num": "90 years",
+        "label": "DJIA HISTORICAL DATA",
+        "color": "TEAL"
+      }
+    ],
+    "decision_top": "CALENDAR ANOMALY",
+    "decision_sub": "MONTH-END WINDOW · CASH FLOWS · REBALANCING",
+    "why": [
+      "SIMPLE",
+      "CALENDAR-BASED",
+      "NINETY-YEAR",
+      "DOCUMENTED",
+      "ACCESSIBLE"
+    ],
+    "evidence": [
+      "Lakonishok-Smidt 1988: ToM window accounted for ALL DJIA gains",
+      "Xu-McConnell 2006: virtually all excess return in 4-day window",
+      "Window is last trading day of month plus first 3 trading days",
+      "Hypothesized driver: month-end cash flows, window dressing"
+    ],
+    "dm_keyword": "CALENDAR",
+    "disclaimer": "Educational guide to ToM effect (Lakonishok & Smidt 1988); not investment advice.",
+    "scene_hook": "Calendar pages flipping, payday and rebalancing cashflows glowing green."
+  },
+  {
+    "sid": "084-commom",
+    "folder": "084-commodity-momentum",
+    "name": "Commodity Momentum",
+    "category": "momentum",
+    "scope": "20–35 commodity futures ranked by trailing return",
+    "paper": "Miffre & Rallis, JBF (2007)",
+    "peer_review_status": "peer-reviewed",
+    "title": "LONG WINNERS, SHORT LOSERS IN COMMODITIES",
+    "sub": "RANK · LONG · SHORT · REBALANCE",
+    "h1": "MOMENTUM IN COMMODITY FUTURES",
+    "h2_white": "cross-sectional",
+    "h2_accent": "RANKING",
+    "h2_color": "GOLD",
+    "kicker": "13 PROFITABLE SPECS, AVG +9.38% ANNUALLY",
+    "tag": "Quintile long-short on 12-month commodity returns",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "DOLLAR-NEUTRAL LONG-SHORT",
+        "desc": "Top quintile long, bottom quintile short, balanced"
+      },
+      {
+        "icon": "trend",
+        "title": "12-MONTH RANKING WINDOW",
+        "desc": "Lookback period for trailing return computation"
+      },
+      {
+        "icon": "clock",
+        "title": "MONTHLY REBALANCE",
+        "desc": "Re-rank and adjust positions each month"
+      },
+      {
+        "icon": "globe",
+        "title": "MULTI-SECTOR COVERAGE",
+        "desc": "Energy, metals, grains, softs, livestock futures"
+      },
+      {
+        "icon": "refresh",
+        "title": "TERM-STRUCTURE LINK",
+        "desc": "Winners backwardated, losers contangoed"
+      },
+      {
+        "icon": "shield",
+        "title": "LOW EQUITY CORRELATION",
+        "desc": "Diversifying return profile for portfolios"
+      }
+    ],
+    "stats": [
+      {
+        "num": "9.38%",
+        "label": "AVG ANNUAL RETURN",
+        "color": "GOLD"
+      },
+      {
+        "num": "13",
+        "label": "PROFITABLE SPECS",
+        "color": "GOLD"
+      },
+      {
+        "num": "1979–2004",
+        "label": "ORIGINAL BACKTEST PERIOD",
+        "color": "TEAL"
+      }
+    ],
+    "decision_top": "COMMODITY MOMENTUM",
+    "decision_sub": "CROSS-SECTIONAL RANKING · TERM-STRUCTURE LINK · DIVERSIFIER",
+    "why": [
+      "RANKED",
+      "DOLLAR-NEUTRAL",
+      "DIVERSIFYING",
+      "PUBLISHED",
+      "SYSTEMATIC"
+    ],
+    "evidence": [
+      "Miffre-Rallis 2007: 31 US futures, 13 specs averaged +9.38%/yr",
+      "Long top quintile, short bottom quintile, equal-weight, monthly rebalance",
+      "Low correlation to stocks and bonds documented",
+      "Winners typically backwardated, losers contangoed (term-structure link)"
+    ],
+    "dm_keyword": "FUTURES",
+    "disclaimer": "Educational guide to commodity momentum (Miffre & Rallis 2007); not investment advice.",
+    "scene_hook": "Commodity tickers streaming, red losers sinking, green winners rising vertically."
+  },
+  {
+    "h2_white": "GO LONG ",
+    "scope": "Commodity futures",
+    "decision_sub": "SHORT CONTANGOED · DOLLAR-NEUTRAL · QUINTILES",
+    "name": "Commodity Carry / Roll Yield",
+    "folder": "085-commodity-carry-roll-yield",
+    "dm_keyword": "CONTANGO",
+    "h2_accent": "BACKWARDATION.",
+    "evidence": [
+      "Roll return dominates spot returns in commodity futures",
+      "Backwardation-tilted portfolios earned equity-like historical returns",
+      "Global carry factor priced uniformly across asset classes",
+      "Strategy durable across decades and diverse commodity sectors"
+    ],
+    "why": [
+      "STORAGE",
+      "HEDGING",
+      "REWARD",
+      "CURVE",
+      "CROSS-SECTIONAL"
+    ],
+    "sub": "RANK · WEIGHT · ROLL · REBALANCE",
+    "sid": "085",
+    "title": "BACKWARDATION HARVEST",
+    "h1": "EARN THE ROLL.",
+    "decision_top": "LONG BACKWARDATED",
+    "tag": "exploit term structure slope via futures curve",
+    "category": "carry",
+    "kicker": "POSITIVE ROLL YIELD ACROSS COMMODITIES",
+    "disclaimer": "Based on Erb & Harvey (2006) and Koijen et al. (2018); educational use only.",
+    "paper": "Erb & Harvey (2006); Koijen, Moskowitz, Pedersen & Vrugt (2018)",
+    "features": [
+      {
+        "icon": "trend",
+        "title": "TERM",
+        "desc": "shape drives commodity returns more than spot"
+      },
+      {
+        "icon": "scale",
+        "title": "RANK",
+        "desc": "commodities by annualized roll yield carry"
+      },
+      {
+        "icon": "refresh",
+        "title": "NEUTRAL",
+        "desc": "dollar-neutral long backwardated short contango"
+      },
+      {
+        "icon": "clock",
+        "title": "MONTHLY",
+        "desc": "rebalance to capture fresh curve slopes"
+      },
+      {
+        "icon": "shield",
+        "title": "DIVERSIFY",
+        "desc": "across energy metals grains softs livestock"
+      },
+      {
+        "icon": "globe",
+        "title": "LIQUID",
+        "desc": "futures contracts with two valid maturities"
+      }
+    ],
+    "peer_review_status": "peer-reviewed",
+    "stats": [
+      {
+        "label": "COMMODITIES UNIVERSE",
+        "color": "TEAL",
+        "num": "~20-30"
+      },
+      {
+        "label": "HISTORICAL SAMPLE SPAN",
+        "color": "GOLD",
+        "num": "1982-2004"
+      },
+      {
+        "label": "MONTHLY PORTFOLIO COMPONENTS",
+        "color": "TEAL",
+        "num": "6 / 6"
+      }
+    ],
+    "h2_color": "TEAL",
+    "scene_hook": "Watch the curve shape shift like a wave building and breaking on commodity shores."
+  },
+  {
+    "h2_white": "CURRENCIES ",
+    "scope": "G10 and emerging market currencies",
+    "decision_sub": "SHORT EXPENSIVE · RANK-WEIGHTED · FORWARDS",
+    "name": "FX Value (Purchasing Power Parity)",
+    "folder": "087-fx-value-ppp",
+    "dm_keyword": "MISPRICED",
+    "h2_accent": "MEAN-REVERT.",
+    "evidence": [
+      "Real exchange rates demonstrate multi-year mean reversion tendencies",
+      "Positive currency value premium documented across asset classes",
+      "Negatively correlated with momentum for portfolio diversification",
+      "Point-in-time CPI data critical to avoid look-ahead bias"
+    ],
+    "why": [
+      "VALUATION",
+      "REVERSION",
+      "CONSENSUS",
+      "ANCHORED",
+      "SLOW"
+    ],
+    "sub": "RANK · WEIGHT · MEAN-REVERT · HOLD",
+    "sid": "087",
+    "title": "REAL RATE MEAN REVERT",
+    "h1": "BUY CHEAP CURRENCIES.",
+    "decision_top": "LONG CHEAP",
+    "tag": "exploit real exchange rate deviations from parity",
+    "category": "value",
+    "kicker": "UNDERVALUED CURRENCIES VERSUS PPP",
+    "disclaimer": "Based on Asness, Moskowitz & Pedersen (2013); educational use only.",
+    "paper": "Asness, Moskowitz & Pedersen (2013)",
+    "features": [
+      {
+        "icon": "globe",
+        "title": "PPP",
+        "desc": "anchor valuation to purchasing power parity"
+      },
+      {
+        "icon": "trend",
+        "title": "REVERT",
+        "desc": "real rates mean-revert over years slowly"
+      },
+      {
+        "icon": "scale",
+        "title": "RANK",
+        "desc": "negative five-year real exchange rate change"
+      },
+      {
+        "icon": "refresh",
+        "title": "MONTHLY",
+        "desc": "low-turnover signal updates infrequently"
+      },
+      {
+        "icon": "shield",
+        "title": "DIVERSIFY",
+        "desc": "long cheap short expensive terciles"
+      },
+      {
+        "icon": "clock",
+        "title": "MULTI-YEAR",
+        "desc": "thesis horizon aligns with slow reversion"
+      }
+    ],
+    "peer_review_status": "peer-reviewed",
+    "stats": [
+      {
+        "label": "CURRENCY PAIRS TRADABLE",
+        "color": "GOLD",
+        "num": "10+"
+      },
+      {
+        "label": "YEAR HALF-LIFE",
+        "color": "TEAL",
+        "num": "3-5"
+      },
+      {
+        "label": "MONTH LOOKBACK REQUIRED",
+        "color": "GOLD",
+        "num": "66"
+      }
+    ],
+    "h2_color": "GOLD",
+    "scene_hook": "Watch currencies drift from fair value like leaves floating downstream, eventually drifting back."
+  },
+  {
+    "h2_white": "QUALITY EARNS ",
+    "scope": "Global equities, US and 24 developed countries",
+    "decision_sub": "SHORT JUNK · SIZE-NEUTRAL · VALUE-WEIGHTED",
+    "name": "Quality Minus Junk",
+    "folder": "088-quality-minus-junk",
+    "dm_keyword": "DEFENSIVE",
+    "h2_accent": "PREMIUM.",
+    "evidence": [
+      "Quality firms earn significant risk-adjusted returns across markets",
+      "Negative correlation with value and size factors improves diversification",
+      "Quality outperforms in market stress and downturns reliably",
+      "Robust across diverse quality metric definitions and geographies"
+    ],
+    "why": [
+      "UNDERPRICED",
+      "DEFENSIVE",
+      "STABLE",
+      "DURABLE",
+      "GLOBAL"
+    ],
+    "sub": "SCORE · SORT · SHORT JUNK · REBALANCE",
+    "sid": "088",
+    "title": "QUALITY EARNS ALPHA",
+    "h1": "BUY HIGH QUALITY.",
+    "decision_top": "LONG QUALITY",
+    "tag": "go long profitable safe stocks short unprofitable junk",
+    "category": "quality",
+    "kicker": "FOUR PILLAR QUALITY COMPOSITE SCORE",
+    "disclaimer": "Based on Asness, Frazzini & Pedersen (2019); educational use only.",
+    "paper": "Asness, Frazzini & Pedersen (2019)",
+    "features": [
+      {
+        "icon": "shield",
+        "title": "PROFITABILITY",
+        "desc": "gross profit asset ratios and cash flows"
+      },
+      {
+        "icon": "trend",
+        "title": "GROWTH",
+        "desc": "trailing five-year growth in profit measures"
+      },
+      {
+        "icon": "scale",
+        "title": "SAFETY",
+        "desc": "low beta leverage and earnings volatility"
+      },
+      {
+        "icon": "refresh",
+        "title": "PAYOUT",
+        "desc": "shareholder-friendly dividends buybacks"
+      },
+      {
+        "icon": "globe",
+        "title": "GLOBAL",
+        "desc": "replicated across twenty-four countries"
+      },
+      {
+        "icon": "clock",
+        "title": "DEFENSIVE",
+        "desc": "positive returns during market downturns"
+      }
+    ],
+    "peer_review_status": "peer-reviewed",
+    "stats": [
+      {
+        "label": "MARKETS WITH QUALITY EDGE",
+        "color": "GREEN",
+        "num": "25"
+      },
+      {
+        "label": "PERCENT MONTHLY ALPHA US",
+        "color": "TEAL",
+        "num": "0.66"
+      },
+      {
+        "label": "LONG SHORT BREAKPOINTS",
+        "color": "GREEN",
+        "num": "30 / 30"
+      }
+    ],
+    "h2_color": "GREEN",
+    "scene_hook": "Watch high-quality firms shine steady while junk crumbles, like gold and fools gold under light."
+  },
+  {
+    "h2_white": "GROSS PROFIT ",
+    "scope": "US equities, replicated internationally",
+    "decision_sub": "SHORT LOW · VALUE-WEIGHTED · JUNE REBALANCE",
+    "name": "Gross Profitability",
+    "folder": "089-gross-profitability",
+    "dm_keyword": "EFFICIENCY",
+    "h2_accent": "PREMIUM.",
+    "evidence": [
+      "Gross profit to assets predicts cross-sectional returns robustly",
+      "Combined with value yields higher Sharpe ratios than value alone",
+      "Foundational to Fama-French five-factor profitability component",
+      "Avoids R&D and SG&A noise that pollutes net earnings signals"
+    ],
+    "why": [
+      "INCOME",
+      "QUALITY",
+      "SIGNAL",
+      "DISTINCT",
+      "DURABLE"
+    ],
+    "sub": "RANK · SORT · LONG HIGH · REBALANCE",
+    "sid": "089",
+    "title": "PROFITABILITY PREDICTS",
+    "h1": "BUY GROSS PROFIT.",
+    "decision_top": "LONG HIGH",
+    "tag": "profitable firms outperform unprofitable ones systematically",
+    "category": "quality",
+    "kicker": "GROSS PROFIT TO ASSETS RATIO",
+    "disclaimer": "Based on Novy-Marx (2013), a Fama-DFA Prize winner; educational use only.",
+    "paper": "Novy-Marx (2013)",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "CLEAN",
+        "desc": "gross profit avoids earnings manipulation noise"
+      },
+      {
+        "icon": "trend",
+        "title": "PREDICTIVE",
+        "desc": "power comparable to book-to-market value"
+      },
+      {
+        "icon": "shield",
+        "title": "QUALITY",
+        "desc": "high profitability signals firm quality"
+      },
+      {
+        "icon": "refresh",
+        "title": "NEGATIVE",
+        "desc": "correlation with value diversifies holdings"
+      },
+      {
+        "icon": "globe",
+        "title": "ROBUST",
+        "desc": "international replication confirms signal"
+      },
+      {
+        "icon": "clock",
+        "title": "ANNUAL",
+        "desc": "refresh signal preserves low-turnover advantage"
+      }
+    ],
+    "peer_review_status": "peer-reviewed",
+    "stats": [
+      {
+        "label": "SAMPLE PERIOD",
+        "color": "GOLD",
+        "num": "1963-2010"
+      },
+      {
+        "label": "PERCENT MONTHLY ALPHA",
+        "color": "TEAL",
+        "num": "0.45"
+      },
+      {
+        "label": "DECILE SORT BREAKPOINTS",
+        "color": "GREEN",
+        "num": "10 / 10"
+      }
+    ],
+    "h2_color": "GREEN",
+    "scene_hook": "Watch high-margin firms compound wealth while low-margin competitors struggle and fade."
+  },
+  {
+    "h2_white": "RISK-ADJUSTED ",
+    "scope": "Equities, US primarily, generalizes internationally",
+    "decision_sub": "SHORT LOW · EQUAL-WEIGHTED · DECILES",
+    "name": "Residual (Risk-Adjusted) Momentum",
+    "folder": "090-residual-momentum",
+    "dm_keyword": "REGRESSION",
+    "h2_accent": "OUTPERFORMS.",
+    "evidence": [
+      "Risk-adjusted profits roughly double total-return momentum gains",
+      "Consistent returns over time without extreme cross-sectional concentration",
+      "Dramatically reduced drawdown severity during momentum crashes",
+      "Standard rational momentum explanations do not explain residual momentum"
+    ],
+    "why": [
+      "IDIOSYNCRATIC",
+      "STABLE",
+      "DEFENSIVE",
+      "SMOOTH",
+      "ROBUST"
+    ],
+    "sub": "REGRESS · RESIDUAL · RANK · REBALANCE",
+    "sid": "090",
+    "title": "IDIOSYNCRATIC MOMENTUM",
+    "h1": "DOUBLE SHARPE RATIO.",
+    "decision_top": "LONG HIGH",
+    "tag": "rank on standardized residuals after stripping factor betas",
+    "category": "momentum",
+    "kicker": "MOMENTUM NET OF FACTOR EXPOSURES",
+    "disclaimer": "Based on Blitz, Huij & Martens (2011); educational use only.",
+    "paper": "Blitz, Huij & Martens (2011)",
+    "features": [
+      {
+        "icon": "trend",
+        "title": "RESIDUAL",
+        "desc": "strip out market value size factor betas"
+      },
+      {
+        "icon": "scale",
+        "title": "SHARPE",
+        "desc": "roughly double the Sharpe of raw momentum"
+      },
+      {
+        "icon": "shield",
+        "title": "CRASH-FREE",
+        "desc": "far lower momentum crash risk by design"
+      },
+      {
+        "icon": "refresh",
+        "title": "ROLLING",
+        "desc": "monthly thirty-six month FF3 regressions"
+      },
+      {
+        "icon": "globe",
+        "title": "CONSISTENT",
+        "desc": "returns steadier with less extreme dispersion"
+      },
+      {
+        "icon": "clock",
+        "title": "STANDARDIZED",
+        "desc": "information-ratio style signal normalization"
+      }
+    ],
+    "peer_review_status": "peer-reviewed",
+    "stats": [
+      {
+        "label": "MONTH ESTIMATION WINDOW",
+        "color": "TEAL",
+        "num": "36"
+      },
+      {
+        "label": "SHARPE MULTIPLE VERSUS JT",
+        "color": "GOLD",
+        "num": "~2.0"
+      },
+      {
+        "label": "MONTH FORMATION RESIDUALS",
+        "color": "TEAL",
+        "num": "11"
+      }
+    ],
+    "h2_color": "TEAL",
+    "scene_hook": "Watch the noise dissolve as factor betas drain away, revealing the pure momentum signal beneath."
+  },
+  {
+    "h2_white": "INTERMEDIATE ",
+    "scope": "US equities, echoed in international indices and commodities",
+    "decision_sub": "SHORT LOSERS · OVERLAPPING · EQUAL-WEIGHTED",
+    "name": "Intermediate-Horizon Momentum",
+    "folder": "091-intermediate-horizon-momentum",
+    "dm_keyword": "STAGGER",
+    "h2_accent": "HORIZON.",
+    "evidence": [
+      "Intermediate-horizon returns more predictive than recent-window returns",
+      "Pattern robust across large liquid stocks where microstructure is minimal",
+      "Gap between intermediate and recent sleeve up to fifty basis points monthly",
+      "Contradicts simple underreaction stories about price discovery"
+    ],
+    "why": [
+      "STAGGERED",
+      "DELAYED",
+      "DIFFUSION",
+      "ECHO",
+      "ANOMALY"
+    ],
+    "sub": "RANK · WINDOW · HOLD · DECOMPOSE",
+    "sid": "091",
+    "title": "MOMENTUM ECHO DOMINATES",
+    "h1": "THE ECHO WINS.",
+    "decision_top": "LONG WINNERS",
+    "tag": "predictive content concentrated in six-month lookback window",
+    "category": "momentum",
+    "kicker": "MONTHS TWELVE TO SEVEN RETURNS",
+    "disclaimer": "Based on Novy-Marx (2012); educational use only.",
+    "paper": "Novy-Marx (2012)",
+    "features": [
+      {
+        "icon": "trend",
+        "title": "ECHO",
+        "desc": "months twelve to seven drive momentum profit"
+      },
+      {
+        "icon": "scale",
+        "title": "IGNORE",
+        "desc": "recent six-month returns weak predictor"
+      },
+      {
+        "icon": "refresh",
+        "title": "WINDOW",
+        "desc": "six-month formation period automatically"
+      },
+      {
+        "icon": "clock",
+        "title": "OVERLAP",
+        "desc": "Jegadeesh-Titman style six-month holds"
+      },
+      {
+        "icon": "shield",
+        "title": "DECOMPOSE",
+        "desc": "contrast recent versus intermediate sleeves"
+      },
+      {
+        "icon": "globe",
+        "title": "ECHOED",
+        "desc": "pattern replicated across commodities currencies"
+      }
+    ],
+    "peer_review_status": "peer-reviewed",
+    "stats": [
+      {
+        "label": "MONTHS LAG WINDOW",
+        "color": "TEAL",
+        "num": "12 / 7"
+      },
+      {
+        "label": "PERCENT MONTHLY ALPHA",
+        "color": "GOLD",
+        "num": "~0.50"
+      },
+      {
+        "label": "MONTH HOLDING PERIOD",
+        "color": "TEAL",
+        "num": "6"
+      }
+    ],
+    "h2_color": "TEAL",
+    "scene_hook": "Watch momentum echo through time like a price wave bouncing in a canyon before reaching peak."
+  },
+  {
+    "h2_white": "NEARNESS TO ",
+    "scope": "US equities, replicated in international markets",
+    "decision_sub": "SHORT LOW · OVERLAPPING · EQUAL-WEIGHTED",
+    "name": "52-Week High Momentum",
+    "folder": "092-52-week-high-momentum",
+    "dm_keyword": "ANCHOR",
+    "h2_accent": "ANCHOR.",
+    "evidence": [
+      "Nearness to fifty-two week high forecasts better than recent returns",
+      "Signal dominates Jegadeesh-Titman individual and industry momentum",
+      "Forecasted returns do not reverse over subsequent years long-term",
+      "International studies confirm effect across developed emerging markets"
+    ],
+    "why": [
+      "ANCHORING",
+      "PSYCHOLOGY",
+      "RESISTANCE",
+      "DRIFT",
+      "DISTINCT"
+    ],
+    "sub": "RATIO · RANK · ANCHOR · HOLD",
+    "sid": "092",
+    "title": "ANCHOR DOMINATES",
+    "h1": "NEAR THE HIGH WINS.",
+    "decision_top": "LONG HIGH",
+    "tag": "nearness to psychological price anchor predicts next returns",
+    "category": "momentum",
+    "kicker": "STOCK PRICE RELATIVE TO FIFTY-TWO WEEK HIGH",
+    "disclaimer": "Based on George & Hwang (2004); educational use only.",
+    "paper": "George & Hwang (2004)",
+    "features": [
+      {
+        "icon": "trend",
+        "title": "ANCHOR",
+        "desc": "investors treat fifty-two week high as reference"
+      },
+      {
+        "icon": "scale",
+        "title": "RATIO",
+        "desc": "current price divided by fifty-two week high"
+      },
+      {
+        "icon": "refresh",
+        "title": "BEHAVIORAL",
+        "desc": "anchoring-and-adjustment bias drives effect"
+      },
+      {
+        "icon": "clock",
+        "title": "PERSISTENT",
+        "desc": "forecasted returns do not reverse long-term"
+      },
+      {
+        "icon": "shield",
+        "title": "LOW",
+        "desc": "turnover moves slowly preserving edge"
+      },
+      {
+        "icon": "globe",
+        "title": "GLOBAL",
+        "desc": "confirmed in eighteen of twenty markets"
+      }
+    ],
+    "peer_review_status": "peer-reviewed",
+    "stats": [
+      {
+        "label": "WEEK LOOKBACK WINDOW",
+        "color": "GOLD",
+        "num": "52"
+      },
+      {
+        "label": "PERCENT MONTHLY RAW ALPHA",
+        "color": "TEAL",
+        "num": "0.45"
+      },
+      {
+        "label": "LONG SHORT PERCENTILES",
+        "color": "GOLD",
+        "num": "30 / 30"
+      }
+    ],
+    "h2_color": "GOLD",
+    "scene_hook": "Watch investors lean against the invisible wall of the fifty-two week high like moths to a flame."
+  },
+  {
+    "sid": "095-vrp",
+    "folder": "095-short-straddle-strangle-vrp",
+    "name": "Short Straddle / Strangle Variance Risk Premium",
+    "category": "options-vrp",
+    "scope": "SPX index options, liquid equity & ETF options",
+    "paper": "Bondarenko (2003); Bakshi & Kapadia (2003)",
+    "peer_review_status": "peer-reviewed",
+    "title": "SELL VOLATILITY PREMIUM DELTA HEDGED",
+    "sub": "SELL · HEDGE · COLLECT · MANAGE",
+    "h1": "HARVEST IMPLIED-OVER-REALIZED.",
+    "h2_white": "Short delta-neutral ",
+    "h2_accent": "straddles collect variance risk premium.",
+    "h2_color": "TEAL",
+    "kicker": "VOLATILITY INSURANCE MISPRICING",
+    "tag": "Weekly monthly tenor with weekly hedge bands",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "GAMMA RISK",
+        "desc": "Short gamma loses on extremes"
+      },
+      {
+        "icon": "clock",
+        "title": "THETA DECAY",
+        "desc": "Weekly rehedging to manage gamma"
+      },
+      {
+        "icon": "shield",
+        "title": "WINGS REQUIRED",
+        "desc": "Iron condor avoids unbounded loss"
+      },
+      {
+        "icon": "trend",
+        "title": "VRP SIGNAL",
+        "desc": "Only sell when implied exceeds realized"
+      },
+      {
+        "icon": "refresh",
+        "title": "DAILY REHEDGE",
+        "desc": "Keep delta neutral bond underlying"
+      },
+      {
+        "icon": "globe",
+        "title": "TAIL OVERLAY",
+        "desc": "Far OTM puts cap catastrophic drawdown"
+      }
+    ],
+    "stats": [
+      {
+        "num": "1.21",
+        "label": "SHARPE 1987-2000",
+        "color": "TEAL"
+      },
+      {
+        "num": "20%",
+        "label": "ANNUAL PORTFOLIO VOL",
+        "color": "GOLD"
+      },
+      {
+        "num": "50%",
+        "label": "PROFIT TAKE BAND",
+        "color": "TEAL"
+      }
+    ],
+    "decision_top": "DEFINED RISK",
+    "decision_sub": "WINGS · STOPS · REHEDGE",
+    "why": [
+      "WINGS",
+      "CRITICAL",
+      "STOPS",
+      "ESSENTIAL",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Bondarenko: ATM put selling Sharpe ~1.21 over 13 years",
+      "Bakshi-Kapadia: delta-hedged gains negative, VRP exists",
+      "Feb 2018 and Mar 2020 wiped out unhedged premium sellers",
+      "Transaction costs and bid-ask substantially erode gross premium"
+    ],
+    "dm_keyword": "STRADDLE",
+    "disclaimer": "Bondarenko & Bakshi-Kapadia research; educational only, not investment advice.",
+    "scene_hook": "Sell insurance to the crash-phobic, delta-hedge the hedge itself."
+  },
+  {
+    "sid": "096-cta",
+    "folder": "096-trend-following-cta-replication",
+    "name": "Trend-Following Managed Futures CTA Replication",
+    "category": "trend",
+    "scope": "50-70+ futures across equities, bonds, commodities, FX",
+    "paper": "Moskowitz, Ooi & Pedersen (2012); Hurst, Ooi & Pedersen (2017)",
+    "peer_review_status": "peer-reviewed",
+    "title": "TIME-SERIES MOMENTUM ACROSS 50+ FUTURES",
+    "sub": "SIGNAL · NORMALIZE · SCALE · WEIGHT",
+    "h1": "RIDE TRENDS GLOBALLY DIVERSIFIED.",
+    "h2_white": "Ensemble MACD crossovers signal ",
+    "h2_accent": "multi-horizon momentum.",
+    "h2_color": "GOLD",
+    "kicker": "DIVERSIFIED CTA EQUAL-RISK-WEIGHTED",
+    "tag": "Daily signal with 50-70 markets across assets",
+    "features": [
+      {
+        "icon": "trend",
+        "title": "MACD ENSEMBLE",
+        "desc": "Three channel crossovers per instrument"
+      },
+      {
+        "icon": "scale",
+        "title": "VOL SCALING",
+        "desc": "Per-market risk standardization target"
+      },
+      {
+        "icon": "globe",
+        "title": "CRISIS ALPHA",
+        "desc": "Profitable in equity drawdowns"
+      },
+      {
+        "icon": "refresh",
+        "title": "DAILY REBALANCE",
+        "desc": "Continuous position sizing adjustment"
+      },
+      {
+        "icon": "clock",
+        "title": "MULTI-HORIZON",
+        "desc": "1, 3, 12 month blended signal"
+      },
+      {
+        "icon": "shield",
+        "title": "EQUAL-RISK",
+        "desc": "Risk parity across all markets"
+      }
+    ],
+    "stats": [
+      {
+        "num": "0.7-1.0",
+        "label": "GROSS SHARPE HISTORICAL",
+        "color": "GOLD"
+      },
+      {
+        "num": "67",
+        "label": "MARKETS TESTED 1880-2016",
+        "color": "GOLD"
+      },
+      {
+        "num": "10",
+        "label": "DECADE WINNING STREAK",
+        "color": "TEAL"
+      }
+    ],
+    "decision_top": "DIVERSIFY BREADTH",
+    "decision_sub": "ENSEMBLE · SCALE · CAP RISK",
+    "why": [
+      "BREADTH",
+      "MATTERS",
+      "MOST",
+      "ALWAYS",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Moskowitz-Ooi-Pedersen: TSMOM Sharpe >1 over 25+ years",
+      "Hurst et al.: positive returns every decade since 1880",
+      "SG Trend Index tracks live audited CTA returns across decades",
+      "Post-2010 decay notable; 2011-2019 lean period from crowding"
+    ],
+    "dm_keyword": "CTA",
+    "disclaimer": "Moskowitz-Ooi-Pedersen & Hurst-Ooi-Pedersen papers; educational only, not investment advice.",
+    "scene_hook": "Watch herds stampede trends to extinction, then sell their tail feathers."
+  },
+  {
+    "sid": "100-blend",
+    "folder": "100-trend-carry-value-momentum-blend",
+    "name": "Trend Carry Value Momentum Multi-Factor Blend",
+    "category": "momentum",
+    "scope": "Global equities, bonds, commodities, FX futures & single-stock",
+    "paper": "Asness-Moskowitz-Pedersen (2013); Koijen et al. (2018); Hurst et al. (2017)",
+    "peer_review_status": "peer-reviewed",
+    "title": "UNCORRELATED PREMIA COMBINED VOLATILITY TARGETED",
+    "sub": "COMBINE · ZSCORE · HEDGE · SCALE",
+    "h1": "BLEND FOUR WEAK SLEEVES STRONG.",
+    "h2_white": "Diversified style premia: trend, carry, value, ",
+    "h2_accent": "momentum equal-risk-weighted.",
+    "h2_color": "GREEN",
+    "kicker": "FOUR SLEEVES ONE DIVERSIFIED PORTFOLIO",
+    "tag": "Monthly rebalance four global premia daily risk",
+    "features": [
+      {
+        "icon": "trend",
+        "title": "TREND SLEEVE",
+        "desc": "Time-series momentum multi-horizon"
+      },
+      {
+        "icon": "scale",
+        "title": "VOL TARGETING",
+        "desc": "Three layers instrument sleeve portfolio"
+      },
+      {
+        "icon": "globe",
+        "title": "VALUE MOMENTUM",
+        "desc": "Negatively correlated long-horizon edge"
+      },
+      {
+        "icon": "refresh",
+        "title": "CARRY SLEEVE",
+        "desc": "Interest term spread basis roll-down"
+      },
+      {
+        "icon": "clock",
+        "title": "MONTHLY REBALANCE",
+        "desc": "Daily intra-month vol risk management"
+      },
+      {
+        "icon": "shield",
+        "title": "ERC WEIGHTING",
+        "desc": "Equal risk contribution across sleeves"
+      }
+    ],
+    "stats": [
+      {
+        "num": "1.0+",
+        "label": "TARGET SHARPE GROSS",
+        "color": "GREEN"
+      },
+      {
+        "num": "4",
+        "label": "UNCORRELATED SLEEVES",
+        "color": "GREEN"
+      },
+      {
+        "num": "6",
+        "label": "MAX GROSS LEVERAGE CAP",
+        "color": "TEAL"
+      }
+    ],
+    "decision_top": "FREE LUNCH DIVERSIFY",
+    "decision_sub": "ORTHOGONAL · NET · SCALE",
+    "why": [
+      "DIVERSIFICATION",
+      "MOST",
+      "DURABLE",
+      "ALWAYS",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Asness-Moskowitz-Pedersen: value-momentum negatively correlated across 8 markets",
+      "Koijen et al.: carry robust across asset classes not subsumed by known factors",
+      "Hurst et al.: trend crisis-alpha intact, low equity/bond correlation",
+      "2018-2020 value-momentum drawdown cut blended Sharpe; correlations spiked crisis"
+    ],
+    "dm_keyword": "BLEND",
+    "disclaimer": "Asness-Moskowitz-Pedersen, Koijen et al., Hurst-Ooi-Pedersen papers; educational only.",
+    "scene_hook": "Combine four strangers into an eight-handed octopus that sees when others go blind."
+  },
+  {
+    "sid": "101-fscore",
+    "folder": "101-piotroski-f-score",
+    "name": "Piotroski F-Score Quality Within Value",
+    "category": "quality",
+    "scope": "US equities, high book-to-market universe",
+    "paper": "Piotroski (2000)",
+    "peer_review_status": "peer-reviewed",
+    "title": "NINE-POINT SCORE SEPARATES VALUE WINNERS LOSERS",
+    "sub": "SCREEN · SCORE · LONG · HOLD",
+    "h1": "BUY STRONG CHEAP FIRMS ONLY.",
+    "h2_white": "Financial strength signals within ",
+    "h2_accent": "high book-to-market cheap stocks.",
+    "h2_color": "TEAL",
+    "kicker": "ACCOUNTING SIGNALS FUNDAMENTALS QUALITY",
+    "tag": "Annual formation high-BM universe simple rules",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "PROFITABILITY",
+        "desc": "ROA cash flow positive improving"
+      },
+      {
+        "icon": "shield",
+        "title": "LEVERAGE DROPS",
+        "desc": "Deleveraging liquidity improving firms"
+      },
+      {
+        "icon": "trend",
+        "title": "NO ISSUANCE",
+        "desc": "Firms not issuing new equity shares"
+      },
+      {
+        "icon": "refresh",
+        "title": "MARGIN IMPROVING",
+        "desc": "Gross margin and asset turnover gains"
+      },
+      {
+        "icon": "clock",
+        "title": "ANNUAL CADENCE",
+        "desc": "Five months post fiscal year-end data"
+      },
+      {
+        "icon": "globe",
+        "title": "QUALITY FOCUS",
+        "desc": "Nine binary accounting strength signals"
+      }
+    ],
+    "stats": [
+      {
+        "num": "23%",
+        "label": "ANNUAL LONG-SHORT RETURN",
+        "color": "TEAL"
+      },
+      {
+        "num": "8-9",
+        "label": "HIGH FSCORE RANGE",
+        "color": "TEAL"
+      },
+      {
+        "num": "7.5%",
+        "label": "VALUE PORTFOLIO LIFT",
+        "color": "GOLD"
+      }
+    ],
+    "decision_top": "AVOID DISTRESS",
+    "decision_sub": "QUALITY · STRENGTH · IMPROVEMENT",
+    "why": [
+      "ACCOUNTING",
+      "SIGNALS",
+      "PREDICT",
+      "REBOUNDS",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Piotroski: high-minus-low F-score 23% annually 1976-1996",
+      "Effect strongest in small illiquid low-analyst names slow information diffusion",
+      "Nine signals: ROA CFO leverage liquidity margin turnover no-issuance accrual",
+      "Magnitude compressed large-cap post-publication institutional adoption"
+    ],
+    "dm_keyword": "PIOTROSKI",
+    "disclaimer": "Piotroski (2000) Journal of Accounting Research; educational only, not investment advice.",
+    "scene_hook": "Score nine signals on distressed cheap firms; separates phoenixes from zombies."
+  },
+  {
+    "sid": "102-assetgrow",
+    "folder": "102-asset-growth-anomaly",
+    "name": "Asset Growth Anomaly Investment Factor",
+    "category": "value",
+    "scope": "US equities, all firms with total assets",
+    "paper": "Cooper, Gulen & Schill (2008)",
+    "peer_review_status": "peer-reviewed",
+    "title": "RAPID ASSET GROWTH PREDICTS UNDERPERFORMANCE",
+    "sub": "RANK · SORT · LONG · SHORT",
+    "h1": "PUNISH FAST ASSET EXPANDERS.",
+    "h2_white": "Decile sorts on year-over-year ",
+    "h2_accent": "total asset growth underperform.",
+    "h2_color": "TEAL",
+    "kicker": "INVESTMENT ANOMALY OVEREXPANSION PENALTY",
+    "tag": "Annual June formation decile sorts portfolio",
+    "features": [
+      {
+        "icon": "trend",
+        "title": "SIMPLE METRIC",
+        "desc": "ΔTotalAssets lagged total assets ratio"
+      },
+      {
+        "icon": "scale",
+        "title": "DECILE SORTS",
+        "desc": "Lowest growth long highest short"
+      },
+      {
+        "icon": "globe",
+        "title": "CONTROLS ROBUST",
+        "desc": "Survives size BM momentum accruals"
+      },
+      {
+        "icon": "refresh",
+        "title": "ANNUAL REBALANCE",
+        "desc": "June formation six-month lag enforced"
+      },
+      {
+        "icon": "clock",
+        "title": "LOW TURNOVER",
+        "desc": "Once per year mechanical screening"
+      },
+      {
+        "icon": "shield",
+        "title": "UNIVERSALITY",
+        "desc": "Works large-cap weaker equal-weight stronger"
+      }
+    ],
+    "stats": [
+      {
+        "num": "19.5%",
+        "label": "ANNUAL SPREAD 1968-2003",
+        "color": "TEAL"
+      },
+      {
+        "num": "+9.1%",
+        "label": "LOW-GROWTH DECILE",
+        "color": "GREEN"
+      },
+      {
+        "num": "-10.4%",
+        "label": "HIGH-GROWTH DECILE",
+        "color": "GOLD"
+      }
+    ],
+    "decision_top": "SHORT EXPANSION",
+    "decision_sub": "GROWTH · PENALTY · MISPRICING",
+    "why": [
+      "OVERINVESTMENT",
+      "AGENCY",
+      "COST",
+      "REAL",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Cooper-Gulen-Schill: decile spread 19.5% 1968-2003 equal-weighted",
+      "Basis of Fama-French CMA and Hou-Xue-Zhang q-factor investment leg",
+      "Magnitude compressed large-cap post-publication; still significant globally",
+      "Rational q-theory explains as cost-of-capital effect, not pure mispricing"
+    ],
+    "dm_keyword": "GROWTH",
+    "disclaimer": "Cooper, Gulen & Schill (2008) Journal of Finance; educational only, not investment advice.",
+    "scene_hook": "Watch empires built on borrowed time collapse into valleys of distress."
+  },
+  {
+    "sid": "103-nsi",
+    "folder": "103-net-stock-issuance",
+    "name": "Net Stock Issuance Buyback Anomaly",
+    "category": "value",
+    "scope": "US equities post-1970, global extensions",
+    "paper": "Pontiff & Woodgate (2008)",
+    "peer_review_status": "peer-reviewed",
+    "title": "NET SHARE ISSUANCE PREDICTS UNDERPERFORMANCE",
+    "sub": "MEASURE · SORT · LONG · SHORT",
+    "h1": "REPURCHASERS BEAT ISSUERS CONSISTENTLY.",
+    "h2_white": "Log change split-adjusted shares ",
+    "h2_accent": "predicts cross-section returns.",
+    "h2_color": "GOLD",
+    "kicker": "CORPORATE FINANCING TIMING SIGNAL",
+    "tag": "Annual June formation quintile sorts rebalance",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "SPLIT ADJUST",
+        "desc": "Critical: remove split-dividend noise"
+      },
+      {
+        "icon": "trend",
+        "title": "MANAGER TIMING",
+        "desc": "Issue overvalued repurchase undervalued"
+      },
+      {
+        "icon": "globe",
+        "title": "POST-1970 ONLY",
+        "desc": "No effect before 1970 regime-dependent"
+      },
+      {
+        "icon": "refresh",
+        "title": "CONTINUOUS MEASURE",
+        "desc": "All firms signed issuance not events"
+      },
+      {
+        "icon": "clock",
+        "title": "ANNUAL REBALANCE",
+        "desc": "June formation six-month data lag"
+      },
+      {
+        "icon": "shield",
+        "title": "ROBUST CONTROLS",
+        "desc": "Survives size BM momentum accruals"
+      }
+    ],
+    "stats": [
+      {
+        "num": "1.0+",
+        "label": "PREDICTIVE POWER",
+        "color": "GOLD"
+      },
+      {
+        "num": "1970+",
+        "label": "REGIME POST-WAR",
+        "color": "TEAL"
+      },
+      {
+        "num": "0%",
+        "label": "PRE-1970 EFFECT",
+        "color": "GOLD"
+      }
+    ],
+    "decision_top": "FOLLOW BUYBACKS",
+    "decision_sub": "ISSUANCE · TIMING · SIGNAL",
+    "why": [
+      "MANAGEMENT",
+      "TIMING",
+      "ABILITY",
+      "REAL",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Pontiff-Woodgate: post-1970 signed issuance beats size BM momentum individually",
+      "Robust excluding SEO/repurchase/merger discrete events central finding",
+      "No effect pre-1970: regime-specific caveat not timeless universal",
+      "McLean-Pontiff-Watanabe: international confirmation mixed magnitude varies"
+    ],
+    "dm_keyword": "ISSUANCE",
+    "disclaimer": "Pontiff & Woodgate (2008) Journal of Finance; educational only, not investment advice.",
+    "scene_hook": "Managers ring the buyback bell when insiders know the stock will soar."
+  },
+  {
+    "sid": "104-max",
+    "folder": "104-max-effect-lottery",
+    "name": "MAX Effect Stocks as Lotteries",
+    "category": "behavioral",
+    "scope": "US equities, replicated globally monthly",
+    "paper": "Bali, Cakici & Whitelaw (2011)",
+    "peer_review_status": "peer-reviewed",
+    "title": "LOTTERY-STOCK PREMIUM REVERSAL SHORT-TERM",
+    "sub": "RANK · WEIGHT · HOLD · REBALANCE",
+    "h1": "LOTTERY SEEKERS OVERPAY PREDICTABLY.",
+    "h2_white": "Maximum monthly daily return ",
+    "h2_accent": "negative predicts next-month performance.",
+    "h2_color": "GREEN",
+    "kicker": "LOTTERY PREFERENCE SKEWNESS OVERPAYMENT",
+    "tag": "Monthly formation decile breakpoints value-weight",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "LOTTERY METRIC",
+        "desc": "Single largest daily one-month return"
+      },
+      {
+        "icon": "trend",
+        "title": "PROSPECT THEORY",
+        "desc": "Investors overweight tail probability"
+      },
+      {
+        "icon": "globe",
+        "title": "RETAIL DRIVEN",
+        "desc": "Strongest low-institutional-ownership"
+      },
+      {
+        "icon": "refresh",
+        "title": "MONTHLY REBALANCE",
+        "desc": "Rapid turnover twenty-one day lookback"
+      },
+      {
+        "icon": "clock",
+        "title": "HIGH TURNOVER",
+        "desc": "Microcap short dependence expensive"
+      },
+      {
+        "icon": "shield",
+        "title": "IVOL SUBSUMES",
+        "desc": "MAX explains negative IVOL anomaly"
+      }
+    ],
+    "stats": [
+      {
+        "num": "-1.03%",
+        "label": "MONTHLY HIGH-MINUS-LOW",
+        "color": "GREEN"
+      },
+      {
+        "num": "-1.18%",
+        "label": "FOUR-FACTOR ALPHA MONTHLY",
+        "color": "GOLD"
+      },
+      {
+        "num": "1962-2005",
+        "label": "EVIDENCE PERIOD",
+        "color": "TEAL"
+      }
+    ],
+    "decision_top": "AVOID LOTTERY",
+    "decision_sub": "SKEW · REVERSAL · DISCIPLINE",
+    "why": [
+      "RETAIL",
+      "BEHAVIOR",
+      "PREDICTABLE",
+      "GAPS",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Bali-Cakici-Whitelaw: VW high-minus-low -1.03% per month 1962-2005",
+      "Robust size BM momentum reversal liquidity skewness controls",
+      "Concentrated low-institutional-ownership microcap names tight bounds",
+      "High monthly turnover and short leg friction limit net-of-cost capture"
+    ],
+    "dm_keyword": "LOTTERY",
+    "disclaimer": "Bali, Cakici & Whitelaw (2011) Journal of Financial Economics; educational only.",
+    "scene_hook": "Retail chasers worship yesterday's moonshot; smart money slices their bags."
+  },
+  {
+    "sid": "105-noLot",
+    "folder": "105-lottery-stock-avoidance",
+    "name": "Lottery Stock Avoidance",
+    "category": "quality",
+    "scope": "US equities; monthly rebalance; long-only",
+    "paper": "Bali, Cakici & Whitelaw (2011); Ang et al. (2006); Kumar (2009)",
+    "peer_review_status": "peer-reviewed",
+    "title": "EXCLUDE LOTTERY STOCKS TILT",
+    "sub": "SCREEN · RANK · EXCLUDE · REBALANCE",
+    "h1": "Avoid Lottery Bets.",
+    "h2_white": "Remove high-MAX, high-IVOL, ",
+    "h2_accent": "penny stocks.",
+    "h2_color": "TEAL",
+    "kicker": "LONG-ONLY QUALITY SCREEN",
+    "tag": "screen out extreme volatility and gambling proxy names",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "MAX FILTER",
+        "desc": "exclude top decile extreme daily gains"
+      },
+      {
+        "icon": "shield",
+        "title": "IVOL GUARD",
+        "desc": "remove top quintile idiosyncratic volatility"
+      },
+      {
+        "icon": "trend",
+        "title": "PRICE FLOOR",
+        "desc": "cut names trading below five dollars"
+      },
+      {
+        "icon": "refresh",
+        "title": "MONTHLY REBALANCE",
+        "desc": "update lottery scores at month-end"
+      },
+      {
+        "icon": "globe",
+        "title": "BROAD UNIVERSE",
+        "desc": "apply to any long portfolio base"
+      },
+      {
+        "icon": "clock",
+        "title": "LOW TURNOVER",
+        "desc": "only thresholds-crossing names churn"
+      }
+    ],
+    "stats": [
+      {
+        "num": "1",
+        "label": "MO LOOKBACK",
+        "color": "TEAL"
+      },
+      {
+        "num": "3",
+        "label": "CUTOFF SCREENS",
+        "color": "GOLD"
+      },
+      {
+        "num": "5",
+        "label": "PRICE FLOOR",
+        "color": "TEAL"
+      }
+    ],
+    "decision_top": "EXCLUDE WORST",
+    "decision_sub": "LOTTERY · VOLATILE · CHEAP",
+    "why": [
+      "BEHAVIORAL",
+      "LIMITS",
+      "DURABLE",
+      "SIMPLE",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "MAX effect documented in top-decile underperformance by Bali et al.",
+      "Idiosyncratic volatility (IVOL) negatively predicts returns per Ang et al.",
+      "Lottery-stock taxonomy (high IVOL, low price) attracts retail overtrading.",
+      "Long-only avoidance sidesteps short-sale frictions while capturing spread."
+    ],
+    "dm_keyword": "AVOID",
+    "disclaimer": "Screen based on Bali-Cakici-Whitelaw (2011) lottery effect research; educational only.",
+    "scene_hook": "The water boils slowly when you filter out the frogs jumping for long-shot gains."
+  },
+  {
+    "sid": "106-insider",
+    "folder": "106-insider-trading-signals",
+    "name": "Insider Trading Signals",
+    "category": "value",
+    "scope": "US equities; event-driven; 6-month holding",
+    "paper": "Lakonishok & Lee (2001, RFS)",
+    "peer_review_status": "peer-reviewed",
+    "title": "MIMIC INSIDER PURCHASES",
+    "sub": "PARSE · CLUSTER · WEIGHT · HOLD",
+    "h1": "Follow the Insiders.",
+    "h2_white": "Clustered open-market purchases ",
+    "h2_accent": "signal conviction.",
+    "h2_color": "GOLD",
+    "kicker": "INFORMED-TRADER SIGNAL",
+    "tag": "buy stocks where officers cluster-purchase; hold six months",
+    "features": [
+      {
+        "icon": "globe",
+        "title": "FORM-4 PARSING",
+        "desc": "ingest SEC EDGAR open-market purchases daily"
+      },
+      {
+        "icon": "scale",
+        "title": "CLUSTER LOGIC",
+        "desc": "flag two-plus distinct insiders within windows"
+      },
+      {
+        "icon": "trend",
+        "title": "SMALL-CAP TILT",
+        "desc": "concentrate where neglect and information asymmetry peak"
+      },
+      {
+        "icon": "clock",
+        "title": "FILING-DATE ENTRY",
+        "desc": "go long on public disclosure, avoid look-ahead"
+      },
+      {
+        "icon": "shield",
+        "title": "SALES IGNORED",
+        "desc": "exclude diversification-driven and routine sells"
+      },
+      {
+        "icon": "refresh",
+        "title": "EVENT-DRIVEN",
+        "desc": "enter as clusters form; exit at six-month horizon"
+      }
+    ],
+    "stats": [
+      {
+        "num": "2",
+        "label": "MIN INSIDERS",
+        "color": "GOLD"
+      },
+      {
+        "num": "90",
+        "label": "DAY CLUSTER WINDOW",
+        "color": "TEAL"
+      },
+      {
+        "num": "6",
+        "label": "MO HOLD PERIOD",
+        "color": "GOLD"
+      }
+    ],
+    "decision_top": "BUY CONVICTION",
+    "decision_sub": "CLUSTER · SMALL-CAP · NEGLECTED",
+    "why": [
+      "ASYMMETRY",
+      "CONCENTRATED",
+      "DURABLE",
+      "DOCUMENTED",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Purchases (not sales) are informative per Lakonishok-Lee (2001) study.",
+      "Multi-insider clustering within 90 days signals genuine conviction.",
+      "Effect strongest in small-cap, low-coverage firms with slow diffusion.",
+      "Post-SOX tighter disclosure lag (2 days) preserved the core effect."
+    ],
+    "dm_keyword": "INSIDER",
+    "disclaimer": "Strategy mimics Lakonishok-Lee (2001) RFS paper on insider purchase informativeness; educational only.",
+    "scene_hook": "Watch insiders own wallets move: when three or more buy together, the market wakes slowly."
+  },
+  {
+    "sid": "108-fmom",
+    "folder": "108-factor-momentum",
+    "name": "Factor Momentum",
+    "category": "momentum",
+    "scope": "Equity factor portfolios; monthly rebalance; 1-month hold",
+    "paper": "Ehsani & Linnainmaa (2022, JF)",
+    "peer_review_status": "peer-reviewed",
+    "title": "TIME FACTORS BY MOMENTUM",
+    "sub": "RANK · SIGN · COMBINE · HOLD",
+    "h1": "Ride Winning Factors.",
+    "h2_white": "Factors autocorrelated; go long ",
+    "h2_accent": "recent winners.",
+    "h2_color": "GREEN",
+    "kicker": "FACTOR-LEVEL MOMENTUM",
+    "tag": "long factors up past year; short factors down past year",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "FACTOR LIBRARY",
+        "desc": "operate on 20-50 long/short anomaly factors"
+      },
+      {
+        "icon": "trend",
+        "title": "TRAILING 12M",
+        "desc": "rank factors by prior-year cumulative return"
+      },
+      {
+        "icon": "refresh",
+        "title": "SIGN ORIENT",
+        "desc": "flip negative-return factors to short position"
+      },
+      {
+        "icon": "globe",
+        "title": "BROAD SUBSUMPTION",
+        "desc": "factor momentum subsumes stock and industry momentum"
+      },
+      {
+        "icon": "shield",
+        "title": "EQUAL RISK",
+        "desc": "weight across factors to avoid volatility concentration"
+      },
+      {
+        "icon": "clock",
+        "title": "MONTHLY REBALANCE",
+        "desc": "refresh signs and hold one month"
+      }
+    ],
+    "stats": [
+      {
+        "num": "12",
+        "label": "MO LOOKBACK",
+        "color": "GREEN"
+      },
+      {
+        "num": "20",
+        "label": "FACTORS MIN",
+        "color": "TEAL"
+      },
+      {
+        "num": "1",
+        "label": "MO HOLDING",
+        "color": "GREEN"
+      }
+    ],
+    "decision_top": "BUY MOMENTUM",
+    "decision_sub": "WINNERS · FACTORS · PERSIST",
+    "why": [
+      "AUTOCORRELATED",
+      "SUBSUMES",
+      "UNIFYING",
+      "ROBUST",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Ehsani-Linnainmaa (2022) show factors own 12-month autocorrelation; winners persist.",
+      "Factor momentum subsumes stock, industry, intermediate momentum as special cases.",
+      "High-eigenvalue PC factors show strongest effect.",
+      "Average factor return circa 6bps after down year vs 51bps after up year."
+    ],
+    "dm_keyword": "FACTOR",
+    "disclaimer": "Based on Ehsani-Linnainmaa (2022) Journal of Finance factor momentum research; educational only.",
+    "scene_hook": "Winners in the factor casino keep spinning; the smart money rides the streak."
+  },
+  {
+    "sid": "140-distress",
+    "folder": "140-o-score-distress",
+    "name": "O-Score Distress Anomaly",
+    "category": "distress",
+    "scope": "US nonfinancial equities; annual/monthly rebalance; 12-month holding",
+    "paper": "Dichev (1998, JF); Campbell, Hilscher & Szilagyi (2008, JF)",
+    "peer_review_status": "peer-reviewed",
+    "title": "SHORT DISTRESSED FIRMS",
+    "sub": "SCORE · RANK · LONG-SHORT · REBALANCE",
+    "h1": "Avoid the Walking Dead.",
+    "h2_white": "Distressed stocks earn ",
+    "h2_accent": "lowest returns.",
+    "h2_color": "TEAL",
+    "kicker": "CREDIT RISK REVERSAL",
+    "tag": "short high-distress O-score; long healthy firms",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "OHLSON LOGIT",
+        "desc": "compute 9-term O-score per firm from ratios"
+      },
+      {
+        "icon": "shield",
+        "title": "INVERSE RISK",
+        "desc": "high-distress underperforms despite apparent risk premium"
+      },
+      {
+        "icon": "trend",
+        "title": "DECILE BUCKETS",
+        "desc": "rank and sort by O-score; long healthy, short distressed"
+      },
+      {
+        "icon": "globe",
+        "title": "LIMITS ARBITRAGE",
+        "desc": "hard-to-borrow, illiquid distressed names trap mispricing"
+      },
+      {
+        "icon": "refresh",
+        "title": "ANNUAL FORMATION",
+        "desc": "rebalance on fiscal-year accounting data"
+      },
+      {
+        "icon": "clock",
+        "title": "DELISTING TRACK",
+        "desc": "include full bankruptcy and delisting returns"
+      }
+    ],
+    "stats": [
+      {
+        "num": "9",
+        "label": "OHLSON TERMS",
+        "color": "TEAL"
+      },
+      {
+        "num": "10",
+        "label": "DECILE BUCKETS",
+        "color": "GOLD"
+      },
+      {
+        "num": "12",
+        "label": "MO HOLDING",
+        "color": "TEAL"
+      }
+    ],
+    "decision_top": "LONG SAFE FIRMS",
+    "decision_sub": "DISTRESS · NEGATIVE · LEVERAGE",
+    "why": [
+      "PARADOX",
+      "MISPRICED",
+      "LIMITS",
+      "DOCUMENTED",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Dichev (1998) finds high-bankruptcy-risk firms earn lower returns, contra CAPM.",
+      "Campbell et al. (2008) confirm via hazard model; distressed show negative alphas.",
+      "Ohlson O-score combines leverage, profitability, liquidity, earnings quality.",
+      "Short leg constrained by illiquidity; long-only variant avoids distress names."
+    ],
+    "dm_keyword": "DISTRESS",
+    "disclaimer": "Strategy based on Dichev (1998) and Campbell-Hilscher-Szilagyi (2008) JF distress-anomaly papers; educational only.",
+    "scene_hook": "The riskiest-looking firm is the biggest return sink; bond market whispers what equity misprices."
+  },
+  {
+    "sid": "149-bac",
+    "folder": "149-betting-against-correlation",
+    "name": "Betting Against Correlation",
+    "category": "quality",
+    "scope": "US and international equities; monthly rebalance; volatility-matched",
+    "paper": "Asness, Frazzini, Gormsen & Pedersen (2020, JFE)",
+    "peer_review_status": "peer-reviewed",
+    "title": "ISOLATE CORRELATION PREMIUM",
+    "sub": "SORT · SPLIT · BALANCE · HEDGE",
+    "h1": "Low Correlation Pays.",
+    "h2_white": "Beta decomposition: isolate ",
+    "h2_accent": "correlation component.",
+    "h2_color": "GOLD",
+    "kicker": "LEVERAGE-CONSTRAINT THEORY",
+    "tag": "long low-correlation, short high-correlation, vol-matched",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "BETA DECOMPOSE",
+        "desc": "separate correlation and volatility components"
+      },
+      {
+        "icon": "shield",
+        "title": "VOL QUINTILES",
+        "desc": "sort by volatility first to hold variance constant"
+      },
+      {
+        "icon": "trend",
+        "title": "WITHIN-BUCKET",
+        "desc": "split by correlation within each volatility group"
+      },
+      {
+        "icon": "refresh",
+        "title": "BETA BALANCE",
+        "desc": "scale legs to net-zero beta per bucket spread"
+      },
+      {
+        "icon": "globe",
+        "title": "INTERNATIONAL",
+        "desc": "documented in US and globally; correlates with margin debt"
+      },
+      {
+        "icon": "clock",
+        "title": "MONTHLY REBALANCE",
+        "desc": "re-estimate sigma, rho, beta monthly"
+      }
+    ],
+    "stats": [
+      {
+        "num": "5",
+        "label": "VOL BUCKETS",
+        "color": "GOLD"
+      },
+      {
+        "num": "1",
+        "label": "YR VOL WINDOW",
+        "color": "TEAL"
+      },
+      {
+        "num": "5",
+        "label": "YR CORR WINDOW",
+        "color": "GOLD"
+      }
+    ],
+    "decision_top": "BUY LOW-CORRELATION",
+    "decision_sub": "LEVERAGE · CONSTRAINTS · BETA",
+    "why": [
+      "DECOMPOSED",
+      "HEDGED",
+      "PROVEN",
+      "THEORY",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Beta = correlation × volatility ratio; Asness et al. isolate correlation.",
+      "BAC co-moves with margin debt, supporting leverage-constraint theory.",
+      "Companion SMAX factor shows lottery demand also contributes.",
+      "2020 JFE Fama-DFA Prize (2nd place) for low-risk decomposition."
+    ],
+    "dm_keyword": "CORRELATION",
+    "disclaimer": "Based on Asness-Frazzini-Gormsen-Pedersen (2020) JFE Fama-DFA Prize paper on low-risk decomposition; educational only.",
+    "scene_hook": "Leverage seekers bid up high-beta stocks; the smart trade is the invisible force: correlation itself."
+  },
+  {
+    "sid": "150-frog",
+    "folder": "150-frog-in-the-pan-momentum",
+    "name": "Frog in the Pan Momentum",
+    "category": "momentum",
+    "scope": "US equities; monthly rebalance; 12-1 formation, 6-month hold",
+    "paper": "Da, Gurun & Warachka (2014, RFS)",
+    "peer_review_status": "peer-reviewed",
+    "title": "CONTINUOUS-INFO MOMENTUM",
+    "sub": "FORM · MEASURE · FILTER · TRADE",
+    "h1": "Catch Creeping Gains.",
+    "h2_white": "Momentum stronger when returns ",
+    "h2_accent": "arrive gradually.",
+    "h2_color": "GREEN",
+    "kicker": "LIMITED-ATTENTION ENHANCEMENT",
+    "tag": "long winners with continuous low-ID; short continuous losers",
+    "features": [
+      {
+        "icon": "trend",
+        "title": "INFO DISCRETENESS",
+        "desc": "measure from daily up-down day fractions"
+      },
+      {
+        "icon": "scale",
+        "title": "12-1 FORMATION",
+        "desc": "standard momentum window, skip most recent month"
+      },
+      {
+        "icon": "shield",
+        "title": "CONTINUOUS FILTER",
+        "desc": "concentrate on stocks with steady-drip information"
+      },
+      {
+        "icon": "clock",
+        "title": "SIX-MONTH HOLD",
+        "desc": "continuous-info momentum does not reverse"
+      },
+      {
+        "icon": "globe",
+        "title": "ATTENTION OVERLAY",
+        "desc": "underreaction to gradual moves; no reversal"
+      },
+      {
+        "icon": "refresh",
+        "title": "MONTHLY REBALANCE",
+        "desc": "roll formation, skip t-1, overlay ID filter"
+      }
+    ],
+    "stats": [
+      {
+        "num": "5.94",
+        "label": "CONT MOMENTUM PCT",
+        "color": "GREEN"
+      },
+      {
+        "num": "-2.07",
+        "label": "DISC MOMENTUM PCT",
+        "color": "TEAL"
+      },
+      {
+        "num": "6",
+        "label": "MO HOLDING",
+        "color": "GREEN"
+      }
+    ],
+    "decision_top": "LONG CREEPING",
+    "decision_sub": "CONTINUOUS · GRADUAL · PERSIST",
+    "why": [
+      "UNDERREACTION",
+      "PERSISTENT",
+      "DISTINCT",
+      "DOCUMENTED",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Da-Gurun-Warachka show continuous-info momentum +5.94% vs discrete -2.07%.",
+      "Continuous-information momentum does not reverse in long run.",
+      "Media coverage weakens the effect; low-coverage names show strongest drift.",
+      "Limited-attention mechanism: small daily moves evade investor notice."
+    ],
+    "dm_keyword": "FROG",
+    "disclaimer": "Strategy based on Da-Gurun-Warachka (2014) RFS Frog in the Pan momentum research; educational only.",
+    "scene_hook": "The frog ignores water heating by one degree per day; momentum traders ride the slow boil."
+  },
+  {
+    "sid": "152-season",
+    "folder": "152-heston-sadka-seasonality",
+    "name": "Heston-Sadka Seasonality",
+    "category": "seasonality",
+    "scope": "US equities; monthly rebalance; 1-month holding; 10-20 year history",
+    "paper": "Heston & Sadka (2008, JFE)",
+    "peer_review_status": "peer-reviewed",
+    "title": "SAME-MONTH HISTORICAL RANKING",
+    "sub": "RANK · SIGNAL · TRADE · REBALANCE",
+    "h1": "Repeat the Season.",
+    "h2_white": "Stocks outperform in same calendar ",
+    "h2_accent": "month year after year.",
+    "h2_color": "GOLD",
+    "kicker": "CALENDAR PERSISTENCE",
+    "tag": "long stocks that historically outperform in target month",
+    "features": [
+      {
+        "icon": "clock",
+        "title": "SAME-MONTH SIGNAL",
+        "desc": "compute 10-20 year average return in target month"
+      },
+      {
+        "icon": "scale",
+        "title": "DECILE RANKING",
+        "desc": "sort by historical same-month performance"
+      },
+      {
+        "icon": "shield",
+        "title": "CONTROLS",
+        "desc": "effect survives size, industry, dividends, earnings"
+      },
+      {
+        "icon": "trend",
+        "title": "ANNUAL LAGS",
+        "desc": "coefficients positive at 12, 24, 240-month lags"
+      },
+      {
+        "icon": "refresh",
+        "title": "MONTHLY TRADE",
+        "desc": "rebalance monthly per calendar month; hold one month"
+      },
+      {
+        "icon": "globe",
+        "title": "INTERNATIONAL",
+        "desc": "seasonality documented in multiple markets"
+      }
+    ],
+    "stats": [
+      {
+        "num": "20",
+        "label": "YR HISTORY MAX",
+        "color": "GOLD"
+      },
+      {
+        "num": "12",
+        "label": "MO LAG SPACING",
+        "color": "TEAL"
+      },
+      {
+        "num": "1",
+        "label": "MO HOLDING",
+        "color": "GOLD"
+      }
+    ],
+    "decision_top": "BUY SEASONAL",
+    "decision_sub": "SAME-MONTH · HISTORICAL · PERSIST",
+    "why": [
+      "RECURRING",
+      "PERSISTENT",
+      "CROSS-SECTIONAL",
+      "ROBUST",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Heston-Sadka (2008) find positive coefficients at multiples of 12 months.",
+      "Pattern survives controls for size, industry, January, earnings announcements.",
+      "Same-month historical returns predict next month relative performance.",
+      "Suggests seasonal cash flows, risk exposures, or behavioral calendar effects."
+    ],
+    "dm_keyword": "SEASON",
+    "disclaimer": "Strategy based on Heston-Sadka (2008) JFE Seasonality in Cross-Section of Stock Returns; educational only.",
+    "scene_hook": "Wall Street calendar runs like clockwork; December winners are next year December champions again."
+  },
+  {
+    "sid": "216-garp",
+    "folder": "216-lynch-garp",
+    "name": "Lynch GARP",
+    "category": "value",
+    "scope": "US/global equities; all caps with small/mid tilt",
+    "paper": "Peter Lynch, One Up on Wall Street (1989); Beating the Street (1993)",
+    "peer_review_status": "practitioner",
+    "title": "BUY GROWTH AT REASONABLE PRICE",
+    "sub": "Screen · Classify · Weight · Hold",
+    "h1": "INVEST IN WHAT YOU KNOW.",
+    "h2_white": "Pay a P/E justified by ",
+    "h2_accent": "growth.",
+    "h2_color": "TEAL",
+    "kicker": "PEG ≤1 FOR DURABLE EDGE",
+    "tag": "Understandable companies, PEG-screened, multi-year holds",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "PEG RATIO FILTER",
+        "desc": "Price-to-earnings-growth ≤1 entry signal"
+      },
+      {
+        "icon": "trend",
+        "title": "GROWTH QUALITY CHECK",
+        "desc": "Revenue growth corroborates earnings expansion"
+      },
+      {
+        "icon": "shield",
+        "title": "BALANCE SHEET TEST",
+        "desc": "Debt/equity <0.5–1.0; healthy current ratio"
+      },
+      {
+        "icon": "refresh",
+        "title": "CATEGORY FRAMEWORK",
+        "desc": "Fast grower, stalwart, cyclical, turnaround, asset"
+      },
+      {
+        "icon": "clock",
+        "title": "CONVICTION HOLD",
+        "desc": "Let winners compound; trim on story break"
+      },
+      {
+        "icon": "globe",
+        "title": "DIVERSIFIED TILT",
+        "desc": "Hundreds of names, weighted by PEG and quality"
+      }
+    ],
+    "stats": [
+      {
+        "num": "29.2%",
+        "label": "MAGELLAN ANNUAL RETURN",
+        "color": "TEAL"
+      },
+      {
+        "num": "15.8%",
+        "label": "S&P 500 BENCHMARK",
+        "color": "GOLD"
+      },
+      {
+        "num": "1977–1990",
+        "label": "FUND TENURE",
+        "color": "TEAL"
+      }
+    ],
+    "decision_top": "PEG ≤1",
+    "decision_sub": "SUSTAINABLE · UNDERSTANDABLE · QUALITY",
+    "why": [
+      "GROWTH",
+      "VALUE",
+      "QUALITY",
+      "BLEND",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Magellan Fund 1977–1990 delivered ~29.2% average annual return vs ~15.8% S&P 500.",
+      "PEG-based screens operationalize fair-value growth pricing, filtering for reasonable valuation.",
+      "Small/mid-cap universe offers higher growth rates and thinner coverage vs large-cap peers.",
+      "Mechanical, fully screenable rules enable systematic replication across universes."
+    ],
+    "dm_keyword": "GARP",
+    "disclaimer": "Peter Lynch's GARP philosophy, One Up on Wall Street (1989); for educational purposes only.",
+    "scene_hook": "Investors plucking understandable growth gems from the crowd before Wall Street notices."
+  },
+  {
+    "sid": "225-roe",
+    "folder": "225-q-factor-roe",
+    "name": "q-Factor ROE",
+    "category": "quality",
+    "scope": "NYSE/AMEX/NASDAQ common stocks; monthly signal",
+    "paper": "Hou, Xue & Zhang (2015), Review of Financial Studies 28(3)",
+    "peer_review_status": "peer-reviewed",
+    "title": "LONG HIGH-ROE FIRMS, SHORT LOW",
+    "sub": "Sort · Rank · Hedge · Rebalance",
+    "h1": "PROFITABILITY CAPTURES MOMENTUM.",
+    "h2_white": "High-ROE firms load on ",
+    "h2_accent": "discount-rate shocks.",
+    "h2_color": "GOLD",
+    "kicker": "ROE BETA > 2 ACROSS SORTS",
+    "tag": "Quarterly-announced earnings, monthly-updated, value-weighted",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "ROE SORT MONTHLY",
+        "desc": "Latest quarterly earnings refresh; captures PEAD quickly"
+      },
+      {
+        "icon": "trend",
+        "title": "PROFITABILITY PREMIUM",
+        "desc": "t-stat > 2 over 1967–2012; robust historical premium"
+      },
+      {
+        "icon": "shield",
+        "title": "INVESTMENT ORTHOGONAL",
+        "desc": "Near-zero correlation with I/A factor; independent dimensions"
+      },
+      {
+        "icon": "globe",
+        "title": "CROSS-SECTIONAL SPAN",
+        "desc": "18-cell 2×3×3 sort covers size, investment, profitability"
+      },
+      {
+        "icon": "clock",
+        "title": "MONTHLY REBALANCE",
+        "desc": "Earnings-driven updates; higher turnover than annual factors"
+      },
+      {
+        "icon": "refresh",
+        "title": "ANOMALY DIGESTION",
+        "desc": "ROE + I/A absorb ~half of ~80 anomalies, including momentum"
+      }
+    ],
+    "stats": [
+      {
+        "num": "t > 2",
+        "label": "ROE PREMIUM SIGNIFICANCE",
+        "color": "GOLD"
+      },
+      {
+        "num": "~50%",
+        "label": "ANOMALIES ABSORBED",
+        "color": "TEAL"
+      },
+      {
+        "num": "1967–2012",
+        "label": "HISTORICAL WINDOW",
+        "color": "GOLD"
+      }
+    ],
+    "decision_top": "HIGH-ROE BETA",
+    "decision_sub": "MOMENTUM · PEAD · DISTRESS",
+    "why": [
+      "PROFITABILITY",
+      "EARNINGS",
+      "DISCOUNT-RATE",
+      "RISK",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "HXZ (2015) RFS: ROE factor premium t-stat >2; absorbs momentum and post-earnings-announcement drift.",
+      "Monthly ROE refresh from quarterly earnings captures information at announcement frequency.",
+      "Book equity lagged one quarter; point-in-time Compustat data avoids look-ahead bias.",
+      "Two-factor (RX + HML-FX) structure prices cross-section at least as well as FF3/Carhart-4."
+    ],
+    "dm_keyword": "ROE",
+    "disclaimer": "Hou, Xue & Zhang (2015) q-factor model, Review of Financial Studies; educational analysis only.",
+    "scene_hook": "Monthly earnings whispers revealing hidden profitability surprises in stock prices."
+  },
+  {
+    "sid": "233-vrp",
+    "folder": "233-vrp-market-timing",
+    "name": "VRP Market Timing",
+    "category": "options-vrp",
+    "scope": "US equity index (S&P 500); monthly-to-quarterly signal",
+    "paper": "Bollerslev, Tauchen & Zhou (2009), Review of Financial Studies 22(11)",
+    "peer_review_status": "peer-reviewed",
+    "title": "SCALE EQUITY VIA VARIANCE RISK PREMIUM",
+    "sub": "Measure · Standardize · Signal · Rebalance",
+    "h1": "UNCERTAINTY SPIKES FORECAST RETURNS.",
+    "h2_white": "VRP explains >15% of quarterly ",
+    "h2_accent": "excess-return variation.",
+    "h2_color": "GREEN",
+    "kicker": "PREDICTIVE R² > 15% AT QUARTERLY",
+    "tag": "Implied minus realized variance; VIX daily; monthly rebalance",
+    "features": [
+      {
+        "icon": "trend",
+        "title": "VRP SIGNAL",
+        "desc": "Implied variance (VIX²/12) minus realized daily-return variance"
+      },
+      {
+        "icon": "clock",
+        "title": "QUARTERLY PEAK",
+        "desc": "Predictability strongest at one-quarter horizon; hump-shaped"
+      },
+      {
+        "icon": "shield",
+        "title": "RISK-PREMIUM CHANNEL",
+        "desc": "Higher uncertainty/risk-aversion → higher required returns"
+      },
+      {
+        "icon": "refresh",
+        "title": "MONTHLY REEVAL",
+        "desc": "VRP standardized; tercile or linear map to exposure weight"
+      },
+      {
+        "icon": "globe",
+        "title": "CONTRARIAN RISK-ON",
+        "desc": "High VRP signals risk-on into stress; needs circuit breaker"
+      },
+      {
+        "icon": "scale",
+        "title": "CRISIS PROTOCOL",
+        "desc": "Cap leverage when VIX >40; avoid catching falling knives"
+      }
+    ],
+    "stats": [
+      {
+        "num": ">15%",
+        "label": "R² QUARTERLY RETURN VAR",
+        "color": "GREEN"
+      },
+      {
+        "num": "1990–2005",
+        "label": "VALIDATION PERIOD",
+        "color": "TEAL"
+      },
+      {
+        "num": "3.6%–4.9%",
+        "label": "ANNUALIZED GAIN ESTIMATE",
+        "color": "GOLD"
+      }
+    ],
+    "decision_top": "VRP TERCILE",
+    "decision_sub": "RISK-ON · RISK-OFF · NEUTRAL",
+    "why": [
+      "UNCERTAINTY",
+      "PREMIUM",
+      "VOLATILITY",
+      "TIMING",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Bollerslev-Tauchen-Zhou (2009) RFS: VRP explains >15% of quarterly excess return; dominates P/E.",
+      "Quarterly horizon concentration consistent with volatility-of-volatility mean reversion.",
+      "International replication (Bollerslev et al. 2014) and theory backing (Drechsler-Yaron 2011).",
+      "Risk-averse investors pay premium for variance insurance; VRP tracks aggregate uncertainty."
+    ],
+    "dm_keyword": "TIMER",
+    "disclaimer": "Bollerslev, Tauchen & Zhou (2009), Review of Financial Studies; predictive model, not guaranteed.",
+    "scene_hook": "Investors nervously pricing disaster insurance while calm markets render it cheap."
+  },
+  {
+    "sid": "235-macro",
+    "folder": "235-macro-announcement-premium",
+    "name": "Macro Announcement Premium",
+    "category": "seasonality",
+    "scope": "US S&P 500 index; daily granularity; ~30–40 announcement days/year",
+    "paper": "Savor & Wilson (2013, 2014), JFQA 48(2) & JFE 113(2)",
+    "peer_review_status": "peer-reviewed",
+    "title": "RISK-ON ON FOMC, CPI, JOBS DAYS",
+    "sub": "Schedule · Gate · Weight · Hold",
+    "h1": "MOST PREMIUM ON ~13% OF DAYS.",
+    "h2_white": "Scheduled macro news earns ",
+    "h2_accent": "+11.4 bps vs +1.1 bps.",
+    "h2_color": "TEAL",
+    "kicker": "BETA SLOPES UP ONLY ON ANNOUNCE",
+    "tag": "Calendar-gated daily strategy; zero forecast lag; CAPM-backed",
+    "features": [
+      {
+        "icon": "clock",
+        "title": "ANNOUNCEMENT CALENDAR",
+        "desc": "FOMC, CPI/PPI, BLS employment; fully ex-ante known"
+      },
+      {
+        "icon": "scale",
+        "title": "ANNOUNCEMENT-DAY PREMIUM",
+        "desc": "+11.4 bps vs +1.1 bps non-announcement days"
+      },
+      {
+        "icon": "trend",
+        "title": "SML SLOPE UP",
+        "desc": "Beta paid +6.8 bps/unit only on announcement days; zero otherwise"
+      },
+      {
+        "icon": "shield",
+        "title": "MACRO RISK PREMIUM",
+        "desc": "Compensation for non-diversifiable growth/inflation uncertainty resolution"
+      },
+      {
+        "icon": "refresh",
+        "title": "DAILY REBALANCE",
+        "desc": "Simple on/off switch; no signal lag or forecasting"
+      },
+      {
+        "icon": "globe",
+        "title": "60%+ OF ANNUAL PREMIUM",
+        "desc": "~13% of trading days drive majority of annual equity premium"
+      }
+    ],
+    "stats": [
+      {
+        "num": "11.4 bps",
+        "label": "ANNOUNCEMENT DAY RETURN",
+        "color": "TEAL"
+      },
+      {
+        "num": "60%+",
+        "label": "ANNUAL PREMIUM SHARE",
+        "color": "GOLD"
+      },
+      {
+        "num": "1958–2009",
+        "label": "SAMPLE WINDOW",
+        "color": "TEAL"
+      }
+    ],
+    "decision_top": "ON/OFF GATE",
+    "decision_sub": "FOMC · CPI · EMPLOYMENT",
+    "why": [
+      "SYSTEMATIC",
+      "MACRO",
+      "RISK",
+      "PREMIUM",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Savor-Wilson (2013/2014): announcement days +11.4 bps vs others +1.1 bps; long sample 1958–2009.",
+      "CAPM/SML slopes upward on announcement days (high-beta paid) but flat otherwise.",
+      "Theoretical backing: Ai-Bansal (2018) Econometrica on generalized risk-sensitivity.",
+      "Risk premium (not mispricing) → more durable than pre-FOMC drift; publication has trimmed magnitude."
+    ],
+    "dm_keyword": "MACRO",
+    "disclaimer": "Savor & Wilson (2013/2014), JFQA and JFE; empirical premium, subject to regime shifts.",
+    "scene_hook": "Markets holding their breath for central-bank verdicts that reshape the risk landscape."
+  },
+  {
+    "sid": "250-carry",
+    "folder": "250-hml-fx-carry-slope",
+    "name": "HML-FX Carry Slope",
+    "category": "carry",
+    "scope": "G10 + liquid EM currencies; spot and forwards; monthly rebalance",
+    "paper": "Lustig, Roussanov, Verdelhan (2011), Review of Financial Studies 24(11)",
+    "peer_review_status": "peer-reviewed",
+    "title": "LONG HIGH-FORWARD-DISCOUNT BASKET",
+    "sub": "Sort · Basket · Hedge · Rebalance",
+    "h1": "CRASH-RISK PREMIUM IN CARRY SLOPE.",
+    "h2_white": "HML-FX betas span ",
+    "h2_accent": "monotonically → zero correlation with RX.",
+    "h2_color": "GREEN",
+    "kicker": "TWO-FACTOR (RX,HML-FX) PRICES CROSS-SECTION",
+    "tag": "Forward discount sorts; monthly rebalance; negative skew, tail crash risk",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "FORWARD-DISCOUNT SORT",
+        "desc": "Five or six portfolios; rank by interest-rate differential vs USD"
+      },
+      {
+        "icon": "trend",
+        "title": "MONOTONIC BETA",
+        "desc": "HML-FX betas rise from ~0 at low-forward-discount to ~0.9 at high"
+      },
+      {
+        "icon": "shield",
+        "title": "CRASH-RISK PREMIUM",
+        "desc": "High-carry currencies depreciate sharply in risk-off; negative correlation with global FX vol"
+      },
+      {
+        "icon": "globe",
+        "title": "INTERNATIONAL SPANNING",
+        "desc": "RX + HML-FX spans 2-factor model; similar to FF market + spread"
+      },
+      {
+        "icon": "clock",
+        "title": "MONTHLY REBALANCE",
+        "desc": "One-month forward implied; equal-weight within baskets"
+      },
+      {
+        "icon": "refresh",
+        "title": "CARRY UNWIND CLUSTERING",
+        "desc": "Many small gains, occasional large losses; Aug 2007, Oct 2008, 2011 unwinds"
+      }
+    ],
+    "stats": [
+      {
+        "num": "0.50%",
+        "label": "TYPICAL MONTHLY CARRY",
+        "color": "TEAL"
+      },
+      {
+        "num": "−2.5%",
+        "label": "CRISIS-MONTH UNWIND",
+        "color": "GOLD"
+      },
+      {
+        "num": "1983–2010",
+        "label": "LRV SAMPLE WINDOW",
+        "color": "GREEN"
+      }
+    ],
+    "decision_top": "FD TERCILE",
+    "decision_sub": "HIGH · NEUTRAL · LOW",
+    "why": [
+      "CRASH",
+      "RISK",
+      "PREMIUM",
+      "UNCORRELATED",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "LRV (2011) RFS: HML-FX explains most cross-sectional currency variation; betas monotonic across sorts.",
+      "Menkhoff et al. (2012) JF: carry returns load negatively on global FX-volatility innovations.",
+      "Two-factor (RX level + HML-FX slope) model spans and prices cross-section like FF factors in equity.",
+      "Post-2008 compressed in developed markets (low rate dispersion, CIP basis); premium concentrated in EM."
+    ],
+    "dm_keyword": "SLOPE",
+    "disclaimer": "Lustig-Roussanov-Verdelhan (2011), RFS; carry premium subject to crash risk and unwinds.",
+    "scene_hook": "Global interest differentials whispering of currency crashes hiding in safe-haven flows."
+  },
+  {
+    "sid": "269-r3",
+    "folder": "269-connors-r3-cumulative-rsi",
+    "name": "Connors R3",
+    "category": "technical",
+    "scope": "Liquid ETFs + large-cap equities; daily bars; few-day holds",
+    "paper": "Connors & Alvarez (2009), High Probability ETF Trading, Ch. 4",
+    "peer_review_status": "practitioner",
+    "title": "BUY TRIPLE-DROP RSI(2) DIPS",
+    "sub": "Filter · Trigger · Accumulate · Exit",
+    "h1": "MEAN REVERT UPTREND PANICS.",
+    "h2_white": "Three consecutive RSI(2) lows ",
+    "h2_accent": "within an uptrend.",
+    "h2_color": "TEAL",
+    "kicker": "~75% WIN RATE, PROFIT FACTOR ~2–3",
+    "tag": "RSI(2) mean-reversion, 200-day SMA uptrend filter, daily signal",
+    "features": [
+      {
+        "icon": "trend",
+        "title": "200-DAY UPTREND",
+        "desc": "Restrict long entries to primary uptrend; dips more reverting"
+      },
+      {
+        "icon": "scale",
+        "title": "RSI(2) OVERSOLD",
+        "desc": "Ultra-short RSI(2) <10 captures short-term panic extremes"
+      },
+      {
+        "icon": "clock",
+        "title": "THREE-RED FILTER",
+        "desc": "RSI(2) declining three days straight; first <60, third <10"
+      },
+      {
+        "icon": "refresh",
+        "title": "MEAN REVERT BOUNCE",
+        "desc": "Exit when RSI(2) >70 (or >30 faster variant) on close"
+      },
+      {
+        "icon": "shield",
+        "title": "SIMPLE MECHANICAL",
+        "desc": "Fully codeable, high win-rate mean reversion, low implementation friction"
+      },
+      {
+        "icon": "globe",
+        "title": "WIDE REPLICATION",
+        "desc": "QuantifiedStrategies, Easycators, TradingView all confirm ~75% win rates"
+      }
+    ],
+    "stats": [
+      {
+        "num": "~75%",
+        "label": "WIN RATE INDEPENDENT TESTS",
+        "color": "TEAL"
+      },
+      {
+        "num": "~2.1–3+",
+        "label": "PROFIT FACTOR",
+        "color": "GOLD"
+      },
+      {
+        "num": "0.5–0.7%",
+        "label": "AVG GAIN PER TRADE",
+        "color": "GREEN"
+      }
+    ],
+    "decision_top": "R3 SIGNAL",
+    "decision_sub": "TRIPLE · LOWER · READING",
+    "why": [
+      "PANIC",
+      "DIP",
+      "REVERSAL",
+      "TREND",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Connors & Alvarez (2009): seven ETF mean-reversion strategies; R3 in Chapter 4, explicit rules.",
+      "Independent backtests (QuantifiedStrategies, Easycators, TradingView): ~75% win rate, PF ~2–3.",
+      "Widely replicated; mechanics simple, mechanical, fully testable.",
+      "Short-term RSI(2) <10 + three-day decline filters for sustained selling, not noise; trend filter aligns with drift."
+    ],
+    "dm_keyword": "OSCILLATOR",
+    "disclaimer": "Connors & Alvarez (2009), High Probability ETF Trading; mechanical system subject to decay.",
+    "scene_hook": "Short-term panic sellers capitulating into the patient arms of trend-following buyers."
+  },
+  {
+    "sid": "391-voltgt",
+    "folder": "391-volatility-targeting",
+    "name": "Volatility Targeting",
+    "category": "defensive",
+    "scope": "Equity indices, futures, multi-asset; daily-to-monthly rebalance; vol 20–60 day lookback",
+    "paper": "Moreira & Muir (2017), Journal of Finance; Cederburg et al. (2020), JFE",
+    "peer_review_status": "peer-reviewed",
+    "title": "SCALE LEVERAGE BY INVERSE REALIZED VOL",
+    "sub": "Estimate · Scale · Cap · Rebalance",
+    "h1": "TAME DRAWDOWNS, STABLE RISK.",
+    "h2_white": "Weight = target-vol / realized-vol; ",
+    "h2_accent": "lower tail risk.",
+    "h2_color": "GREEN",
+    "kicker": "VOL PERSISTENCE > RETURN PERSISTENCE",
+    "tag": "Risk-control overlay; vol clustering; 20/60-day rolling or EWMA",
+    "features": [
+      {
+        "icon": "scale",
+        "title": "VOL ESTIMATE",
+        "desc": "Rolling 20/60-day or EWMA; annualized; lookback from t−1 data"
+      },
+      {
+        "icon": "shield",
+        "title": "LEVERAGE SCALING",
+        "desc": "w_t = targetVol / realizedVol; reduce in stress, boost in calm"
+      },
+      {
+        "icon": "clock",
+        "title": "REGIME TRIM",
+        "desc": "Cuts exposure *before* worst drawdowns via vol clustering"
+      },
+      {
+        "icon": "refresh",
+        "title": "CAP AND BANDS",
+        "desc": "Leverage cap (1.5–3x), no-trade band (±10–20%) to control turnover"
+      },
+      {
+        "icon": "trend",
+        "title": "EQUITY OPTIMIZED",
+        "desc": "Largest Sharpe/CVaR improvement where vol-return uncorrelated/negative"
+      },
+      {
+        "icon": "globe",
+        "title": "PERSISTENT BENEFIT",
+        "desc": "Drawdown/CVaR reduction structural; Sharpe gain contested (Cederburg et al. 2020)"
+      }
+    ],
+    "stats": [
+      {
+        "num": "w_t = targetVol / realizedVol",
+        "label": "CORE FORMULA",
+        "color": "GREEN"
+      },
+      {
+        "num": "0.40–1.25×",
+        "label": "TYPICAL LEVERAGE RANGE",
+        "color": "TEAL"
+      },
+      {
+        "num": "−40% to +25%",
+        "label": "DRAWDOWN REDUCTION",
+        "color": "GOLD"
+      }
+    ],
+    "decision_top": "VOL CAP",
+    "decision_sub": "SCALE · CLIP · HOLD",
+    "why": [
+      "VOLATILITY",
+      "PERSISTENCE",
+      "CLUSTERING",
+      "TAIL-RISK",
+      "MECHANICAL"
+    ],
+    "evidence": [
+      "Moreira-Muir (2017) JF: vol-managed factor portfolios report alphas and Sharpe gains, in-sample.",
+      "Cederburg et al. (2020) JFE: out-of-sample Sharpe improvement statistically insignificant across 103 strategies.",
+      "Structural fact: volatility clusters and mean-reverts far better than returns forecast returns.",
+      "CVaR/drawdown reduction robust; Sharpe benefit contested due to publication bias and OOS attenuation."
+    ],
+    "dm_keyword": "VOLTGT",
+    "disclaimer": "Moreira-Muir (2017) & Cederburg et al. (2020); risk overlay, not return-generation signal.",
+    "scene_hook": "Portfolio tightening its grip in storms and loosening when markets breathe easy."
+  }
+]

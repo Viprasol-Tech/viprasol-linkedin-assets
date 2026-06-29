@@ -1,0 +1,24 @@
+{
+  "strategy": "095-short-straddle-strangle-vrp",
+  "image_file": "images/strategy-095-vrp.png",
+  "image_overrides": {
+    "instagram": "images/strategy-095-vrp-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM STRADDLE for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Stolen Lessons",
+    "twitter": "Contrarian",
+    "threads": "Stolen Lessons",
+    "facebook": "Stolen Lessons",
+    "instagram": "Curiosity Gap",
+    "bluesky": "Negative Frame"
+  },
+  "captions": {
+    "linkedin": "Insurance companies sell policies they know are overpriced. SHORT STRADDLES on SPX do the same thing with options.\n\nThat's the variance risk premium: implied vol prints higher than realized vol, and someone has to be paid to absorb the gap.\n\nBondarenko (2003) and Bakshi-Kapadia (2003) documented it across 13 years of SPX data. The mechanism is boring on purpose:\n\n🔹 VRP SIGNAL, only sell when implied exceeds realized\n🔹 DAILY REHEDGE, keep delta neutral against the underlying\n🔹 WINGS REQUIRED, far OTM puts cap catastrophic loss\n🔹 GAMMA RISK, short gamma loses on extremes, weekly rehedging contains it\n\nFeb 2018. March 2020. Both wiped out unhedged premium sellers. The strategy isn't the short straddle. The strategy is the hedge around it.\n\nBondarenko & Bakshi-Kapadia research; educational only, not investment advice.\n\nWe share the strategy... for free. The build is the business.\n\nThis is 1 of 440 strategies in our research library.\n\n👉 DM \"STRADDLE\" for the complete algo + research file.\n\n#OptionsTrading #VolatilityTrading #QuantitativeFinance #SystematicTrading #AlgorithmicTrading",
+    "twitter": "Most options traders think selling premium is easy money.\n\nWithout delta hedging and wings, Feb 2018 and March 2020 took accounts to zero.\n\nThe edge is the variance risk premium. The business is the hedge.\n\nBondarenko (2003).\n\nDM \"STRADDLE\" for the file.",
+    "threads": "Insurance companies sell policies they know are overpriced. Short SPX straddles do the same with options.\n\nBondarenko (2003) and Bakshi-Kapadia (2003) documented the variance risk premium.\n\n🔹 Sell only when implied exceeds realized\n🔹 Daily delta rehedge\n🔹 OTM puts cap tail risk\n🔹 Weekly tenor manages gamma\n\nFeb 2018 and March 2020 erased unhedged sellers.\n\nDM \"STRADDLE\" for the complete algo + research file.",
+    "facebook": "Insurance companies sell policies they know are overpriced. Short straddles on SPX index options do the exact same thing.\n\nThe variance risk premium is the gap between implied volatility (what the market pays for protection) and realized volatility (what actually happens). Bondarenko (2003) and Bakshi-Kapadia (2003) documented this across 13 years of SPX data.\n\nThe mechanism, broken down:\n\n🔹 VRP SIGNAL, only sell when implied exceeds realized\n🔹 DAILY REHEDGE, hold delta neutral against the underlying\n🔹 WINGS REQUIRED, far OTM puts cap catastrophic loss\n🔹 GAMMA RISK, short gamma loses on extremes, weekly rehedging keeps it bounded\n🔹 THETA DECAY funds the position between hedges\n\nFeb 2018 and March 2020 wiped out unhedged premium sellers. The edge isn't the short straddle. The edge is the hedge architecture around it.\n\nBondarenko & Bakshi-Kapadia research; educational only, not investment advice.\n\nWe share the strategy... for free. The build is the business.\n\n1 of 440 strategies in our research library.\n\nDM \"STRADDLE\" for the complete algo + research file.",
+    "instagram": "Here's what nobody tells you about short straddles: the strategy isn't the straddle. It's the hedge.\n\nVariance Risk Premium, the Bondarenko (2003) edge:\n🔹 sell only when implied exceeds realized\n🔹 daily delta rehedge\n🔹 OTM puts as wings\n🔹 weekly tenor for gamma control\n🔹 Bakshi-Kapadia 2003 confirmation\n\nFeb 2018 and March 2020 ended unhedged sellers.\n\nWe share the strategy... for free. The build is the business.\n\n1 of 440 in our research library.\n\nDM \"STRADDLE\" for the complete algo + research file.\n.\n.\n#OptionsTrading #VolatilityTrading #QuantTrading #SystematicTrading #AlgorithmicTrading",
+    "bluesky": "Don't sell SPX premium without delta hedging and wings.\n\nFeb 2018. March 2020. Both wiped out the naked sellers.\n\nBondarenko (2003) documented the variance risk premium. The edge is real. The hedge is what makes it survive.\n\nDM \"STRADDLE\" for the file."
+  }
+}

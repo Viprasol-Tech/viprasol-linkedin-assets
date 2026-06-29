@@ -1,0 +1,24 @@
+{
+  "strategy": "096-trend-following-cta-replication",
+  "image_file": "images/strategy-096-cta.png",
+  "image_overrides": {
+    "instagram": "images/strategy-096-cta-45.png"
+  },
+  "positioning": "Educate (give the strategy logic free). NO return claims. Soft close: DM CTA for the complete algo + research file, or a custom build.",
+  "hook_categories": {
+    "linkedin": "Receipts",
+    "twitter": "Receipts",
+    "threads": "Receipts",
+    "facebook": "Receipts",
+    "instagram": "Contrarian",
+    "bluesky": "Receipts"
+  },
+  "captions": {
+    "linkedin": "Hurst, Ooi & Pedersen ran TIME-SERIES MOMENTUM across 67 futures markets going back to 1880. Every single decade was profitable. 13 decades, zero losing ones.\n\nThat's not a backtest curve. That's 136 years of mechanical trend following surviving wars, depressions, oil shocks, and central bank regimes.\n\nThe construction is plain:\n\n🔹 MACD ENSEMBLE, three channel crossovers per instrument\n🔹 MULTI-HORIZON, 1, 3, 12 month blended signal\n🔹 VOL SCALING, per-market risk standardization\n🔹 EQUAL-RISK weighting, parity across 50 to 70 markets\n🔹 CRISIS ALPHA, profitable in equity drawdowns\n🔹 DAILY REBALANCE, continuous position adjustment\n\nThe SG Trend Index tracks live audited CTA returns, so this isn't a paper claim. The post-2010 decay is real and visible in the data. Crowding compressed the lean period from 2011 to 2019.\n\nMoskowitz, Ooi & Pedersen (JFE 2012). Hurst, Ooi & Pedersen (2017).\n\nMoskowitz-Ooi-Pedersen & Hurst-Ooi-Pedersen papers; educational only, not investment advice.\n\nWe share the strategy... for free. The build is the business.\n\n1 of 440 strategies in our research library.\n\n👉 DM \"CTA\" for the complete algo + research file.\n\n#ManagedFutures #TrendFollowing #QuantitativeFinance #SystematicTrading #AlgorithmicTrading",
+    "twitter": "Hurst, Ooi & Pedersen ran trend following across 67 futures from 1880 to 2016.\n\nEvery decade was profitable. 13 of 13.\n\nMACD ensemble. Multi-horizon. Vol scaled. Equal risk weighted.\n\nDM \"CTA\" for the algo + paper.",
+    "threads": "Hurst, Ooi & Pedersen tested time-series momentum across 67 futures from 1880 to 2016.\n\nEvery decade was profitable. 13 out of 13.\n\n🔹 MACD ensemble per instrument\n🔹 1, 3, 12 month blended signal\n🔹 Vol-scaled, equal-risk weighted\n🔹 50 to 70 markets\n🔹 Crisis alpha in equity drawdowns\n\nMoskowitz-Ooi-Pedersen JFE 2012. SG Trend Index tracks the live audited version.\n\nWe share the strategy... for free. The build is the business.\n\nDM \"CTA\" for the complete algo + research file.",
+    "facebook": "Hurst, Ooi & Pedersen ran TIME-SERIES MOMENTUM across 67 futures markets going back to 1880. Every single decade was profitable. 13 decades, zero losing ones.\n\nThat's not a backtest curve. That's 136 years of mechanical trend following surviving world wars, the Great Depression, oil shocks, and every central bank regime since the gold standard.\n\nThe construction is mechanical and boring:\n\n🔹 MACD ENSEMBLE, three channel crossovers per instrument\n🔹 MULTI-HORIZON, 1, 3, 12 month blended signal\n🔹 VOL SCALING, per-market risk standardization target\n🔹 EQUAL-RISK weighting, risk parity across 50 to 70 markets\n🔹 CRISIS ALPHA, profitable in equity drawdowns\n🔹 DAILY REBALANCE, continuous position sizing\n\nThe SG Trend Index tracks live audited CTA returns across decades, so this is publicly observable. The post-2010 decay is real and visible in the data: 2011 to 2019 was the lean period, attributed to crowding.\n\nMoskowitz, Ooi & Pedersen (JFE 2012). Hurst, Ooi & Pedersen (2017).\n\nWe share the strategy... for free. The build is the business.\n\n1 of 440 strategies in our research library.\n\nDM \"CTA\" for the complete algo + research file.",
+    "instagram": "Most retail traders think trend following is broken. Hurst, Ooi & Pedersen tested 67 futures from 1880 to 2016.\n\nEvery decade was profitable.\n\n🔹 MACD ensemble per instrument\n🔹 1, 3, 12 month signals blended\n🔹 Vol scaled per market\n🔹 Equal risk across 50 to 70 futures\n🔹 Crisis alpha in equity drawdowns\n\nMoskowitz-Ooi-Pedersen JFE 2012.\n\nWe share the strategy... for free. The build is the business.\n\nDM \"CTA\" for the complete algo + research file.\n.\n.\n#ManagedFutures #TrendFollowing #QuantTrading #SystematicTrading #AlgorithmicTrading",
+    "bluesky": "Hurst, Ooi & Pedersen tested time-series momentum on 67 futures from 1880 to 2016.\n\nEvery decade was profitable. 13 of 13.\n\nMACD ensemble. 1, 3, 12 month blend. Vol scaled. Equal risk.\n\nDM \"CTA\" for the algo + paper."
+  }
+}
